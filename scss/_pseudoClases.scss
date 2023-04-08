@@ -1,0 +1,39 @@
+//GENERALES
+
+.offcanvas-header {
+    padding: 1.95rem 1rem;
+}
+
+//WORKS 
+
+.card__container .imagen__container img:hover{
+    opacity: 50%;
+    transition: ease 0.9s;
+}
+
+.desaparecer{
+    display:none;
+}
+
+.nublar{
+    opacity:10%;
+}
+
+.achicar{
+    height:0px;
+}
+
+#btnCerrar:hover{
+    color:#F2F2F2;
+}
+
+//SHORTFILMS  
+
+.shortfilms__premios__container div:hover{
+    opacity: 0.6;
+    transition: ease 0.9s;
+}
+
+#shortfilms__carrouselImg__btnCerrar:hover{
+    color:#F2F2F2;
+}

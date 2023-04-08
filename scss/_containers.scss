@@ -1,0 +1,506 @@
+//GENERALES
+
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0.0rem;
+}
+
+.offcanvas {
+    position: fixed;
+    bottom: 0;
+    z-index: 1045;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.01);
+    background-clip: padding-box;
+    outline: 0;
+    transition: transform .3s ease-in-out;
+}
+
+@media (max-width:401px) {
+    .offcanvas {
+        bottom: 0;
+        max-width: 100vw;
+        align-items: center;
+    }
+}
+
+.navbar-nav {
+    align-items: flex-end;
+}
+
+@media (max-width:401px) {
+    .navbar-nav {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+.fondo {
+    background-color: black;
+}
+
+.offcanvas-end {
+    border-left: none;
+}
+
+.offcanvas-backdrop.show {
+    opacity: .9;
+}
+
+.derecha {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand{
+    z-index: 100;
+}
+
+.navbar{
+    background-color: black;
+    opacity: 70%;
+}
+
+#btn-close__contenedor{
+    position:relative;
+}
+
+//Para achicar ele spacio que ocupaba el grid ya desaparecido cuando se abre el video 100%
+.noMargin {
+    margin:0;
+}
+
+//INDEX
+
+#index__imagenCarrousel__container{
+    position:relative;
+}
+
+#index__imagenCarrousel__container div{
+    position:absolute;
+    top: 46%;
+    right: 35%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#index__imagenCarrousel__container .index__caption__2{
+    position:absolute;
+    top: 46%;
+    right: 35%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#index__imagenCarrousel__container .index__caption__3{
+    position:absolute;
+    top: 46%;
+    right: 35.5%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#index__imagenCarrousel__container .index__caption__4{
+    position:absolute;
+    top: 46%;
+    right: 33%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#index__imagenCarrousel__container .index__caption__5{
+    position:absolute;
+    top: 46%;
+    right: 35%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#index__imagenCarrousel__container .index__caption__6{
+    position:absolute;
+    top: 46%;
+    right: 30%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#carouselExampleControls{
+    margin-top:-25px;
+    padding:0;
+}
+
+#index__cards__container{
+    margin:0;
+    padding:0;
+    width:100vw;
+    height:100vh;
+}
+
+#index__imagenCarrousel__container{
+    width: 100vw;
+    height:100vh; 
+    margin-top: 0;
+}
+
+#index__imagen__carrousel{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 38%;
+    top: 38%;
+    padding-top: 1.25rem;
+    padding-bottom: 10.12rem;
+    text-align: center;
+    cursor: pointer;
+    width:25%;
+    height:15%
+}
+
+
+//WORKS
+
+.cuerpo{
+    background-color:black;
+    margin-top: 0px;
+}
+
+.works__nombresDeArtistas__container{
+    display:flex;
+    justify-content:center;
+    align-items:baseline;
+    grid-area: works__nombresDeArtistas__container;
+}
+
+.works__nombresDeArtistas__container div{
+    width: 40%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+.works__coversVideos__container { 
+    grid-area: works__coversVideos__container;
+    display:flex;
+    flex-wrap: wrap; 
+}
+
+#imagenes__container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+}
+
+.centrar__imagenes__container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.card__container{
+    width: 50%;
+    height:300px;
+    background-color: black;
+    position:relative;
+    border:solid black 1px;
+    cursor:pointer;
+}
+
+.card__info{
+    position:absolute;
+    top:45%;right:18%;
+    cursor:pointer;
+    text-align: center;
+    width:60%;
+}
+
+.video__container{
+    position:relative;
+}
+
+.works__footer{
+    color: black;
+    text-align: center;
+}
+
+
+//CORTOS
+
+.shortfilms__carrousel__container{
+    position:absolute;
+    width:85%;
+    top: 12%;right:6%;
+}
+
+.shortfilms__container{  
+    background-color: black;
+}
+
+
+.shortfilms__video1__container{ 
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    width:90%;
+    background:url("../imagenes/dark-circles.png");
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+
+
+
+.video1__image__container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+}
+
+
+.shortfilms__premios__container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position: absolute;
+    top: 0%;left: 2%;
+    width: 95%;
+}
+
+
+
+.video1__titulo__container{
+    position:absolute;
+    top: 60%;
+    right: 75%;
+    letter-spacing: 5px;
+}
+
+
+.video1__sinopsis__container{ 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+.video1__sinopsis__container p{
+    width: 80%;
+    color: gainsboro;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 0px;
+    font-size: 25px;
+}
+
+.shortfilms__video2__container{ 
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    width:90%;
+    background:url("../imagenes/dark-circles.png");
+    border-radius: 10px;
+}
+
+
+.video2__image__container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    cursor: pointer;
+}
+
+.video2__titulo__container{
+    position:absolute;
+    top: 55%;
+    right: 85%;
+    letter-spacing: 5px;
+}
+
+.video2__sinopsis__container{ 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+
+.video2__sinopsis__container p{
+    width:80%;
+    color: gainsboro;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top:20px;
+    font-size: 25px;
+}
+
+.shortfilms__carrouselImg__container{
+    position: relative;
+}
+
+
+
+/*container de imagenes de los cortos*/
+
+.imagenesCortos__container{
+    overflow: hidden;
+}
+
+.imagenesCortos__container::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background:#e5e5e5;
+    opacity: 0;
+    transition: .5s ease all;
+}
+
+.imagenesCortos__container:hover img{
+    transform: scale(1.1);
+}
+
+.imagenesCortos__container:hover::after {
+    opacity:0.2;
+}
+
+
+//ABOUT US 
+
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+}
+
+
+#aboutUs__tituloYtexto__container {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#aboutUs__titulo__container {
+    width: 30%;
+    text-align: center;
+    margin-top: -50px;
+    margin-left: -1050px;
+}
+
+@media (max-width:1401px) {
+    #aboutUs__titulo__container {
+        margin-top: -60px;
+        margin-left: -960px;
+    }
+}
+
+@media (max-width:1301px) {
+    #aboutUs__titulo__container {
+        margin-left: -870px;
+        width:50%;
+    }
+}
+
+@media (max-width:1201px) {
+    #aboutUs__titulo__container {
+        margin-left: -930px;
+    }
+}
+
+@media (max-width:1101px) {
+    #aboutUs__titulo__container {
+        margin-left: -840px;
+        margin-top:-70px;
+    }
+}
+
+@media (max-width:1001px) {
+    #aboutUs__titulo__container {
+        margin-left: -730px;
+    }
+}
+
+@media (max-width:901px) {
+    #aboutUs__titulo__container {
+        margin-left: -695px;
+    }
+}
+
+@media (max-width:801px) {
+    #aboutUs__titulo__container {
+        margin-left: -585px;
+        margin-top:-70px;
+        width: 70%;
+    }
+}
+
+@media (max-width:701px) {
+    #aboutUs__titulo__container {
+        margin-left: -470px;
+        margin-top:-75px;
+        width:80%;
+    }
+}
+
+@media (max-width:601px) {
+    #aboutUs__titulo__container {
+        margin-left: -370px;
+        width:90%;
+    }
+}
+
+@media (max-width:501px) {
+    #aboutUs__titulo__container {
+        margin-left: -325px;
+        width:100%;
+    }
+}
+
+@media (max-width:401px) {
+    #aboutUs__titulo__container {
+        margin-left: 0px;
+        margin-top: -33px;
+    }
+}
+
+#aboutUs__texto__container {
+    width: 30%;
+    text-align: center;
+    margin-top:100px;
+}
+
+//CONTACT  
+
+#contactUs__information__container {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin-top: 100px;
+}
+
+#contactUs__information__container p a{
+    color: white;
+    text-decoration: none;
+}

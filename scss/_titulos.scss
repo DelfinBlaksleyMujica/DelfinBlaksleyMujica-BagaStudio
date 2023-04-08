@@ -1,0 +1,126 @@
+//GENERALES 
+
+
+.font {
+    font-family: "Montserrat";
+}
+
+#anchor__bagaStudio__logo{
+    color: white;
+}
+
+
+//INDEX
+
+#index__imagenCarrousel__container div h5{
+    font-family: $tipografiaInfoCards;
+    color:$colorTipografiaInfoCards;
+    font-size: $tFuenteInfoCardsIndex;
+    text-align: center;
+}
+
+//WORKS 
+
+.works__nombresDeArtistas__container div h2{
+    font-family: $tipografiaTitulosDeSeccion;
+    font-size: $tFuenteTitulosDeSeccion;
+    color: $colorTipografiaTitulosDeSeccion; 
+    letter-spacing: 8px;
+    font-weight:300;
+}
+
+.card__info h3{
+    font-family: $tipografiaInfoCards;
+    color: $colorTipografiaInfoCards;
+    cursor:pointer;
+    font-size:$tFuenteInfoCardsClips ;
+}
+
+@media (max-width:1401px) {
+    .card__info h3{
+        font-size:1.8rem;
+    }
+}
+
+@media (max-width:1301px) {
+    .card__info h3{
+        font-size:1.6rem;
+    }
+}
+
+@media (max-width:1201px) {
+    .card__info h3{
+        font-size:1.4rem;
+    }
+}
+
+@media (max-width:1101px) {
+    .card__info h3{
+        font-size:1.2rem;
+    }
+}
+
+//CORTOS 
+
+.shortfilms__titulo{
+    font-size: $tFuenteTitulosDeSeccion;
+    font-family: $tipografiaTitulosDeSeccion;
+    color: $colorTipografiaTitulosDeSeccion; 
+    letter-spacing: 8px;
+}
+
+.video1__titulo__container h5 strong{
+    font-family: $tipografiaTitulosDeImagenesShortFilms;
+    color:$colorTipografiaTitulosDeImagenesShortFilms;
+    font-size: $tFuenteTitulosDeImagenesDeShortfilms;
+    //opacity:0;
+}
+
+
+.video2__titulo__container h5 strong{
+    font-family: $tipografiaTitulosDeImagenesShortFilms;
+    color:$colorTipografiaTitulosDeImagenesShortFilms;
+    font-size: $tFuenteTitulosDeImagenesDeShortfilms;
+}
+
+//ABOUT US
+
+.baga {
+    font-size: 22px;
+    letter-spacing: 8px;
+}
+
+#aboutUs__titulo__container h2{
+    padding-top: 0px;
+    padding-left: 0px;
+    letter-spacing: 8px;
+    font-size: $tFuenteTitulosDeSeccion;
+    font-family: $tipografiaTitulosDeSeccion;
+    color: $colorTipografiaTitulosDeSeccion;
+}
+
+//CONTACTO
+
+.contacto__titulo{
+    font-family: $tipografiaTitulosDeSeccion; 
+    letter-spacing: 8px;
+    font-size: $tFuenteTitulosDeSeccion;
+    color:$colorTipografiaTitulosDeSeccion;
+    padding-top: 70px;
+    padding-left: 70px;
+}
+
+@media (max-width:1201px) {
+    .contacto__titulo{
+        font-size: 35px;
+    }
+}
+
+@media (max-width:901px) {
+    .contacto__titulo{
+        font-size: 30px;
+    }
+}
+
+
+

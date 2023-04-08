@@ -1,0 +1,436 @@
+@import "variables";
+@import "grids";
+@import "containers";
+@import "margenes";
+@import "titulos";
+@import "parrafos";
+@import "botones";
+@import "imagenes";
+@import "videos";
+@import "pseudoClases";
+@import "mediaQuaries";
+
+
+//Para achicar ele spacio que ocupaba el grid ya desaparecido cuando se abre el video 100%
+.noMargin {
+    margin:0;
+}
+
+
+.altura__imagenesCarrousel__shortfilms{
+    height:550px;
+    object-fit: cover;
+}
+
+.IndexexistoSoloParaMobile{
+    display:none;
+}
+.works__redesMobile__container{
+    display:none;
+}
+
+@media (max-width:501px) {
+
+    .index__mobileMain__container {  
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 2.1fr 0.4fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+        "index__logoMobile__container "
+        "index__mainMobile__container "
+        "index__redesMobile__container-derecha";
+    }
+
+    .index__logoMobile__container { 
+        grid-area: index__logoMobile__container;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+
+    .index__mainMobile__container { grid-area: index__mainMobile__container; }
+
+    .index__redesMobile__container-derecha{ 
+        grid-area: index__redesMobile__container-derecha;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+    #navBar__index{
+        display:none;
+    }
+    .carrousel__index__desaparecerMobile{
+        display:none;
+    }
+
+    .index__menu__hr{
+        color: red;
+        height: 1px!important;
+    }
+   
+    .index__logoMobile__container h1{
+        font-family: $tipografiaTitulosDeSeccion;
+        font-size: $tipografiaTitulosDeSeccion;
+        color: white;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: 0.245em;
+        text-align: center;
+    }
+    .index__mainMobile__container{
+        grid-area: index__mainMobile__container;
+        width:100%;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .index__mainMobile__container div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+    .index__mainMobile__container div a{
+        text-decoration: none;
+    }
+    hr{
+        width:80%;
+        color:white;
+    }
+    .index__mainMobile__container div a p{
+        font-family:$tipografiaInfoCards;
+        font-size: $tFuenteInfoCardsClipsTablet;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 37px;
+        text-align: center;
+        letter-spacing: 0.245em;
+        margin-bottom: 2px;
+        margin-top: 2px;
+    }
+    .index__btnMobile__container{
+        width: 100%;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        padding-top: 100px;
+        grid-area: index__btnMobile__container;
+    }
+    .logo__instagramIndex__mobile{
+        display:block;
+    }    
+}
+
+
+.fondoNegro__body{
+    background-color: black;
+}
+
+
+@media (max-width:400px) {
+    .logo__insatagram__navbar{
+        display:none;
+    }
+}
+
+@media (max-width:1024px) {
+    #index__imagenCarrousel__container div h5 {
+        font-size: 2.8rem;
+    }
+}
+
+
+@media (max-width:401px) {
+    .works__redesMobile__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .works__redesMobile__container div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        margin-top: 0px;
+    }
+}
+
+.shortfilms__boton__galeria{
+    border:  	#404040 solid 2px;
+    border-radius: 20px;
+    background-color: #1A1919;
+    width: 180px;
+    color: 	#DCDCDC;
+    font-family: "Montserrat";
+}
+
+.shortfilms__boton__galeria:hover{
+    border:  #DCDCDC solid 2px;
+    border-radius: 20px;
+    background-color: black;
+    width: 180px;
+    color: #DCDCDC;
+    transition: 1s;
+}
+
+
+.shortfilms__tituloCortometraje{
+    font-family: "Montserrat";
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0.245em;
+    text-align: left;
+    color: #DCDCDC;
+}
+
+.shortfilms__tituloCortometraje strong{
+    margin-left: 25px;
+}
+
+.index__artista__titulo{
+    font-family: "Montserrat";
+    font-size: 2.7rem;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.245em;
+    text-align: center;
+    color: #DCDCDC;
+    margin-bottom: 40px;
+}
+
+.index__cancion__titulo{
+    font-family: "Montserrat";
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.245em;
+    text-align: center;
+    color: #DCDCDC;
+}
+@media (max-width:901px) {
+    .index__artista__titulo{
+        font-size: 2rem;
+    }
+    .index__cancion__titulo{
+        font-size: 1.8rem;
+    }
+}
+@media (max-width:801px) {
+    .index__artista__titulo{
+        font-size: 1.8rem;
+    }
+    .index__cancion__titulo{
+        font-size: 1.6rem;
+    }
+}
+
+
+
+
+/*Titulo de los cortometrajes*/
+
+@media (max-width:1501px) {
+    .shortfilms__tituloCortometraje {
+        font-size: 28px;
+    }
+}
+
+@media (max-width:1401px) {
+    .shortfilms__tituloCortometraje {
+        font-size: 25px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:1201px) {
+    .shortfilms__tituloCortometraje {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width:993px) {
+    .shortfilms__tituloCortometraje {
+        margin-left: 25px;
+    }
+}
+
+@media (max-width:769px) {
+    .shortfilms__tituloCortometraje {
+        margin-left: 35px;
+        font-size: 28px;
+    }
+}
+
+@media (max-width:321px) {
+    .shortfilms__tituloCortometraje {
+        margin-left: -10px;
+    }
+}
+
+@media (max-width:700px) {
+    .shortfilms__tituloCortometraje {
+        font-size: 26px;
+    }
+}
+
+.shortfilms__premios__container__IpadVert{
+    display: none;
+}
+
+@media (max-width:769px) {
+    .shortfilms__premios__container__IpadVert{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+}
+
+@media (max-width:501px) {
+    .shortfilms__premios__container__IpadVert{
+        flex-direction: column;
+    }
+}
+
+/*Titulo en blanco de cortometrajes*/
+@media (max-width:769px) {
+    .shortfilms__tituloCortometraje strong {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:501px) {
+    .shortfilms__tituloCortometraje strong {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:401px) {
+    .shortfilms__tituloCortometraje strong {
+        margin-left: -55px;
+    }
+}
+
+@media (max-width:381px) {
+    .shortfilms__tituloCortometraje strong {
+        margin-left: -45px;
+    }
+}
+
+@media (max-width:371px) {
+    .shortfilms__tituloCortometraje strong {
+        margin-left: -35px;
+    }
+}
+
+
+@media (max-width:361px) {
+    .shortfilms__tituloCortometraje strong {
+        margin-left: -25px;
+    }
+}
+
+
+@media (max-width:351px) {
+    .shortfilms__tituloCortometraje strong {
+        margin-left: -15px;
+    }
+}
+
+
+@media (max-width:341px) {
+    .shortfilms__tituloCortometraje strong {
+        margin-left: -5px;
+    }
+}
+
+@media (max-width:331px) {
+    .shortfilms__tituloCortometraje strong {
+        margin-left: 5px;
+    }
+}
+@media (max-width:321px) {
+    .shortfilms__tituloCortometraje strong {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width:441px) {
+    .shortfilms__title__container {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width:401px) {
+    .shortfilms__title__container {
+        margin-left: 70px;
+    }
+}
+
+@media (max-width:361px) {
+    .shortfilms__title__container {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:341px) {
+    .shortfilms__title__container {
+        margin-left: 20px;
+    }
+}
+
+
+/*Tamaño imagen de carrousel*/
+
+@media (max-width:1001px) {
+    .altura__imagenesCarrousel__shortfilms {
+        height: 440px;
+    }
+}
+
+@media (max-width:901px) {
+    .altura__imagenesCarrousel__shortfilms {
+        height: 390px;
+    }
+}
+
+@media (max-width:801px) {
+    .altura__imagenesCarrousel__shortfilms {
+        height: 350px;
+    }
+}
+
+@media (max-width:401px) {
+    #btnCloseMenuMobile{
+        margin-right: 9.5rem;
+    }
+}
+
+@media (max-width:386px) {
+    #btnCloseMenuMobile{
+        margin-right: 8.5rem;
+    }
+}
+
+@media (max-width:371px) {
+    #btnCloseMenuMobile{
+        margin-right: 7.5rem;
+    }
+}
+
+@media (max-width:351px) {
+    #btnCloseMenuMobile{
+        margin-right: 6.5rem;
+    }
+}
+
+@media (max-width:336px) {
+    #btnCloseMenuMobile{
+        margin-right: 5.5rem;
+    }
+}
+

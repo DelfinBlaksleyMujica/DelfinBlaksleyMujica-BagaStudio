@@ -1,0 +1,2408 @@
+@charset "UTF-8";
+/*GENERALES*/
+/*flechas del carousel*/
+.works__container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.05fr 0.05fr 1.5fr 0.05fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "navBar" "works__nombresDeArtistas__container" "works__imagenes__container" "works__footer";
+}
+
+.shortfilms__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.25fr 0.25fr 2.5fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "navBar__container" "shortfilms__title__container" "shortfilms__videos__container";
+}
+
+.navBar__container {
+  grid-area: navBar__container;
+}
+
+.shortfilms__title__container {
+  grid-area: shortfilms__title__container;
+}
+
+.shortfilms__videos__container {
+  display: grid;
+  grid-template-columns: 2.5fr;
+  grid-template-rows: 1fr 0fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "shortfilms__video1__container" "shortfilms__video2__container";
+  grid-area: shortfilms__videos__container;
+  justify-items: center;
+}
+
+.shortfilms__video1__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "video1__image__container video1__image__container video1__image__container" "video1__image__container video1__image__container video1__image__container" "video1__sinopsis__container video1__sinopsis__container video1__sinopsis__container";
+  grid-area: shortfilms__video1__container;
+}
+
+.video1__image__container {
+  grid-area: video1__image__container;
+}
+
+.video1__sinopsis__container {
+  grid-area: video1__sinopsis__container;
+}
+
+.shortfilms__video2__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "video2__image__container video2__image__container video2__image__container" "video2__image__container video2__image__container video2__image__container" "video2__sinopsis__container video2__sinopsis__container video2__sinopsis__container";
+  grid-area: shortfilms__video2__container;
+}
+
+.video2__image__container {
+  grid-area: video2__image__container;
+}
+
+.video2__sinopsis__container {
+  grid-area: video2__sinopsis__container;
+}
+
+.shortfilms__margin__left {
+  grid-area: shortfilms__margin__left;
+}
+
+.shortfilms__margin__right {
+  grid-area: shortfilms__margin__right;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0rem;
+}
+
+.offcanvas {
+  position: fixed;
+  bottom: 0;
+  z-index: 1045;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.01);
+  background-clip: padding-box;
+  outline: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-nav {
+  align-items: flex-end;
+}
+
+.fondo {
+  background-color: black;
+}
+
+.offcanvas-end {
+  border-left: none;
+}
+
+.offcanvas-backdrop.show {
+  opacity: 0.9;
+}
+
+.derecha {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  z-index: 100;
+}
+
+.navbar {
+  background-color: black;
+  opacity: 70%;
+}
+
+#btn-close__contenedor {
+  position: relative;
+}
+
+#index__imagenCarrousel__container {
+  position: relative;
+}
+
+#index__imagenCarrousel__container div {
+  position: absolute;
+  top: 46%;
+  right: 35%;
+  text-align: center;
+  cursor: pointer;
+}
+
+#carouselExampleControls {
+  margin-top: -25px;
+  padding: 0;
+}
+
+#index__cards__container {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#index__imagenCarrousel__container {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 0;
+}
+
+#index__imagen__carrousel {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 38%;
+  top: 38%;
+  padding-top: 1.25rem;
+  padding-bottom: 10.12rem;
+  text-align: center;
+  cursor: pointer;
+  width: 25%;
+  height: 15%;
+}
+
+.cuerpo {
+  background-color: black;
+}
+
+.works__nombresDeArtistas__container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  grid-area: works__nombresDeArtistas__container;
+}
+
+.works__nombresDeArtistas__container div {
+  width: 40%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.works__coversVideos__container {
+  grid-area: works__coversVideos__container;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#imagenes__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.centrar__imagenes__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__container {
+  width: 50%;
+  height: 300px;
+  background-color: black;
+  position: relative;
+  border: solid black 1px;
+  cursor: pointer;
+}
+
+.card__info {
+  position: absolute;
+  top: 45%;
+  right: 18%;
+  cursor: pointer;
+  text-align: center;
+  width: 60%;
+}
+
+.video__container {
+  position: relative;
+}
+
+.works__footer {
+  color: black;
+  text-align: center;
+}
+
+.shortFilms__body {
+  position: relative;
+}
+
+.shortfilms__carrousel__container {
+  position: absolute;
+  width: 85%;
+  top: 12%;
+  right: 6%;
+}
+
+.shortfilms__container {
+  background-color: black;
+}
+
+.shortfilms__video1__container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 90%;
+  background: url("../imagenes/dark-circles.png");
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.video1__image__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.shortfilms__premios__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0%;
+  left: 2%;
+  width: 95%;
+}
+
+.video1__titulo__container {
+  position: absolute;
+  top: 60%;
+  right: 75%;
+  letter-spacing: 5px;
+}
+
+.video1__sinopsis__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.video1__sinopsis__container p {
+  width: 80%;
+  color: gainsboro;
+  font-family: "Montserrat";
+  text-align: center;
+  margin-top: 0px;
+  font-size: 25px;
+}
+
+.shortfilms__video2__container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 90%;
+  background: url("../imagenes/dark-circles.png");
+  border-radius: 10px;
+}
+
+.video2__image__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.video2__image__container img:hover {
+  opacity: 40%;
+  transition: ease-in-out 0.7s;
+}
+
+.video2__titulo__container {
+  position: absolute;
+  top: 55%;
+  right: 85%;
+  letter-spacing: 5px;
+}
+
+.video2__sinopsis__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.video2__sinopsis__container p {
+  width: 80%;
+  color: gainsboro;
+  font-family: "Montserrat";
+  text-align: center;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+/*
+
+#shortfilms__imagenesCarrousel__container{
+    padding-top: 80px;
+    cursor: pointer;
+}
+
+.carrousel-captionCortos{
+    position:relative;
+}
+
+.shortfilms__premios__container{
+    display:flex;
+    position: absolute;
+    top: -30px; right: 20%;
+}
+
+.shortfilms__premios__container div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#carrouselItem__1 .imagenesCortosh5{
+    position:absolute;
+    top:48%;right:70%;
+}
+
+#carrouselItem__1 .textoCortos {
+    position:absolute;
+    bottom:0%;left:25%;;
+    width:60%;
+    text-align: center;
+}
+
+#carrouselItem__2 .imagenesCortosh5{
+    position:absolute;
+    top:48%;right:70%;
+}
+
+#carrouselItem__2 .textoCortos {
+    position:absolute;
+    bottom:0%;left:25%;
+    width:60%;
+    text-align: center;
+}
+*/
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+}
+
+#aboutUs__tituloYtexto__container {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#aboutUs__titulo__container {
+  width: 30%;
+  text-align: center;
+  margin-top: -20px;
+  margin-left: -1018px;
+}
+
+#aboutUs__texto__container {
+  width: 30%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#contactUs__information__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Cruz del menu desplegable*/
+.offcanvas-header .btn-close {
+  padding: 0.5rem 0.5rem;
+  margin-top: 0rem;
+  margin-right: -0.5rem;
+  margin-bottom: -0.5rem;
+}
+
+#anchor__bagaStudio__logo {
+  margin-left: 30px;
+}
+
+.navbar-nav {
+  margin-top: 10px;
+}
+
+.row1 > * {
+  flex-shrink: 0;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+
+.roww > * {
+  flex-shrink: 0;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+
+#index__flechaIzquierda__carrousel {
+  margin-left: -250px;
+}
+
+#index__flechaDerecha__carrousel {
+  margin-right: -210px;
+}
+
+.works__nombresDeArtistas__container div h2 {
+  margin-top: -15px;
+  margin-left: -415px;
+}
+
+.works__footer {
+  margin-top: 20px;
+}
+
+.shortfilms__title__container {
+  margin-top: 0px;
+  margin-left: 80px;
+}
+
+/*
+
+.contendor__TituloCortos {
+    margin-top: 100px;
+}
+
+.cortos__img__marginT {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#shortfilms__imagenesCarrousel__container{
+    padding-top: 80px;
+}
+
+.shortfilms__premios__container div{
+    padding-left: 50px;
+}
+
+#shortfilms__flechaIzquierda__carrousel{
+    margin-left: -110px;
+    margin-bottom: -120px;
+}
+
+#shortfilms__flechaDerecha__carrousel {
+    margin-right: -110px;
+    margin-bottom: -120px;
+}
+
+*/
+.aboutUs__tituloYtexto__container {
+  margin-top: 150px;
+  margin-left: 250px;
+  margin-right: 280px;
+}
+
+.contacto {
+  margin-top: 100px;
+}
+
+.contenedorinfo {
+  padding-left: 330px;
+  margin-top: 15px;
+}
+
+.font {
+  font-family: "Montserrat";
+}
+
+#anchor__bagaStudio__logo {
+  color: white;
+}
+
+#index__imagenCarrousel__container div h5 {
+  font-family: "Montserrat";
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/*
+#index__imagenCarrousel__container div p em{
+    font-family: "Montserrat";
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+}
+*/
+.works__nombresDeArtistas__container div h2 {
+  font-family: "Montserrat";
+  font-size: 40px;
+  color: #850808;
+  letter-spacing: 8px;
+  font-weight: 300;
+}
+
+.card__info h3 {
+  font-family: "Montserrat";
+  color: white;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+@media (max-width: 1401px) {
+  .card__info h3 {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 1301px) {
+  .card__info h3 {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 1201px) {
+  .card__info h3 {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 1101px) {
+  .card__info h3 {
+    font-size: 1.2rem;
+  }
+}
+/*
+.card__info p{
+    .card__info h3{
+        font-family: "Montserrat";
+        color:white;
+        cursor:pointer;
+        font-size: 1.8rem;
+    }
+}
+*/
+.shortfilms__titulo {
+  font-size: 40px;
+  font-family: "Montserrat";
+  color: #850808;
+  letter-spacing: 8px;
+}
+
+.video1__titulo__container h5 strong {
+  font-family: "Montserrat";
+  color: #850808;
+  font-size: 3rem;
+}
+
+.video2__titulo__container h5 strong {
+  font-family: "Montserrat";
+  color: #850808;
+  font-size: 3rem;
+}
+
+/*
+#carrouselItem__1 .imagenesCortosh5{
+    font-family: "Montserrat";
+    color:$colorTipografiaTitulosDeSeccion;
+}
+
+#carrouselItem__2 .imagenesCortosh5{
+    font-family: "Montserrat";
+    color:$colorTipografiaTitulosDeSeccion;
+}
+
+#carrouselItem__3 .imagenesCortosh5{
+    font-family: "Montserrat";
+    color:$colorTipografiaTitulosDeSeccion;
+}
+
+#carrouselItem__4 .imagenesCortosh5{
+    font-family: "Montserrat";
+    color:$colorTipografiaTitulosDeSeccion;
+}
+
+.imagenesCortosh5 strong {
+    font-family: "Montserrat";
+}
+
+*/
+.baga {
+  font-size: 22px;
+  letter-spacing: 8px;
+}
+
+#aboutUs__titulo__container h2 {
+  padding-top: 0px;
+  padding-left: 0px;
+  letter-spacing: 8px;
+  font-size: 40px;
+  font-family: "Montserrat";
+  color: #850808;
+}
+
+.contacto__titulo {
+  font-family: "Montserrat";
+  letter-spacing: 8px;
+  font-size: 40px;
+  color: #850808;
+  padding-top: 70px;
+  padding-left: 300px;
+}
+
+a p {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: white;
+  font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-size: 20px;
+  font-family: "Montserrat";
+}
+
+.carousel-caption {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 40px;
+}
+
+#index__imagenCarrousel__container div p {
+  font-family: "Montserrat";
+  color: white;
+  font-size: 2rem;
+}
+
+.card__info h3 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0.245em;
+  text-align: center;
+  color: #DCDCDC;
+}
+
+.card__info h4 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.245em;
+  text-align: center;
+  color: #DCDCDC;
+}
+
+.card__info p {
+  font-family: "Montserrat";
+  color: white;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.works__footer {
+  font-family: "Montserrat";
+}
+
+.textoOficialSelection__shortfilms {
+  font-family: "Montserrat";
+  color: white;
+  font-size: 20px;
+}
+
+#aboutUs__texto__container p {
+  font-family: "Montserrat";
+  font-size: 1rem;
+  color: aliceblue;
+}
+
+.contenedorinfo {
+  line-height: 1.2;
+}
+
+.contenedorinfo--itemC {
+  color: aliceblue;
+  font-size: 1rem;
+  font-family: "Montserrat";
+  list-style-type: none;
+  text-decoration: none;
+}
+
+#btnCerrar {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  width: 20px;
+  height: 10px;
+  font-size: 2.3rem;
+  color: #D4D4D4;
+  font-weight: lighter;
+  background-color: transparent;
+  border: transparent solid 2px;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(../imagenes/Hamburgesa.png);
+}
+
+.btn-close {
+  background: url(../imagenes/X.png);
+  background-size: cover;
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  top: 20px;
+  right: 200px;
+}
+
+.imagen__container {
+  width: 100%;
+  height: 100%;
+}
+
+.card__container .imagen__container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.image-view {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  display: none;
+}
+
+.image-box {
+  width: 70vw;
+  height: 80vh;
+  position: fixed;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*background: tomato;*/
+  display: none;
+}
+
+#prev-btn, #next-btn {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+#prev-btn {
+  border-right: 40px solid grey;
+  left: -50px;
+}
+
+#next-btn {
+  border-left: 40px solid grey;
+  right: -50px;
+}
+
+#next-btn:hover, #prev-btn:hover {
+  opacity: 0.6;
+}
+
+.imagenesCortos {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  transition: 0.2s linear;
+}
+
+.shortfilms__premios__imagenes {
+  width: 280px;
+  height: 280px;
+}
+
+.shortfilms__carousel__image {
+  width: 100%;
+  height: 500px;
+  z-index: 100;
+}
+
+.video__container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.video__index__container {
+  width: 100vw;
+  height: 100vh;
+  margin-top: -30px;
+}
+
+.video1__index__container {
+  width: 100vw;
+  height: 100vh;
+  margin-top: -30px;
+}
+
+.video__index__container video {
+  width: 100%;
+  height: 100%;
+  margin-top: -15px;
+}
+
+.video1__index__container video {
+  width: 100%;
+  height: 100%;
+  margin-top: 7px;
+}
+
+.video__container video {
+  width: 100%;
+  height: 100%;
+  margin-bottom: -7px;
+}
+
+.offcanvas-header {
+  padding: 1.95rem 1rem;
+}
+
+.card__container .imagen__container img:hover {
+  opacity: 50%;
+  transition: ease 0.9s;
+}
+
+.desaparecer {
+  display: none;
+}
+
+.nublar {
+  opacity: 10%;
+}
+
+.achicar {
+  height: 0px;
+}
+
+#btnCerrar:hover {
+  color: #F2F2F2;
+}
+
+.shortfilms__premios__container div:hover {
+  opacity: 0.6;
+  transition: ease 0.9s;
+}
+
+@media (max-width: 400px) {
+  .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+    flex-direction: column;
+  }
+}
+/*margenes de las flechas del carrousel*/
+@media (max-width: 1400px) {
+  #index__flechaIzquierda__carrousel {
+    margin-left: -100px;
+  }
+}
+@media (max-width: 1200px) {
+  #index__flechaIzquierda__carrousel {
+    margin-left: -70px;
+  }
+}
+@media (max-width: 1024px) {
+  #index__flechaIzquierda__carrousel {
+    margin-left: -50px;
+  }
+}
+@media (max-width: 768px) {
+  #index__flechaIzquierda__carrousel {
+    margin-left: -40px;
+  }
+}
+@media (max-width: 1400px) {
+  #index__flechaDerecha__carrousel {
+    margin-right: -100px;
+  }
+}
+@media (max-width: 1200px) {
+  #index__flechaDerecha__carrousel {
+    margin-right: -70px;
+  }
+}
+@media (max-width: 1024px) {
+  #index__flechaDerecha__carrousel {
+    margin-right: -50px;
+  }
+}
+@media (max-width: 768px) {
+  #index__flechaDerecha__carrousel {
+    margin-right: -40px;
+  }
+}
+/*carrousel caption general posicion*/
+@media (max-width: 1200px) {
+  .carousel-caption {
+    right: 10%;
+    left: 40%;
+  }
+}
+/*titulo de las imagenes*/
+@media (max-width: 1200px) {
+  .h5,
+  h5 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 1024px) {
+  .h5,
+  h5 {
+    font-size: 2.2rem;
+  }
+}
+/*caption de camila bunch para centarlo sobre el titulo*/
+@media (max-width: 1400px) {
+  #carrouselItem__1 p {
+    width: 140%;
+  }
+}
+/*carrousel caption tamaños*/
+@media (max-width: 1200px) {
+  .carousel-caption {
+    font-size: 35px;
+  }
+}
+@media (max-width: 1024px) {
+  .carousel-caption {
+    font-size: 30px;
+  }
+}
+/*Video pop up de carrousel*/
+/*
+@media (max-width:1200px) {
+    .video__container__index video{
+        width: 100%;
+        min-height: 890px;
+        margin-top: 0px;
+        margin-bottom: -10px;
+    }
+}
+*/
+/*Video pop up de imagen*/
+@media (max-width: 1300px) {
+  .video__index__container video {
+    margin-top: -25px;
+  }
+}
+/*@media (max-width:1400px) {
+    .works__container {  
+        position:relative;
+        margin-bottom: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 0.1fr 1.5fr;
+        grid-auto-columns: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "navBar"
+            "works__nombresDeArtistas__container"
+            "works__imagenes__container";
+    }
+}*/
+@media (max-width: 769px) {
+  .works__container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.05fr 0.05fr 3fr 0.1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "navBar" "works__nombresDeArtistas__container" "works__imagenes__container" "works__footer";
+  }
+}
+@media (max-width: 401px) {
+  .works__container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.05fr 0.15fr 3fr 0.1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "navBar" "works__nombresDeArtistas__container" "works__imagenes__container" "works__footer";
+  }
+}
+@media (max-width: 1200px) {
+  .works__container {
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 769px) {
+  .works__nombresDeArtistas__container div {
+    margin-top: 60px;
+  }
+}
+/*tamaño cards*/
+@media (max-width: 1200px) {
+  .card__container {
+    width: 50%;
+    height: 250px;
+  }
+}
+@media (max-width: 1000px) {
+  .card__container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 769px) {
+  .card__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .card__container .imagen__container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+}
+/*titulo*/
+@media (max-width: 1551px) {
+  .works__nombresDeArtistas__container div h2 {
+    margin-left: -395px;
+  }
+}
+@media (max-width: 1501px) {
+  .works__nombresDeArtistas__container div h2 {
+    margin-left: -375px;
+  }
+}
+@media (max-width: 1451px) {
+  .works__nombresDeArtistas__container div h2 {
+    margin-left: -360px;
+  }
+}
+@media (max-width: 1400px) {
+  .works__nombresDeArtistas__container div h2 {
+    margin-left: -345px;
+  }
+}
+@media (max-width: 1351px) {
+  .works__nombresDeArtistas__container div h2 {
+    margin-left: -330px;
+  }
+}
+@media (max-width: 1301px) {
+  .works__nombresDeArtistas__container div h2 {
+    margin-left: -315px;
+  }
+}
+@media (max-width: 1251px) {
+  .works__nombresDeArtistas__container div h2 {
+    margin-left: -300px;
+  }
+}
+@media (max-width: 1200px) {
+  .works__nombresDeArtistas__container div h2 {
+    margin-left: -285px;
+  }
+}
+@media (max-width: 1151px) {
+  .works__nombresDeArtistas__container div h2 {
+    margin-left: -270px;
+  }
+}
+@media (max-width: 1101px) {
+  .works__nombresDeArtistas__container div h2 {
+    margin-left: -255px;
+  }
+}
+@media (max-width: 1025px) {
+  .works__nombresDeArtistas__container div h2 {
+    margin-left: -230px;
+    font-size: 35px;
+  }
+}
+@media (max-width: 1001px) {
+  .works__nombresDeArtistas__container div h2 {
+    margin-left: -220px;
+  }
+}
+@media (max-width: 993px) {
+  .works__nombresDeArtistas__container div h2 {
+    margin-left: -215px;
+  }
+}
+@media (max-width: 951px) {
+  .works__nombresDeArtistas__container div h2 {
+    margin-left: -205px;
+  }
+}
+@media (max-width: 901px) {
+  .works__nombresDeArtistas__container div h2 {
+    margin-left: -195px;
+    font-size: 30px;
+  }
+}
+@media (max-width: 851px) {
+  .works__nombresDeArtistas__container div h2 {
+    margin-left: -180px;
+  }
+}
+@media (max-width: 801px) {
+  .works__nombresDeArtistas__container div h2 {
+    margin-left: -165px;
+  }
+}
+@media (max-width: 769px) {
+  .works__nombresDeArtistas__container div h2 {
+    margin-left: -155px;
+  }
+}
+@media (max-width: 701px) {
+  .works__nombresDeArtistas__container div h2 {
+    margin-left: -135px;
+  }
+}
+@media (max-width: 651px) {
+  .works__nombresDeArtistas__container div h2 {
+    margin-left: -120px;
+  }
+}
+@media (max-width: 601px) {
+  .works__nombresDeArtistas__container div h2 {
+    font-size: 35px;
+    margin-left: -105px;
+  }
+}
+@media (max-width: 551px) {
+  .works__nombresDeArtistas__container div h2 {
+    margin-left: -90px;
+  }
+}
+@media (max-width: 501px) {
+  .works__nombresDeArtistas__container div h2 {
+    font-size: 30px;
+    margin-left: -70px;
+  }
+}
+@media (max-width: 451px) {
+  .works__nombresDeArtistas__container div h2 {
+    font-size: 30px;
+    margin-left: -60px;
+  }
+}
+@media (max-width: 401px) {
+  .works__nombresDeArtistas__container div h2 {
+    margin-left: -15px;
+  }
+}
+@media (max-width: 351px) {
+  .works__nombresDeArtistas__container div h2 {
+    margin-left: -23px;
+  }
+}
+/*posicion titulo de cards*/
+@media (max-width: 1400px) {
+  .card__info {
+    top: 45%;
+    right: 10%;
+    width: 80%;
+  }
+}
+@media (max-width: 1200px) {
+  .card__info {
+    top: 45%;
+    right: 20%;
+    width: 60%;
+  }
+}
+@media (max-width: 600px) {
+  .card__info h3 {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 500px) {
+  .card__info h3 {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 401px) {
+  .card__info h3 {
+    font-size: 15px;
+  }
+}
+/*videos pop up*/
+/*
+@media (max-width:1200px) {
+    .video__container video{
+    width: 100%;
+    min-height: 850px;
+    margin-top: -33px;
+    object-fit: cover;
+}
+}
+*/
+@media (max-width: 590px) {
+  .navbar {
+    width: 97%;
+  }
+}
+@media (max-width: 572px) {
+  .navbar {
+    width: 92%;
+  }
+}
+/*Titulo de Seccion*/
+@media (max-width: 1501px) {
+  .shortfilms__titulo {
+    font-size: 33px;
+  }
+}
+@media (max-width: 1451px) {
+  .shortfilms__tituloCortometraje strong {
+    margin-left: 25px;
+  }
+}
+@media (max-width: 1501px) {
+  .video2__titulo__container {
+    right: 84%;
+  }
+  .video1__titulo__container {
+    right: 74%;
+  }
+}
+@media (max-width: 1451px) {
+  .shortfilms__premios__container div img {
+    width: 290px;
+    height: 290px;
+  }
+}
+@media (max-width: 1401px) {
+  .shortfilms__premios__container div img {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media (max-width: 1201px) {
+  .shortfilms__premios__container div img {
+    width: 230px;
+    height: 230px;
+  }
+  .video1__sinopsis__container p {
+    font-size: 19px;
+  }
+  .video2__sinopsis__container p {
+    font-size: 19px;
+  }
+}
+@media (max-width: 501px) {
+  .video1__sinopsis__container p {
+    font-size: 17px;
+  }
+  .video2__sinopsis__container p {
+    font-size: 17px;
+  }
+}
+@media (max-width: 901px) {
+  .shortfilms__premios__container div img {
+    width: 210px;
+    height: 210px;
+  }
+}
+@media (max-width: 769px) {
+  .shortfilms__premios__container div img {
+    display: none;
+  }
+}
+@media (max-width: 1501px) {
+  .shortfilms__container {
+    grid-template-rows: 0.25fr 0.25fr 2.5fr;
+  }
+}
+@media (max-width: 701px) {
+  .shortfilms__container {
+    grid-template-rows: 0.18fr 0.18fr 3fr;
+  }
+}
+@media (max-width: 700px) {
+  .shortfilms__container {
+    grid-template-rows: 0.25fr 0.25fr 3fr;
+  }
+}
+/*@media (max-width:769px) {
+    .shortfilms__container {  
+        grid-template-rows: 0.23fr 0.2fr 2.5fr;
+    }
+}*/
+/*@media (max-width:769px) {
+    .shortfilms__container {  
+        grid-template-rows: 0.17fr 0.17fr 2fr;
+    }
+}*/
+@media (max-width: 1400px) {
+  .shortfilms__titulo {
+    font-size: 40px;
+    color: #850808;
+    letter-spacing: 8px;
+    padding-top: 4px;
+  }
+}
+@media (max-width: 700px) {
+  .shortfilms__titulo {
+    font-size: 38px;
+    color: #850808;
+    letter-spacing: 8px;
+    padding-top: 4px;
+  }
+}
+@media (max-width: 600px) {
+  .shortfilms__titulo {
+    font-size: 35px;
+  }
+}
+@media (max-width: 600px) {
+  .video1__titulo__container h5 strong {
+    font-size: 2rem;
+  }
+  .video2__titulo__container h5 strong {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 480px) {
+  .video1__titulo__container h5 strong {
+    font-size: 1.5rem;
+  }
+  .video2__titulo__container h5 strong {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 500px) {
+  .shortfilms__titulo {
+    font-size: 30px;
+  }
+  .shortfilms__videos__container {
+    margin-top: -13px;
+  }
+}
+@media (max-width: 450px) {
+  .shortfilms__titulo {
+    margin-top: -40px;
+    margin-left: -20px;
+  }
+}
+@media (max-width: 400px) {
+  .shortfilms__titulo {
+    margin-top: -30px;
+    margin-left: 16px;
+  }
+}
+@media (max-width: 390px) {
+  .shortfilms__titulo {
+    margin-left: 13px;
+  }
+}
+@media (max-width: 380px) {
+  .shortfilms__titulo {
+    margin-left: 4px;
+  }
+}
+@media (max-width: 370px) {
+  .shortfilms__titulo {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 360px) {
+  .shortfilms__titulo {
+    margin-left: -5px;
+  }
+}
+@media (max-width: 350px) {
+  .shortfilms__titulo {
+    margin-left: -10px;
+  }
+}
+@media (max-width: 340px) {
+  .shortfilms__titulo {
+    margin-left: -15px;
+  }
+}
+@media (max-width: 330px) {
+  .shortfilms__titulo {
+    margin-left: -20px;
+  }
+}
+@media (max-width: 320px) {
+  .shortfilms__titulo {
+    margin-left: -25px;
+  }
+}
+/*titulo de lo cortometrjes*/
+@media (max-width: 1424px) {
+  .video2__titulo__container {
+    top: 50%;
+  }
+  .video1__titulo__container {
+    right: 71%;
+    top: 55%;
+  }
+}
+@media (max-width: 1400px) {
+  #carrouselItem__2 .imagenesCortosh5 {
+    top: 48%;
+    left: 10%;
+  }
+  .video2__titulo__container {
+    top: 48%;
+    right: 81%;
+  }
+  #carrouselItem__2 .textoCortos {
+    position: absolute;
+    bottom: 0%;
+    left: 20%;
+    width: 60%;
+    text-align: center;
+  }
+}
+/*Imagenes principales de los cortos*/
+@media (max-width: 1000px) {
+  .imagenesCortos {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .imagenesCortos {
+    width: 393px;
+    height: 290px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 390px) {
+  .imagenesCortos {
+    width: 385px;
+    height: 287px;
+  }
+}
+@media (max-width: 385px) {
+  .imagenesCortos {
+    width: 380px;
+  }
+}
+@media (max-width: 380px) {
+  .imagenesCortos {
+    width: 375px;
+  }
+}
+@media (max-width: 375px) {
+  .imagenesCortos {
+    width: 370px;
+  }
+}
+@media (max-width: 370px) {
+  .imagenesCortos {
+    width: 365px;
+  }
+}
+@media (max-width: 365px) {
+  .imagenesCortos {
+    width: 360px;
+  }
+}
+@media (max-width: 360px) {
+  .imagenesCortos {
+    width: 355px;
+  }
+}
+@media (max-width: 355px) {
+  .imagenesCortos {
+    width: 350px;
+  }
+}
+@media (max-width: 350px) {
+  .imagenesCortos {
+    width: 345px;
+  }
+}
+@media (max-width: 345px) {
+  .imagenesCortos {
+    width: 340px;
+  }
+}
+@media (max-width: 340px) {
+  .imagenesCortos {
+    width: 335px;
+  }
+}
+@media (max-width: 335px) {
+  .imagenesCortos {
+    width: 330px;
+  }
+}
+@media (max-width: 325px) {
+  .imagenesCortos {
+    width: 320px;
+  }
+}
+@media (max-width: 325px) {
+  .imagenesCortos {
+    width: 320px;
+  }
+}
+/*Logo de premios*/
+@media (max-width: 769px) {
+  .shortfilms__premios__imagenes {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media (max-width: 501px) {
+  .shortfilms__premios__imagenes {
+    width: 280px;
+    height: 280px;
+  }
+}
+/*acomodado de las sinopsis de los cortos*/
+@media (max-width: 1400px) {
+  #carrouselItem__1 div p {
+    top: 70%;
+    margin-left: -70px;
+  }
+}
+/*carrousel de imagenes*/
+@media (max-width: 1400px) {
+  .image-box {
+    height: 55vh;
+    width: 90vw;
+  }
+}
+@media (max-width: 992px) {
+  .image-box {
+    height: 55vh;
+  }
+}
+@media (max-width: 992px) {
+  .image-box {
+    height: 55vh;
+  }
+}
+@media (max-width: 992px) {
+  .image-box {
+    height: 55vh;
+  }
+}
+@media (max-width: 1209px) {
+  .video1__titulo__container {
+    top: 47%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 1100px) {
+  .video1__titulo__container {
+    right: 78%;
+  }
+  .video2__titulo__container {
+    right: 86%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 1000px) {
+  .video1__titulo__container {
+    right: 75%;
+  }
+  .video2__titulo__container {
+    right: 85.5%;
+    top: 43%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 900px) {
+  .video1__titulo__container {
+    right: 73%;
+  }
+  .video2__titulo__container {
+    right: 84%;
+    top: 41%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 850px) {
+  .video1__titulo__container {
+    right: 70%;
+  }
+  .video2__titulo__container {
+    right: 81%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 800px) {
+  .video1__titulo__container {
+    right: 68%;
+  }
+  .video2__titulo__container {
+    right: 82%;
+    top: 38%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 771px) {
+  .video2__titulo__container {
+    right: 81%;
+    top: 36%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 768px) {
+  .shortfilms__premios__container {
+    display: none;
+  }
+}
+@media (max-width: 1209px) and (max-width: 700px) {
+  .video2__titulo__container {
+    right: 76%;
+    top: 33%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 600px) {
+  .video2__titulo__container {
+    right: 76%;
+    top: 32%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 580px) {
+  .video2__titulo__container {
+    right: 82%;
+    top: 30%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 550px) {
+  .video2__titulo__container {
+    right: 80%;
+    top: 27%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 480px) {
+  .video2__titulo__container {
+    right: 81%;
+    top: 25%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 593px) {
+  .video1__titulo__container {
+    position: absolute;
+    top: 47%;
+    right: 68%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 550px) {
+  .video1__titulo__container {
+    position: absolute;
+    top: 45%;
+    right: 65%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 550px) {
+  .video1__titulo__container {
+    position: absolute;
+    top: 42%;
+    right: 62%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 480px) {
+  .video1__titulo__container {
+    position: absolute;
+    top: 40%;
+    right: 67%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 450px) {
+  .video1__titulo__container {
+    position: absolute;
+    top: 37%;
+    right: 64%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 400px) {
+  .video1__titulo__container {
+    position: absolute;
+    top: 35%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 375px) {
+  .video1__titulo__container {
+    position: absolute;
+    top: 34%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 360px) {
+  .video1__titulo__container {
+    right: 60%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 350px) {
+  .video1__titulo__container {
+    position: absolute;
+    top: 33%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 330px) {
+  .video1__titulo__container {
+    right: 55%;
+    top: 31%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 400px) {
+  .shortfilms__premios__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    top: 8%;
+    left: 2%;
+    width: 100%;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1209px) and (max-width: 400px) {
+  .shortfilms__premios__container {
+    top: 10%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 750px) {
+  .shortfilms__premios__container div img {
+    width: 180px;
+    height: 170px;
+  }
+  .textoOficialSelection__shortfilms {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 680px) {
+  .shortfilms__premios__container div img {
+    width: 170px;
+    height: 160px;
+  }
+  .textoOficialSelection__shortfilms {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 640px) {
+  .shortfilms__premios__container div img {
+    width: 160px;
+    height: 150px;
+  }
+  .textoOficialSelection__shortfilms {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 600px) {
+  .textoOficialSelection__shortfilms {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-right: 20px;
+  }
+  .shortfilms__premios__container div {
+    margin-bottom: -20px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 550px) {
+  .shortfilms__premios__container div {
+    margin-bottom: -30px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 500px) {
+  .shortfilms__premios__container div {
+    margin-bottom: -35px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 480px) {
+  .shortfilms__premios__container div {
+    margin-bottom: -45px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 400px) {
+  .shortfilms__premios__container div {
+    margin-bottom: -10px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 450px) {
+  .video2__titulo__container {
+    position: absolute;
+    top: 23%;
+    right: 80%;
+  }
+  .textoOficialSelection__shortfilms {
+    font-size: 11px;
+  }
+  .shortfilms__premios__container div img {
+    width: 150px;
+    height: 140px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 420px) {
+  .video2__titulo__container {
+    top: 21%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 400px) {
+  .video2__titulo__container {
+    top: 36%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 375px) {
+  .video2__titulo__container {
+    top: 34%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 350px) {
+  .video2__titulo__container {
+    top: 31%;
+    right: 78%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 400px) {
+  .textoOficialSelection__shortfilms {
+    font-size: 10px;
+  }
+  .shortfilms__premios__container div img {
+    width: 135px;
+    height: 135px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 400px) {
+  .shortfilms__video1__container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 90%;
+    background: url(../imagenes/dark-circles.png);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 1209px) {
+  #aboutUs__titulo__container {
+    width: 30%;
+    text-align: center;
+    margin-top: -20px;
+    margin-left: -1020px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 1300px) {
+  #aboutUs__titulo__container h2 {
+    padding-top: 5px;
+    padding-left: 150px;
+    letter-spacing: 8px;
+    font-size: 40px;
+    font-family: "Montserrat";
+    color: #850808;
+  }
+  #aboutUs__titulo__container {
+    width: 40%;
+    margin-top: -25px;
+    margin-left: -1065px;
+  }
+  #aboutUs__texto__container {
+    width: 33%;
+    text-align: center;
+    margin-top: 100px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 1200px) {
+  #aboutUs__titulo__container {
+    margin-left: -61rem;
+  }
+}
+@media (max-width: 1209px) and (max-width: 1100px) {
+  #aboutUs__texto__container {
+    width: 40%;
+  }
+  #aboutUs__titulo__container {
+    margin-left: -55rem;
+    width: 50%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 1024px) {
+  #aboutUs__titulo__container {
+    margin-left: -50rem;
+  }
+}
+@media (max-width: 1209px) and (max-width: 1000px) {
+  #aboutUs__titulo__container {
+    margin-left: -48rem;
+  }
+}
+@media (max-width: 1209px) and (max-width: 600px) {
+  #aboutUs__titulo__container h2 {
+    font-size: 35px;
+    margin-left: -40px;
+    margin-top: 15px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 500px) {
+  #aboutUs__titulo__container h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 900px) {
+  #aboutUs__titulo__container {
+    margin-left: -42rem;
+    width: 60%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 800px) {
+  #aboutUs__titulo__container {
+    margin-left: -35rem;
+    width: 70%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 700px) {
+  #aboutUs__titulo__container {
+    margin-left: -30rem;
+    width: 80%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 600px) {
+  #aboutUs__titulo__container {
+    margin-left: -23rem;
+    width: 80%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 400px) {
+  #aboutUs__titulo__container {
+    margin-left: 0rem;
+    width: 100%;
+  }
+  #aboutUs__titulo__container h2 {
+    margin-left: -140px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 950px) {
+  #aboutUs__texto__container {
+    width: 45%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 850px) {
+  #aboutUs__texto__container {
+    width: 50%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 750px) {
+  #aboutUs__texto__container {
+    width: 60%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 650px) {
+  #aboutUs__texto__container {
+    width: 70%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 550px) {
+  #aboutUs__texto__container {
+    width: 80%;
+  }
+}
+@media (max-width: 1209px) and (max-width: 400px) {
+  #aboutUs__texto__container {
+    width: 90%;
+  }
+}
+@media (max-width: 1209px) {
+  .contacto__titulo {
+    padding-top: 10px;
+    margin-left: -260px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 600px) {
+  .contacto__titulo {
+    font-size: 35px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 500px) {
+  .contacto__titulo {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 400px) {
+  #contacto__titulo__container {
+    margin-left: 55px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 390px) {
+  #contacto__titulo__container {
+    margin-left: 55px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 380px) {
+  #contacto__titulo__container {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 370px) {
+  #contacto__titulo__container {
+    margin-left: 45px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 360px) {
+  #contacto__titulo__container {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 350px) {
+  #contacto__titulo__container {
+    margin-left: 35px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 340px) {
+  #contacto__titulo__container {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 330px) {
+  #contacto__titulo__container {
+    margin-left: 25px;
+  }
+}
+@media (max-width: 1209px) and (max-width: 320px) {
+  #contacto__titulo__container {
+    margin-left: 20px;
+  }
+}
+.noMargin {
+  margin: 0;
+}
+
+.altura__imagenesCarrousel__shortfilms {
+  height: 400px;
+  object-fit: cover;
+}
+
+.IndexexistoSoloParaMobile {
+  display: none;
+}
+
+.works__redesMobile__container {
+  display: none;
+}
+
+@media (max-width: 769px) {
+  /*.cuerpo{
+      display: grid; 
+      grid-auto-columns: 1fr; 
+      grid-auto-rows: 0.5fr; 
+      grid-template-columns: 1fr; 
+      grid-template-rows: 1fr; 
+      gap: 0px 0px; 
+      grid-template-areas: 
+          "index__logoMobile__container"
+          "index__mainMobile__container"
+          "index__redesMobile__container"
+          ; 
+  }*/
+  .index__mobileMain__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 2.1fr 0.4fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "index__logoMobile__container " "index__mainMobile__container " "index__redesMobile__container-derecha";
+  }
+  .index__logoMobile__container {
+    grid-area: index__logoMobile__container;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .index__mainMobile__container {
+    grid-area: index__mainMobile__container;
+  }
+  .index__redesMobile__container-derecha {
+    grid-area: index__redesMobile__container-derecha;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #navBar__index {
+    display: none;
+  }
+  .carrousel__index__desaparecerMobile {
+    display: none;
+  }
+  /*
+  .IndexexistoSoloParaMobile{
+      display:flex;
+      flex-direction: column;
+      color: white;
+  }
+  */
+  /*---------------------------------*/
+  /* #index__container__general img{
+      display:none;
+  }*/
+  /*-------------------------*/
+  /*.index__logoMobile__container{
+      grid-area: index__logoMobile__container;
+      width: 100%;
+      height:90px;
+      display:flex;
+      color: white;
+      justify-content:center;
+      align-items:center;
+  }
+  .index__mainMobile__container{
+      grid-area: index__mainMobile__container;
+      width: 100%;
+      height:90px;
+      display:flex;
+      flex-direction: column;
+      color: white;
+      justify-content:center;
+      align-items:center;
+  }
+  .index__redesMobile__container{
+      grid-area: index__redesMobile__container;
+      width: 100%;
+      height:90px;
+      display:flex;
+      flex-direction: column;
+      color: white;
+      justify-content:center;
+      align-items:center;
+  }*/
+  .index__menu__hr {
+    color: red;
+    height: 1px !important;
+  }
+  .index__logoMobile__container h1 {
+    font-family: "Montserrat";
+    font-size: "Montserrat";
+    color: white;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0.245em;
+    text-align: center;
+  }
+  .index__mainMobile__container {
+    grid-area: index__mainMobile__container;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .index__mainMobile__container div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .index__mainMobile__container div a {
+    text-decoration: none;
+  }
+  hr {
+    width: 80%;
+    color: white;
+  }
+  .index__mainMobile__container div a p {
+    font-family: "Montserrat";
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.245em;
+    margin-bottom: 2px;
+    margin-top: 2px;
+  }
+  .index__btnMobile__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    grid-area: index__btnMobile__container;
+  }
+  .logo__instagramIndex__mobile {
+    display: block;
+  }
+}
+.fondoNegro__body {
+  background-color: black;
+}
+
+@media (max-width: 400px) {
+  .logo__insatagram__navbar {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  #index__imagenCarrousel__container div h5 {
+    font-size: 2.8rem;
+  }
+  #index__imagenCarrousel__container div {
+    right: 29%;
+  }
+}
+@media (max-width: 401px) {
+  .works__redesMobile__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .works__redesMobile__container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-top: 0px;
+  }
+}
+.shortfilms__boton__galeria {
+  border: #DCDCDC solid 2px;
+  border-radius: 20px;
+  background-color: #1A1919;
+  width: 180px;
+  font-family: "Montserrat";
+}
+
+.shortfilms__boton__galeria:hover {
+  border: #DCDCDC solid 2px;
+  border-radius: 20px;
+  background-color: black;
+  width: 180px;
+  color: white;
+  transition: 1s;
+}
+
+.shortfilms__tituloCortometraje {
+  font-family: "Montserrat";
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0.245em;
+  text-align: left;
+  color: #DCDCDC;
+}
+
+.shortfilms__tituloCortometraje strong {
+  margin-left: 25px;
+}
+
+.index__artista__titulo {
+  font-family: "Montserrat";
+  font-size: 2.7rem;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0.245em;
+  text-align: center;
+  color: #DCDCDC;
+  margin-bottom: 40px;
+}
+
+.index__cancion__titulo {
+  font-family: "Montserrat";
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.245em;
+  text-align: center;
+  color: #DCDCDC;
+}
+
+/*Titulo de los cortometrajes*/
+@media (max-width: 1501px) {
+  .shortfilms__tituloCortometraje {
+    font-size: 28px;
+  }
+}
+@media (max-width: 1401px) {
+  .shortfilms__tituloCortometraje {
+    font-size: 25px;
+  }
+}
+@media (max-width: 1201px) {
+  .shortfilms__tituloCortometraje {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 993px) {
+  .shortfilms__tituloCortometraje {
+    margin-left: 25px;
+  }
+}
+@media (max-width: 769px) {
+  .shortfilms__tituloCortometraje {
+    margin-left: 35px;
+    font-size: 28px;
+  }
+}
+@media (max-width: 700px) {
+  .shortfilms__tituloCortometraje {
+    font-size: 26px;
+  }
+}
+.shortfilms__premios__container__IpadVert {
+  display: none;
+}
+
+@media (max-width: 769px) {
+  .shortfilms__premios__container__IpadVert {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media (max-width: 501px) {
+  .shortfilms__premios__container__IpadVert {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=sytles.css.map */

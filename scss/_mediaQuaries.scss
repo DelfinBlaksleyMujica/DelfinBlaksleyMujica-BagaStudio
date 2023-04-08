@@ -1,0 +1,1406 @@
+//GENERALES 
+
+@media (max-width:400px) {
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+        flex-direction: column;
+    }
+}
+
+//INDEX  
+
+/*Captions de las imagenes del carrousel*/
+
+@media (max-width:1401px) {    
+    #index__imagenCarrousel__container div{
+        right: 34%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__2{
+        right: 38%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__3{
+        right: 35.5%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__4{
+        right: 34%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__5{
+        right: 38%;
+    }    
+}
+
+@media (max-width:1301px) {    
+    #index__imagenCarrousel__container div{
+        right: 33%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__3{
+        right: 34.5%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__4{
+        right: 33%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__5{
+        right: 36.5%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__6{
+        right: 32%;
+    }
+    
+}
+
+@media (max-width:1201px) {    
+    #index__imagenCarrousel__container div{
+        right: 31.5%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__2{
+        right: 37%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__3{
+        right: 33.5%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__4{
+        right: 31.5%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__5{
+        right: 35.5%;
+    }  
+
+    #index__imagenCarrousel__container .index__caption__6{
+        right: 29%;
+    }      
+}
+
+@media (max-width:1101px) {    
+    #index__imagenCarrousel__container div{
+        right: 29.5%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__2{
+        right: 35.5%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__3{
+        right: 32%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__4{
+        right: 29.5%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__5{
+        right: 34.5%;
+    }  
+
+    #index__imagenCarrousel__container .index__caption__6{
+        right: 27%;
+    }      
+}
+
+@media (max-width:1001px) {    
+    #index__imagenCarrousel__container div{
+        right: 28%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__2{
+        right: 34%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__3{
+        right: 30%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__4{
+        right: 28%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__5{
+        right: 33%;
+    }  
+
+    #index__imagenCarrousel__container .index__caption__6{
+        right: 24.5%;
+    }      
+}
+
+@media (max-width:901px) {    
+    #index__imagenCarrousel__container div{
+        right: 30%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__2{
+        right: 32%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__4{
+        right: 30%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__5{
+        right: 33%;
+    }  
+
+    #index__imagenCarrousel__container .index__caption__6{
+        right: 24.5%;
+    }      
+}
+
+@media (max-width:801px) {    
+    #index__imagenCarrousel__container div{
+        right: 29%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__2{
+        right: 30%;
+    }
+
+    #index__imagenCarrousel__container .index__caption__3{
+        right: 28%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__4{
+        right: 29%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__5{
+        right: 33%;
+    }  
+
+    #index__imagenCarrousel__container .index__caption__6{
+        right: 25.5%;
+    }      
+}
+
+@media (max-width:769px) {    
+    #index__imagenCarrousel__container div{
+        right: 30%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__2{
+        right: 29%;
+    }
+
+    #index__imagenCarrousel__container .index__caption__3{
+        right: 27%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__4{
+        right: 28%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__5{
+        right: 32%;
+    }  
+
+    #index__imagenCarrousel__container .index__caption__6{
+        right: 24.5%;
+    }      
+}
+
+@media (max-width:701px) {    
+    #index__imagenCarrousel__container div{
+        right: 29%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__2{
+        right: 28%;
+    }
+
+    #index__imagenCarrousel__container .index__caption__3{
+        right: 25%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__4{
+        right: 27%;
+    }
+    #index__imagenCarrousel__container .index__caption__5{
+        right: 31%;
+    }  
+
+    #index__imagenCarrousel__container .index__caption__6{
+        right: 23.5%;
+    }      
+}
+
+@media (max-width:601px) {    
+    #index__imagenCarrousel__container div{
+        right: 26%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__2{
+        right: 26%;
+    }
+
+    #index__imagenCarrousel__container .index__caption__3{
+        right: 23%;
+    }
+    
+    #index__imagenCarrousel__container .index__caption__4{
+        right: 25%;
+    }
+    #index__imagenCarrousel__container .index__caption__5{
+        right: 29%;
+    }  
+
+    #index__imagenCarrousel__container .index__caption__6{
+        right: 21.5%;
+    }      
+}
+
+/*margenes de las flechas del carrousel*/
+
+@media (max-width:1400px) {
+    #index__flechaIzquierda__carrousel{
+        margin-left: -100px;
+    }
+    
+}
+
+@media (max-width:1200px) {
+    #index__flechaIzquierda__carrousel{
+        margin-left: -70px;
+    }
+}
+
+@media (max-width:1024px) {
+    #index__flechaIzquierda__carrousel{
+        margin-left: -50px;
+    }
+}
+
+@media (max-width:768px) {
+    #index__flechaIzquierda__carrousel{
+        margin-left: -40px;
+    }
+}
+
+@media (max-width:1400px) {
+    #index__flechaDerecha__carrousel{
+        margin-right: -100px;
+    }
+    
+}
+
+@media (max-width:1200px) {
+    #index__flechaDerecha__carrousel{
+        margin-right: -70px;
+    }
+}
+
+@media (max-width:1024px) {
+    #index__flechaDerecha__carrousel{
+        margin-right: -50px;
+    }
+}
+
+@media (max-width:768px) {
+    #index__flechaDerecha__carrousel{
+        margin-right: -40px;
+    }
+}
+
+/*carrousel caption general posicion*/ 
+
+@media (max-width:1200px) {
+    .carousel-caption {
+    right: 10%;
+    left: 40%
+}
+}
+
+/*titulo de las imagenes*/
+
+@media (max-width:1200px) {
+    .h5,
+    h5 {
+        font-size: 2.5rem;
+    }
+    
+}
+
+@media (max-width:1024px) {
+    .h5,
+    h5 {
+        font-size: 2.2rem;
+    }
+    
+}
+
+/*caption de camila bunch para centarlo sobre el titulo*/ 
+
+@media (max-width:1400px) {
+    #carrouselItem__1 p{
+        width:140%;
+    }
+}
+
+/*carrousel caption tamaños*/
+
+@media (max-width:1200px) {
+    .carousel-caption {
+        font-size: 35px;
+    }
+}
+
+@media (max-width:1024px) {
+    .carousel-caption {
+        font-size: 30px;
+    }
+}
+
+/*Video pop up de imagen*/ 
+
+@media (max-width:1300px) {
+    .video__index__container video{
+        margin-top: -25px;
+        
+    }
+}
+
+//WORKS 
+
+@media (max-width:769px) {
+    .works__container {  
+    position:relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.05fr 0.05fr 3fr 0.1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "navBar"
+        "works__nombresDeArtistas__container"
+        "works__imagenes__container"
+        "works__footer";
+}
+}
+
+@media (max-width:401px) {
+    .works__container {  
+    position:relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.05fr 0.15fr 3fr 0.1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "navBar"
+        "works__nombresDeArtistas__container"
+        "works__imagenes__container"
+        "works__footer";
+}
+}
+
+@media (max-width:1200px) {
+    .works__container {  
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 769px) {
+    .works__nombresDeArtistas__container div{
+        margin-top: 60px;
+    }
+}
+
+/*tamaño cards*/
+
+@media (max-width:1200px) {
+    .card__container{
+        width: 50%;
+        height:250px;
+    }
+}
+
+
+@media (max-width:1000px) {
+    .card__container{
+        width:50%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width:769px) {
+    .card__container{
+        width:100%;
+        display: flex;
+        justify-content: center;
+    }
+    .card__container .imagen__container img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+}
+
+/*titulo*/
+
+@media (max-width:1551px) {
+    .works__nombresDeArtistas__container div h2{
+        margin-left: -395px;
+    }
+}
+
+@media (max-width:1501px) {
+    .works__nombresDeArtistas__container div h2{
+        margin-left: -375px;
+    }
+}
+
+@media (max-width:1451px) {
+    .works__nombresDeArtistas__container div h2{
+        margin-left: -360px;
+    }
+}
+
+@media (max-width:1400px) {
+    .works__nombresDeArtistas__container div h2{
+        margin-left: -345px;
+    }
+}
+
+@media (max-width:1351px) {
+    .works__nombresDeArtistas__container div h2{
+        margin-left: -330px;
+    }
+}
+
+
+@media (max-width:1301px) {
+    .works__nombresDeArtistas__container div h2{
+        margin-left: -315px;
+    }
+}
+
+@media (max-width:1251px) {
+    .works__nombresDeArtistas__container div h2{
+        margin-left: -300px;
+    }
+}
+
+@media (max-width:1200px) {
+    .works__nombresDeArtistas__container div h2{
+        margin-left: -285px;
+    }
+}
+
+@media (max-width:1151px) {
+    .works__nombresDeArtistas__container div h2{
+        margin-left: -270px;
+    }
+}
+
+
+@media (max-width:1101px) {
+    .works__nombresDeArtistas__container div h2{
+        margin-left: -255px;
+    }
+}
+
+
+@media (max-width:1025px) {
+    .works__nombresDeArtistas__container div h2 {
+        margin-left: -230px;
+        font-size: 35px;
+    }
+}
+
+@media (max-width:1001px) {
+    .works__nombresDeArtistas__container div h2 {
+        margin-left: -220px;
+    }
+}
+
+@media (max-width:993px) {
+    .works__nombresDeArtistas__container div h2 {
+        margin-left: -215px;
+    }
+}
+
+@media (max-width:951px) {
+    .works__nombresDeArtistas__container div h2 {
+        margin-left: -205px;
+    }
+}
+
+@media (max-width:901px) {
+    .works__nombresDeArtistas__container div h2 {
+            margin-left: -195px;
+            font-size: 30px;
+        }
+}
+
+@media (max-width:851px) {
+    .works__nombresDeArtistas__container div h2 {
+        margin-left: -180px;
+    }
+}
+
+@media (max-width:801px) {
+    .works__nombresDeArtistas__container div h2 {
+        margin-left: -165px;
+    }
+}
+
+
+@media (max-width:769px) {
+    .works__nombresDeArtistas__container div h2 {
+        margin-left: -155px;
+    }
+}
+
+@media (max-width:701px) {
+    .works__nombresDeArtistas__container div h2 {
+        margin-left: -135px;
+    }
+}
+
+@media (max-width:651px) {
+    .works__nombresDeArtistas__container div h2 {
+        margin-left: -120px;
+    }
+}
+
+@media (max-width:601px) {
+    .works__nombresDeArtistas__container div h2 {
+        font-size: $tFuenteTitulosDeSeccionTablet;
+        margin-left: -105px;
+    }
+}
+
+@media (max-width:551px) {
+    .works__nombresDeArtistas__container div h2 {
+        margin-left: -90px;
+    }
+}
+
+
+@media (max-width:501px) {
+    .works__nombresDeArtistas__container div h2 {
+        font-size: $tFuenteTitulosDeSeccionMobile;
+        margin-left: -95px;
+    }
+}
+
+
+@media (max-width:401px) {
+    .works__nombresDeArtistas__container div h2 {
+        margin-left: -55px;
+    }
+}
+
+@media (max-width:341px) {
+    .works__nombresDeArtistas__container div h2 {
+        margin-left: -65px;
+    }
+}
+
+/*posicion titulo de cards*/ 
+
+@media (max-width:1400px) {
+    .card__info{
+        top:45%;right:10%;
+        width: 80%;
+    }
+}
+
+@media (max-width:1200px) {
+    .card__info{
+        top:45%;
+        right:0%;
+        width: 100%;
+    }
+}
+
+@media (max-width:600px) {
+    .card__info h3{
+        font-size: $tFuenteInfoCardsClipsTablet;
+    }
+}
+
+@media (max-width:500px) {
+    .card__info h3{
+        font-size: $tFuenteInfoCardsClipsMobile;
+    }
+}
+
+@media (max-width:401px) {
+    .card__info h3{
+        font-size: 15px;
+    }
+}
+
+//CORTOMETRAJES
+
+/*Titulo de Seccion*/
+
+@media (max-width:1451px) {
+    .shortfilms__tituloCortometraje strong{
+        margin-left: 25px;
+    }
+}
+
+@media (max-width:401px) {
+    .shortfilms__title__container {
+        margin-left: 65px;
+    }
+}
+
+@media (max-width:378px) {
+    .shortfilms__title__container {
+        margin-left: 56px;
+    }
+}
+
+@media (max-width:361px) {
+    .shortfilms__title__container {
+        margin-left: 48px;
+    }
+}
+
+@media (max-width:341px) {
+    .shortfilms__title__container {
+        margin-left: 37px;
+    }
+}
+
+@media (max-width:336px) {
+    .shortfilms__title__container {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:329px) {
+    .shortfilms__title__container {
+        margin-left: 26px;
+    }
+}
+
+@media (max-width:1501px) {
+    .video2__titulo__container{
+        right:84%;
+    }
+    .video1__titulo__container {
+        right: 74%;
+    }      
+}
+
+@media (max-width:1451px) {
+    .shortfilms__premios__container div img {
+        width: 290px;
+        height: 290px;
+    }
+}
+
+@media (max-width:1401px) {
+    .shortfilms__premios__container div img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width:1201px) {
+    .shortfilms__premios__container div img {
+        width: 230px;
+        height: 230px;
+    }
+    .video1__sinopsis__container p{
+        font-size: 19px;
+    }
+    .video2__sinopsis__container p{
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 501px) {
+    .video1__sinopsis__container p{
+        font-size: 17px;
+    }
+    .video2__sinopsis__container p{
+        font-size: 17px;
+    }
+}
+
+@media (max-width:901px) {
+    .shortfilms__premios__container div img {
+        width: 210px;
+        height: 210px;
+    }
+}
+
+@media (max-width:769px) {
+    .shortfilms__premios__container div img {
+        display: none;
+    }
+}
+
+@media (max-width:1501px) {
+    .shortfilms__container {  
+        grid-template-rows: 0.22fr 0.22fr 2.5fr;
+    }
+}
+
+@media (max-width:700px) {
+    .shortfilms__container {  
+        grid-template-rows: 0.25fr 0.25fr 3fr;
+    }
+}
+
+@media (max-width:501px) {
+    .shortfilms__container {  
+        grid-template-rows: 0.19fr 0.26fr 3fr;
+    }
+}
+
+@media (max-width:451px) {
+    .shortfilms__container {  
+        grid-template-rows: 0.22fr 0.25fr 3fr;
+    }
+}
+
+@media (max-width:401px) {
+    .shortfilms__container {  
+        grid-template-rows: 0.27fr 0.25fr 3fr;
+    }
+}
+
+@media (max-width:1400px) {
+    .shortfilms__titulo{
+        font-size: 40px;
+        color: #850808; 
+        letter-spacing: 8px;
+        padding-top: 4px;
+    }
+}
+
+@media (max-width:700px) {
+    .shortfilms__titulo{
+        font-size: 38px;
+        color: #850808; 
+        letter-spacing: 8px;
+        padding-top: 4px;
+    }
+}
+
+@media (max-width:600px) {
+    .shortfilms__titulo{
+        font-size: $tFuenteTitulosDeSeccionTablet;
+    }
+}
+
+@media (max-width:600px) {
+    .video1__titulo__container h5 strong {
+    font-size: 2rem;
+}
+.video2__titulo__container h5 strong {
+    font-size: 2rem;
+}
+}
+
+@media (max-width:480px) {
+    .video1__titulo__container h5 strong {
+    font-size: 1.5rem;
+}
+.video2__titulo__container h5 strong {
+    font-size: 1.5rem;
+}
+}
+
+@media (max-width:500px) {
+    .shortfilms__titulo{
+        font-size: $tFuenteTitulosDeSeccionMobile;
+    }
+    .shortfilms__videos__container{
+        margin-top: -13px;
+    }
+}
+
+/*titulo de lo cortometrjes*/ 
+
+@media(max-width:1424px)  {
+    .video2__titulo__container {
+        top: 50%;
+    }
+    .video1__titulo__container {
+    right: 71%;
+    top: 55%;
+}
+}
+
+@media (max-width:1400px) {    
+    #carrouselItem__2 .imagenesCortosh5{
+        top:48%;left:10%;
+    }
+    .video2__titulo__container {
+        top: 48%;
+        right: 81%;
+    }
+    
+    #carrouselItem__2 .textoCortos {
+        position:absolute;
+        bottom:0%;left:20%;
+        width:60%;
+        text-align: center;
+    }
+}
+
+/*Imagenes principales de los cortos*/
+
+@media (max-width:1000px) {
+    .imagenesCortos{
+        width: 100%;
+        height:100%;
+    }
+}
+
+/*Logo de premios*/
+@media (max-width: 769px) {
+    .shortfilms__premios__imagenes{
+    width:250px;
+    height:250px;
+    }
+}
+
+@media (max-width: 531px) {
+    .shortfilms__premios__imagenes{
+    width:235px;
+    height:235px;
+    }
+}
+
+@media (max-width: 501px) {
+    .shortfilms__premios__imagenes{
+        width:280px;
+        height:280px;
+        }
+}
+
+/*acomodado de las sinopsis de los cortos*/ 
+
+@media (max-width:1400px) {
+    #carrouselItem__1 div p{
+    top: 70%;
+    margin-left: -70px;
+}
+}
+
+//Titulo de cortomtraje regresion
+@media (max-width: 1209px){
+    .video1__titulo__container {
+        top: 47%;
+    }
+
+@media (max-width:1100px) {
+    .video1__titulo__container {
+        right: 78%;
+    }
+    .video2__titulo__container {
+        right: 86%;
+    }
+}
+
+@media (max-width:1000px) {
+    .video1__titulo__container {
+        right: 75%;
+    }
+    .video2__titulo__container {
+        right: 85.5%;
+        top: 43%;
+    }
+}
+
+@media (max-width:900px) {
+    .video1__titulo__container {
+        right: 73%;
+    }
+    .video2__titulo__container {
+        right: 84%;
+        top: 41%;
+    }
+}
+
+@media (max-width:850px) {
+    .video1__titulo__container {
+        right: 70%;
+    }
+    .video2__titulo__container {
+        right: 81%;
+    }
+}
+
+@media (max-width:800px) {
+    .video1__titulo__container {
+        right: 68%;
+    }
+    .video2__titulo__container {
+        right: 82%;
+        top: 38%;
+    }
+}
+
+@media (max-width:771px) {
+    
+    .video2__titulo__container {
+        right: 81%;
+        top: 36%;
+    }
+}
+
+@media (max-width:768px) {
+    .shortfilms__premios__container {
+        display: none;
+    }
+}
+
+@media (max-width:700px) {
+    
+    .video2__titulo__container {
+        right: 76%;
+        top: 33%;
+    }
+}
+
+@media (max-width:600px) {
+    
+    .video2__titulo__container {
+        right: 76%;
+        top: 32%;
+    }
+}
+
+@media (max-width:580px) {
+    
+    .video2__titulo__container {
+        right: 82%;
+        top: 30%;
+    }
+}
+
+@media (max-width:550px) {
+    
+    .video2__titulo__container {
+        right: 80%;
+        top: 27%;
+    }
+}
+
+@media (max-width:480px) {
+    
+    .video2__titulo__container {
+        right: 81%;
+        top: 25%;
+    }
+}
+
+
+@media (max-width:593px) {
+    .video1__titulo__container {
+    position: absolute;
+    top: 47%;
+    right: 68%;
+}
+}
+
+@media (max-width:550px) {
+    .video1__titulo__container {
+    position: absolute;
+    top: 45%;
+    right: 65%;
+}
+}
+
+@media (max-width:550px) {
+    .video1__titulo__container {
+        position: absolute;
+        top: 42%;
+        right: 62%;
+}
+}
+
+
+@media (max-width:480px) {
+    .video1__titulo__container {
+        position: absolute;
+        top: 40%;
+        right: 67%;
+}
+}
+
+@media (max-width:450px) {
+    .video1__titulo__container {
+    position: absolute;
+    top: 37%;
+    right: 64%;
+}
+}
+
+@media (max-width:400px) {
+    .video1__titulo__container {
+    position: absolute;
+    top: 35%;
+}
+}
+
+@media (max-width:375px) {
+    .video1__titulo__container {
+    position: absolute;
+    top: 34%;
+}
+}
+
+@media (max-width:360px) {
+    .video1__titulo__container {
+    right: 60%;;
+}
+}
+
+@media (max-width:350px) {
+    .video1__titulo__container {
+    position: absolute;
+    top: 33%;
+}
+}
+
+@media (max-width:330px) {
+    .video1__titulo__container {
+    right:55%;
+    top: 31%;
+}
+}
+
+
+@media (max-width: 400px){
+    .shortfilms__premios__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    top: 8%;
+    left: 2%;
+    width: 100%;
+    flex-direction: column;
+}
+}
+
+
+@media (max-width: 400px){
+    .shortfilms__premios__container {
+    top:10%;
+}
+}
+
+
+@media (max-width:750px) {
+    .shortfilms__premios__container div img {
+        width: 180px;
+        height: 170px;
+    }
+    .textoOficialSelection__shortfilms {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:680px) {
+    .shortfilms__premios__container div img {
+        width: 170px;
+        height: 160px;
+    }
+    .textoOficialSelection__shortfilms {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:640px) {
+    .shortfilms__premios__container div img {
+        width: 160px;
+        height: 150px;
+    }
+    .textoOficialSelection__shortfilms {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:600px) {
+    .textoOficialSelection__shortfilms{
+        font-size:15px;
+        margin-top: 15px;
+    margin-right: 20px;
+    }
+    .shortfilms__premios__container div{
+        margin-bottom: -20px;
+    }
+}
+
+@media (max-width:550px) {
+    .shortfilms__premios__container div{
+        margin-bottom: -30px;
+    }
+}
+
+@media (max-width:500px) {
+    .shortfilms__premios__container div{
+        margin-bottom: -35px;
+    }
+}
+
+@media (max-width:480px) {
+    .shortfilms__premios__container div{
+        margin-bottom: -45px;
+    }
+}
+
+@media (max-width:400px) {
+    .shortfilms__premios__container div{
+        margin-bottom: -10px;
+    }
+}
+
+@media (max-width: 450px){
+    .video2__titulo__container {
+    position: absolute;
+    top: 23%;
+    right: 80%;
+}
+.textoOficialSelection__shortfilms{
+        font-size:11px;
+    }
+    .shortfilms__premios__container div img {
+        width: 150px;
+        height: 140px;
+    }
+}
+
+@media (max-width: 420px){
+    .video2__titulo__container {
+    top: 21%;
+}
+}
+
+@media (max-width: 400px){
+    .video2__titulo__container {
+    top: 36%;
+}
+}
+
+@media (max-width: 375px){
+    .video2__titulo__container {
+    top: 34%;
+}
+}
+
+@media (max-width: 350px){
+    .video2__titulo__container {
+    top: 31%;
+    right:78%;
+}
+}
+
+
+@media (max-width: 400px){
+        .textoOficialSelection__shortfilms{
+        font-size:10px;
+    }
+    .shortfilms__premios__container div img {
+        width: 135px;
+        height: 135px;
+    }
+}
+
+@media (max-width:400px) {
+    .shortfilms__video1__container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 90%;
+        background: url(../imagenes/dark-circles.png);
+        border-radius: 10px;
+        margin-bottom: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+//ABOUT US 
+
+@media (max-width:1300px) {
+    #aboutUs__titulo__container h2 {
+        padding-top: 5px;
+        padding-left: 150px;
+        font-size: 35px;
+    }
+    #aboutUs__texto__container {
+        width: 33%;
+        text-align: center;
+        margin-top: 100px;
+    }
+}
+
+
+@media (max-width:1100px) {
+    #aboutUs__texto__container {
+    width: 40%;
+}
+}
+
+@media (max-width:901px) {
+    #aboutUs__titulo__container h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:600px) {
+        #aboutUs__titulo__container h2 {
+            font-size: 35px;
+            margin-left: 10px;
+            margin-top: -5px;
+        }
+}
+
+@media (max-width:501px) {
+    #aboutUs__titulo__container h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:500px) {
+    #aboutUs__titulo__container h2 {
+        font-size: $tFuenteTitulosDeSeccionMobile;
+    }
+}
+
+
+@media (max-width:400px) {
+    #aboutUs__titulo__container h2{
+        margin-left: -140px;
+    }
+
+}
+
+
+
+
+@media (max-width:950px) {
+    #aboutUs__texto__container {
+        width: 45%;
+    }
+}
+
+@media (max-width:850px) {
+    #aboutUs__texto__container {
+        width: 50%;
+    }
+}
+
+@media (max-width:750px) {
+    #aboutUs__texto__container {
+        width: 60%;
+    }
+}
+
+@media (max-width:650px) {
+    #aboutUs__texto__container {
+        width: 70%;
+    }
+}
+
+@media (max-width:550px) {
+    #aboutUs__texto__container {
+        width: 80%;
+    }
+}
+
+@media (max-width:400px) {
+    #aboutUs__texto__container {
+        width: 90%;
+    }
+}
+
+
+
+//CONTACT 
+
+@media (max-width:600px) {
+    .contacto__titulo{
+        font-size:$tFuenteTitulosDeSeccionTablet
+    }
+}
+
+@media (max-width:500px) {
+    .contacto__titulo{
+        font-size:$tFuenteTitulosDeSeccionMobile;
+    }
+}
+
+@media (max-width:401px) {
+    #contacto__titulo__container{
+        margin-left: 16px;
+        margin-top: 25px;
+    }
+}
+}
+
+@media (max-width:391px) {
+    #contacto__titulo__container{
+        margin-left: 10px;
+
+    }
+}
+
+@media (max-width:381px) {
+    #contacto__titulo__container{
+        margin-left: 6px;
+    }
+}
+
+@media (max-width:371px) {
+    #contacto__titulo__container{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:361px) {
+    #contacto__titulo__container{
+        margin-left: -4px;
+    }
+}
+
+@media (max-width:351px) {
+    #contacto__titulo__container{
+        margin-left: -10px;
+    }
+}
+
+
+@media (max-width:341px) {
+    #contacto__titulo__container{
+        margin-left: -15px;
+    }
+}
+
+@media (max-width:331px) {
+    #contacto__titulo__container{
+        margin-left: -21px;
+    }
+}
+
+
+@media (max-width:321px) {
+    #contacto__titulo__container{
+        margin-left: -20px;
+    }
+}

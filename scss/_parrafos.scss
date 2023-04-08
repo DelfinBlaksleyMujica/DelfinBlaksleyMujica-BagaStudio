@@ -1,0 +1,96 @@
+//GENERALES
+
+a p{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat"
+}
+
+//INDEX
+
+.carousel-caption {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 40px;
+}
+
+#index__imagenCarrousel__container div p{
+    font-family: $tipografiaInfoCards;
+    color:$colorTipografiaInfoCards;
+    font-size: $tFuenteInfoCardsIndex;
+}
+
+//WORKS 
+
+.card__info h3{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.245em;
+    text-align: center;
+    color: #DCDCDC;
+}
+
+.card__info h4{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.245em;
+    text-align: center;
+    color: #DCDCDC;
+}
+
+.card__info p{
+    font-family: $tipografiaInfoCards;
+    color: $colorTipografiaInfoCards;
+    cursor:pointer;
+    font-size:$tFuenteInfoCardsClips;
+}
+
+.works__footer{
+    font-family: "Montserrat";
+}
+
+//CORTOS 
+
+.textoOficialSelection__shortfilms{
+    font-family:"Montserrat";
+    color: white;
+    font-size:20px;
+}
+
+//ABOUT US 
+
+#aboutUs__texto__container p{
+    font-family: $tipografiaDeTextos;
+    font-size: $tFuenteTextos;
+    color: $colorTipografiaDeTextos;
+}
+
+//CONTACTO 
+
+.contenedorinfo {
+    line-height: 1.2;
+}
+
+.contenedorinfo--itemC {
+    color: $colorTipografiaDeTextos;
+    font-size: $tFuenteTextos;
+    font-family: $tipografiaDeTextos;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+

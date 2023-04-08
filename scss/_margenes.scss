@@ -1,0 +1,100 @@
+//GENERALES
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*Cruz del menu desplegable*/
+
+.offcanvas-header .btn-close {
+    padding: 0.5rem 0.5rem;
+    margin-top: 0rem;
+    margin-right: -0.5rem;
+    margin-bottom: -0.5rem;
+}
+
+@media (max-width:401px) {
+    .offcanvas-header .btn-close {
+        margin-right: -1.5rem;
+    }
+}
+
+#anchor__bagaStudio__logo{
+    margin-left: 30px;
+}
+
+.navbar-nav {
+    margin-top: 10px;
+}
+
+@media (max-width:401px) {
+    .navbar-nav {
+        margin-top: 0px;
+    }
+}
+
+.row1>* {
+    flex-shrink: 0;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+
+.roww>* {
+    flex-shrink: 0;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+
+//INDEX
+
+#index__flechaIzquierda__carrousel{
+    margin-left: -250px;
+}
+
+#index__flechaDerecha__carrousel{
+    margin-right: -210px;
+}
+
+//WORKS 
+
+.works__nombresDeArtistas__container div h2{
+    margin-top:-15px;
+    margin-left: -415px;
+}
+
+.works__footer{
+    margin-top: 20px;
+}
+
+//CORTOS 
+
+.shortfilms__title__container{
+    margin-top: 0px;
+    margin-left: 80px;
+}
+
+//ABOUT US
+
+
+.aboutUs__tituloYtexto__container {
+    margin-top: 150px;
+    margin-left: 250px;
+    margin-right: 280px;
+}
+
+//CONTACTO 
+
+.contacto {
+    margin-top: 3px;
+}
+
+.contenedorinfo {
+    padding-left: 330px;
+    margin-top: 15px;
+}

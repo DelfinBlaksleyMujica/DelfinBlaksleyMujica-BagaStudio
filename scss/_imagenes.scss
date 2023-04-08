@@ -1,0 +1,103 @@
+//GENERALES
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../imagenes/Hamburgesa.png)
+}
+
+.btn-close {
+    background: url(../imagenes/X.png);
+    background-size: cover;
+    height: 5px;
+    width: 5px;
+    position:absolute;
+    top: 20px;right:200px;
+}
+
+//INDEX
+
+//WORKS 
+
+.imagen__container{
+    width:100%;
+    height:100%;
+}
+
+.card__container .imagen__container img{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+//CORTOS 
+
+.image-view {
+    position:fixed;
+    top:0;
+    height:100vh;
+    background:rgba(0, 0, 0, 0.8);
+    width: 100%;
+    display:none;
+    
+}
+
+.image-box{
+    width:100vw;
+    height:80vh;
+    position:fixed;
+    top:57%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    /*background: tomato;*/
+    display:none;
+}
+
+@media (max-width:501px) {
+    .image-box{
+        top:59%;
+    }
+}
+
+#prev-btn, #next-btn{
+        width:0;
+        height:0;
+        border-top:20px solid transparent;
+        border-bottom:20px solid transparent;
+        position:absolute;
+        top:50%;
+        transform: translateY(-50%);
+        transition:all 0.5s ease;
+        cursor:pointer;
+}
+
+#prev-btn{
+    border-right:40px solid grey;
+    left:-50px;
+}
+
+#next-btn{
+    border-left:40px solid grey;
+    right:-50px;
+}
+
+#next-btn:hover, #prev-btn:hover{
+    opacity:0.6;
+}
+
+.imagenesCortos{
+    width:100%;
+    height:60vh;
+    object-fit: cover;
+    transition: .5s ease all;
+}
+
+.shortfilms__premios__imagenes{
+    width:280px;
+    height:280px;
+}
+
+.shortfilms__carousel__image{
+    width:100%;
+    height:500px;
+    z-index: 100;
+}
