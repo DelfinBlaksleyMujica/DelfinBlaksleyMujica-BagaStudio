@@ -561,7 +561,27 @@
 
 @media (max-width: 401px) {
   .offcanvas-header .btn-close {
-    margin-right: -1.5rem;
+    margin-right: -2.5rem;
+  }
+}
+@media (max-width: 381px) {
+  .offcanvas-header .btn-close {
+    margin-right: -3rem;
+  }
+}
+@media (max-width: 361px) {
+  .offcanvas-header .btn-close {
+    margin-right: -3.5rem;
+  }
+}
+@media (max-width: 341px) {
+  .offcanvas-header .btn-close {
+    margin-right: -4rem;
+  }
+}
+@media (max-width: 321px) {
+  .offcanvas-header .btn-close {
+    margin-right: -4.5rem;
   }
 }
 #anchor__bagaStudio__logo {
@@ -1321,6 +1341,11 @@ a p {
 @media (max-width: 769px) {
   .works__nombresDeArtistas__container div {
     margin-top: 60px;
+  }
+}
+@media (max-width: 401px) {
+  .works__nombresDeArtistas__container div {
+    margin-top: 100px;
   }
 }
 /*tamaño cards*/
@@ -2142,6 +2167,11 @@ a p {
     margin-left: -20px;
   }
 }
+@media (max-width: 501px) {
+  #contactUs__information__container {
+    margin-top: 55px;
+  }
+}
 .altura__imagenesCarrousel__shortfilms {
   height: 550px;
   object-fit: cover;
@@ -2514,27 +2544,27 @@ a p {
 }
 @media (max-width: 401px) {
   #btnCloseMenuMobile {
-    margin-right: 9.5rem;
+    margin-right: 8.5rem;
   }
 }
 @media (max-width: 386px) {
   #btnCloseMenuMobile {
-    margin-right: 8.5rem;
+    margin-right: 7.5rem;
   }
 }
 @media (max-width: 371px) {
   #btnCloseMenuMobile {
-    margin-right: 7.5rem;
+    margin-right: 6.5rem;
   }
 }
 @media (max-width: 351px) {
   #btnCloseMenuMobile {
-    margin-right: 6.5rem;
+    margin-right: 5.5rem;
   }
 }
 @media (max-width: 336px) {
   #btnCloseMenuMobile {
-    margin-right: 5.5rem;
+    margin-right: 4.5rem;
   }
 }
 @media (max-width: 401px) {
