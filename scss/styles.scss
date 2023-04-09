@@ -11,10 +11,6 @@
 @import "mediaQuaries";
 
 
-//Para achicar ele spacio que ocupaba el grid ya desaparecido cuando se abre el video 100%
-.noMargin {
-    margin:0;
-}
 
 
 .altura__imagenesCarrousel__shortfilms{
@@ -311,51 +307,43 @@
 
 @media (max-width:401px) {
     .shortfilms__tituloCortometraje strong {
-        margin-left: -55px;
+        margin-left: 92px;
     }
 }
 
 @media (max-width:381px) {
     .shortfilms__tituloCortometraje strong {
-        margin-left: -45px;
+        margin-left: 83px;
     }
 }
 
 @media (max-width:371px) {
     .shortfilms__tituloCortometraje strong {
-        margin-left: -35px;
+        margin-left: 78px;
     }
 }
-
-
-@media (max-width:361px) {
-    .shortfilms__tituloCortometraje strong {
-        margin-left: -25px;
-    }
-}
-
 
 @media (max-width:351px) {
     .shortfilms__tituloCortometraje strong {
-        margin-left: -15px;
+        margin-left: 70px;
     }
 }
 
 
 @media (max-width:341px) {
     .shortfilms__tituloCortometraje strong {
-        margin-left: -5px;
+        margin-left: 65px;
     }
 }
 
 @media (max-width:331px) {
     .shortfilms__tituloCortometraje strong {
-        margin-left: 5px;
+        margin-left: 60px;
     }
 }
 @media (max-width:321px) {
     .shortfilms__tituloCortometraje strong {
-        margin-left: 15px;
+        margin-left: 100px;
     }
 }
 
@@ -371,20 +359,62 @@
     }
 }
 
+@media (max-width:381px) {
+    .shortfilms__title__container {
+        margin-left: 55px;
+    }
+}
+
 @media (max-width:361px) {
     .shortfilms__title__container {
-        margin-left: 30px;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width:351px) {
+    .shortfilms__title__container {
+        margin-left: 40px;
     }
 }
 
 @media (max-width:341px) {
     .shortfilms__title__container {
-        margin-left: 20px;
+        margin-left: 38px;
+    }
+}
+
+@media (max-width:321px) {
+    .shortfilms__title__container {
+        margin-left: 26px;
     }
 }
 
 
 /*Tamaño imagen de carrousel*/
+
+@media (max-width:1401px) {
+    .altura__imagenesCarrousel__shortfilms {
+        height: 520px;
+    }
+}
+
+@media (max-width:1301px) {
+    .altura__imagenesCarrousel__shortfilms {
+        height: 500px;
+    }
+}
+
+@media (max-width:1201px) {
+    .altura__imagenesCarrousel__shortfilms {
+        height: 480px;
+    }
+}
+
+@media (max-width:1101px) {
+    .altura__imagenesCarrousel__shortfilms {
+        height: 460px;
+    }
+}
 
 @media (max-width:1001px) {
     .altura__imagenesCarrousel__shortfilms {
@@ -400,9 +430,10 @@
 
 @media (max-width:801px) {
     .altura__imagenesCarrousel__shortfilms {
-        height: 350px;
+        height: 300px;
     }
 }
+
 
 @media (max-width:401px) {
     #btnCloseMenuMobile{
@@ -431,6 +462,27 @@
 @media (max-width:336px) {
     #btnCloseMenuMobile{
         margin-right: 5.5rem;
+    }
+}
+
+@media (max-width:401px) {
+    .acomodadoTitulo__para__mobile{
+    margin-left: -83px;
+    }
+    #contactUs__information__container {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:371px) {
+    .acomodadoTitulo__para__mobile{
+    margin-left: -65px;
+    }
+}
+
+@media (max-width:321px) {
+    .acomodadoTitulo__para__mobile{
+    margin-left: -85px;
     }
 }
 

@@ -1019,33 +1019,36 @@ a p {
     right: 34%;
   }
   #index__imagenCarrousel__container .index__caption__2 {
-    right: 38%;
+    right: 36%;
   }
   #index__imagenCarrousel__container .index__caption__3 {
-    right: 35.5%;
+    right: 35%;
   }
   #index__imagenCarrousel__container .index__caption__4 {
-    right: 34%;
+    right: 35%;
   }
   #index__imagenCarrousel__container .index__caption__5 {
-    right: 38%;
+    right: 35%;
   }
 }
 @media (max-width: 1301px) {
   #index__imagenCarrousel__container div {
     right: 33%;
   }
-  #index__imagenCarrousel__container .index__caption__3 {
-    right: 34.5%;
-  }
-  #index__imagenCarrousel__container .index__caption__4 {
+  #index__imagenCarrousel__container .index__caption__2 {
     right: 33%;
   }
+  #index__imagenCarrousel__container .index__caption__3 {
+    right: 33%;
+  }
+  #index__imagenCarrousel__container .index__caption__4 {
+    right: 31%;
+  }
   #index__imagenCarrousel__container .index__caption__5 {
-    right: 36.5%;
+    right: 33%;
   }
   #index__imagenCarrousel__container .index__caption__6 {
-    right: 32%;
+    right: 28%;
   }
 }
 @media (max-width: 1201px) {
@@ -1053,50 +1056,30 @@ a p {
     right: 31.5%;
   }
   #index__imagenCarrousel__container .index__caption__2 {
-    right: 37%;
-  }
-  #index__imagenCarrousel__container .index__caption__3 {
-    right: 33.5%;
-  }
-  #index__imagenCarrousel__container .index__caption__4 {
     right: 31.5%;
   }
+  #index__imagenCarrousel__container .index__caption__3 {
+    right: 31.5%;
+  }
+  #index__imagenCarrousel__container .index__caption__4 {
+    right: 30%;
+  }
   #index__imagenCarrousel__container .index__caption__5 {
-    right: 35.5%;
+    right: 34%;
   }
   #index__imagenCarrousel__container .index__caption__6 {
-    right: 29%;
+    right: 26%;
   }
 }
 @media (max-width: 1101px) {
   #index__imagenCarrousel__container div {
-    right: 29.5%;
+    right: 31%;
   }
   #index__imagenCarrousel__container .index__caption__2 {
-    right: 35.5%;
-  }
-  #index__imagenCarrousel__container .index__caption__3 {
     right: 32%;
   }
-  #index__imagenCarrousel__container .index__caption__4 {
-    right: 29.5%;
-  }
-  #index__imagenCarrousel__container .index__caption__5 {
-    right: 34.5%;
-  }
-  #index__imagenCarrousel__container .index__caption__6 {
-    right: 27%;
-  }
-}
-@media (max-width: 1001px) {
-  #index__imagenCarrousel__container div {
-    right: 28%;
-  }
-  #index__imagenCarrousel__container .index__caption__2 {
-    right: 34%;
-  }
   #index__imagenCarrousel__container .index__caption__3 {
-    right: 30%;
+    right: 31.5%;
   }
   #index__imagenCarrousel__container .index__caption__4 {
     right: 28%;
@@ -1105,7 +1088,27 @@ a p {
     right: 33%;
   }
   #index__imagenCarrousel__container .index__caption__6 {
-    right: 24.5%;
+    right: 25%;
+  }
+}
+@media (max-width: 1001px) {
+  #index__imagenCarrousel__container div {
+    right: 29%;
+  }
+  #index__imagenCarrousel__container .index__caption__2 {
+    right: 31%;
+  }
+  #index__imagenCarrousel__container .index__caption__3 {
+    right: 29%;
+  }
+  #index__imagenCarrousel__container .index__caption__4 {
+    right: 26%;
+  }
+  #index__imagenCarrousel__container .index__caption__5 {
+    right: 31%;
+  }
+  #index__imagenCarrousel__container .index__caption__6 {
+    right: 21.5%;
   }
 }
 @media (max-width: 901px) {
@@ -1113,41 +1116,38 @@ a p {
     right: 30%;
   }
   #index__imagenCarrousel__container .index__caption__2 {
-    right: 32%;
-  }
-  #index__imagenCarrousel__container .index__caption__4 {
-    right: 30%;
-  }
-  #index__imagenCarrousel__container .index__caption__5 {
-    right: 33%;
-  }
-  #index__imagenCarrousel__container .index__caption__6 {
-    right: 24.5%;
-  }
-}
-@media (max-width: 801px) {
-  #index__imagenCarrousel__container div {
-    right: 29%;
-  }
-  #index__imagenCarrousel__container .index__caption__2 {
     right: 30%;
   }
   #index__imagenCarrousel__container .index__caption__3 {
     right: 28%;
   }
   #index__imagenCarrousel__container .index__caption__4 {
-    right: 29%;
+    right: 30%;
   }
   #index__imagenCarrousel__container .index__caption__5 {
-    right: 33%;
+    right: 32%;
   }
   #index__imagenCarrousel__container .index__caption__6 {
-    right: 25.5%;
+    right: 25%;
+  }
+}
+@media (max-width: 801px) {
+  #index__imagenCarrousel__container .index__caption__2 {
+    right: 31%;
+  }
+  #index__imagenCarrousel__container .index__caption__3 {
+    right: 28%;
+  }
+  #index__imagenCarrousel__container .index__caption__5 {
+    right: 32%;
+  }
+  #index__imagenCarrousel__container .index__caption__6 {
+    right: 25%;
   }
 }
 @media (max-width: 769px) {
   #index__imagenCarrousel__container div {
-    right: 30%;
+    right: 29%;
   }
   #index__imagenCarrousel__container .index__caption__2 {
     right: 29%;
@@ -1156,10 +1156,10 @@ a p {
     right: 27%;
   }
   #index__imagenCarrousel__container .index__caption__4 {
-    right: 28%;
+    right: 28.5%;
   }
   #index__imagenCarrousel__container .index__caption__5 {
-    right: 32%;
+    right: 30%;
   }
   #index__imagenCarrousel__container .index__caption__6 {
     right: 24.5%;
@@ -2073,6 +2073,7 @@ a p {
 @media (max-width: 1209px) and (max-width: 650px) {
   #aboutUs__texto__container {
     width: 70%;
+    margin-top: 20px;
   }
 }
 @media (max-width: 1209px) and (max-width: 550px) {
@@ -2141,10 +2142,6 @@ a p {
     margin-left: -20px;
   }
 }
-.noMargin {
-  margin: 0;
-}
-
 .altura__imagenesCarrousel__shortfilms {
   height: 550px;
   object-fit: cover;
@@ -2411,42 +2408,37 @@ a p {
 }
 @media (max-width: 401px) {
   .shortfilms__tituloCortometraje strong {
-    margin-left: -55px;
+    margin-left: 92px;
   }
 }
 @media (max-width: 381px) {
   .shortfilms__tituloCortometraje strong {
-    margin-left: -45px;
+    margin-left: 83px;
   }
 }
 @media (max-width: 371px) {
   .shortfilms__tituloCortometraje strong {
-    margin-left: -35px;
-  }
-}
-@media (max-width: 361px) {
-  .shortfilms__tituloCortometraje strong {
-    margin-left: -25px;
+    margin-left: 78px;
   }
 }
 @media (max-width: 351px) {
   .shortfilms__tituloCortometraje strong {
-    margin-left: -15px;
+    margin-left: 70px;
   }
 }
 @media (max-width: 341px) {
   .shortfilms__tituloCortometraje strong {
-    margin-left: -5px;
+    margin-left: 65px;
   }
 }
 @media (max-width: 331px) {
   .shortfilms__tituloCortometraje strong {
-    margin-left: 5px;
+    margin-left: 60px;
   }
 }
 @media (max-width: 321px) {
   .shortfilms__tituloCortometraje strong {
-    margin-left: 15px;
+    margin-left: 100px;
   }
 }
 @media (max-width: 441px) {
@@ -2459,17 +2451,52 @@ a p {
     margin-left: 70px;
   }
 }
+@media (max-width: 381px) {
+  .shortfilms__title__container {
+    margin-left: 55px;
+  }
+}
 @media (max-width: 361px) {
   .shortfilms__title__container {
-    margin-left: 30px;
+    margin-left: 50px;
+  }
+}
+@media (max-width: 351px) {
+  .shortfilms__title__container {
+    margin-left: 40px;
   }
 }
 @media (max-width: 341px) {
   .shortfilms__title__container {
-    margin-left: 20px;
+    margin-left: 38px;
+  }
+}
+@media (max-width: 321px) {
+  .shortfilms__title__container {
+    margin-left: 26px;
   }
 }
 /*Tamaño imagen de carrousel*/
+@media (max-width: 1401px) {
+  .altura__imagenesCarrousel__shortfilms {
+    height: 520px;
+  }
+}
+@media (max-width: 1301px) {
+  .altura__imagenesCarrousel__shortfilms {
+    height: 500px;
+  }
+}
+@media (max-width: 1201px) {
+  .altura__imagenesCarrousel__shortfilms {
+    height: 480px;
+  }
+}
+@media (max-width: 1101px) {
+  .altura__imagenesCarrousel__shortfilms {
+    height: 460px;
+  }
+}
 @media (max-width: 1001px) {
   .altura__imagenesCarrousel__shortfilms {
     height: 440px;
@@ -2482,7 +2509,7 @@ a p {
 }
 @media (max-width: 801px) {
   .altura__imagenesCarrousel__shortfilms {
-    height: 350px;
+    height: 300px;
   }
 }
 @media (max-width: 401px) {
@@ -2508,6 +2535,24 @@ a p {
 @media (max-width: 336px) {
   #btnCloseMenuMobile {
     margin-right: 5.5rem;
+  }
+}
+@media (max-width: 401px) {
+  .acomodadoTitulo__para__mobile {
+    margin-left: -83px;
+  }
+  #contactUs__information__container {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 371px) {
+  .acomodadoTitulo__para__mobile {
+    margin-left: -65px;
+  }
+}
+@media (max-width: 321px) {
+  .acomodadoTitulo__para__mobile {
+    margin-left: -85px;
   }
 }
 
