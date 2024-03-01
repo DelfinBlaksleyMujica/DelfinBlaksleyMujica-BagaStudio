@@ -70,6 +70,10 @@
     opacity: 70%;
 }
 
+.bg-transparent{
+    background-color: transparent;
+}
+
 #btn-close__contenedor{
     position:relative;
 }
@@ -83,36 +87,37 @@
 
 #index__imagenCarrousel__container{
     position:relative;
+    cursor: pointer;
 }
 
 #index__imagenCarrousel__container div{
     position:absolute;
-    top: 46%;
-    right: 35%;
+    top: 84%;
+    right: 73%;
     text-align: center;
     cursor: pointer;
 }
 
 #index__imagenCarrousel__container .index__caption__2{
     position:absolute;
-    top: 46%;
-    right: 35%;
+    top: 77%;
+    right: 10%;
     text-align: center;
     cursor: pointer;
 }
 
 #index__imagenCarrousel__container .index__caption__3{
     position:absolute;
-    top: 46%;
-    right: 35.5%;
+    top: 75%;
+    right: 16.5%;
     text-align: center;
     cursor: pointer;
 }
 
 #index__imagenCarrousel__container .index__caption__4{
     position:absolute;
-    top: 46%;
-    right: 33%;
+    top: 85%;
+    right: 60%;;
     text-align: center;
     cursor: pointer;
 }
@@ -128,13 +133,12 @@
 #index__imagenCarrousel__container .index__caption__6{
     position:absolute;
     top: 46%;
-    right: 30%;
+    right: 33%;
     text-align: center;
     cursor: pointer;
 }
 
 #carouselExampleControls{
-    margin-top:-25px;
     padding:0;
 }
 
@@ -155,6 +159,7 @@
     width:100%;
     height:100%;
     object-fit: cover;
+    object-position: center;
 }
 
 
@@ -181,6 +186,7 @@
 }
 
 .works__nombresDeArtistas__container{
+    margin-top: 35px;
     display:flex;
     justify-content:center;
     align-items:baseline;
@@ -285,6 +291,16 @@
     width: 95%;
 }
 
+.shortfilms__atajoPremios__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 6%;
+    width: 87%;
+}
+
 
 
 .video1__titulo__container{
@@ -309,7 +325,7 @@
     font-family: "Montserrat";
     text-align: center;
     margin-top: 0px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .shortfilms__video2__container{ 
@@ -327,7 +343,6 @@
     justify-content:center;
     align-items:center;
     width:100%;
-    cursor: pointer;
 }
 
 .video2__titulo__container{
@@ -352,7 +367,7 @@
     font-family: "Montserrat";
     text-align: center;
     margin-top:20px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .shortfilms__carrouselImg__container{
@@ -485,7 +500,7 @@
 }
 
 #aboutUs__texto__container {
-    width: 30%;
+    width: 50%;
     text-align: center;
     margin-top:100px;
 }
@@ -497,7 +512,7 @@
     flex-direction: column;
     justify-content:center;
     align-items:center;
-    margin-top: 100px;
+    margin-top: 160px;
 }
 
 #contactUs__information__container p a{

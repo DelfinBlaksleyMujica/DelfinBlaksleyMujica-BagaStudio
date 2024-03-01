@@ -25,108 +25,12 @@
     display:none;
 }
 
-@media (max-width:501px) {
-
-    .index__mobileMain__container {  
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.5fr 2.1fr 0.4fr;
-        gap: 0px 0px;
-        grid-auto-flow: row;
-        grid-template-areas:
-        "index__logoMobile__container "
-        "index__mainMobile__container "
-        "index__redesMobile__container-derecha";
-    }
-
-    .index__logoMobile__container { 
-        grid-area: index__logoMobile__container;
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-
-    .index__mainMobile__container { grid-area: index__mainMobile__container; }
-
-    .index__redesMobile__container-derecha{ 
-        grid-area: index__redesMobile__container-derecha;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-}
-    #navBar__index{
-        display:none;
-    }
-    .carrousel__index__desaparecerMobile{
-        display:none;
-    }
-
-    .index__menu__hr{
-        color: red;
-        height: 1px!important;
-    }
-   
-    .index__logoMobile__container h1{
-        font-family: $tipografiaTitulosDeSeccion;
-        font-size: $tipografiaTitulosDeSeccion;
-        color: white;
-        font-weight: 600;
-        line-height: 44px;
-        letter-spacing: 0.245em;
-        text-align: center;
-    }
-    .index__mainMobile__container{
-        grid-area: index__mainMobile__container;
-        width:100%;
-        display: flex;
-        justify-content:center;
-        align-items:center;
-    }
-    .index__mainMobile__container div {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    }
-    .index__mainMobile__container div a{
-        text-decoration: none;
-    }
-    hr{
-        width:80%;
-        color:white;
-    }
-    .index__mainMobile__container div a p{
-        font-family:$tipografiaInfoCards;
-        font-size: $tFuenteInfoCardsClipsTablet;
-        font-style: normal;
-        font-weight: 300;
-        line-height: 37px;
-        text-align: center;
-        letter-spacing: 0.245em;
-        margin-bottom: 2px;
-        margin-top: 2px;
-    }
-    .index__btnMobile__container{
-        width: 100%;
-        display: flex;
-        justify-content:center;
-        align-items:center;
-        padding-top: 100px;
-        grid-area: index__btnMobile__container;
-    }
-    .logo__instagramIndex__mobile{
-        display:block;
-    }    
-}
-
-
 .fondoNegro__body{
     background-color: black;
 }
 
 
-@media (max-width:400px) {
+@media (max-width:500px) {
     .logo__insatagram__navbar{
         display:none;
     }
@@ -145,6 +49,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
+        padding-bottom: 55px;
     }
     .works__redesMobile__container div{
         display: flex;
@@ -197,6 +102,8 @@
     text-align: center;
     color: #DCDCDC;
     margin-bottom: 40px;
+    width: 100%;
+    text-align: end;
 }
 
 .index__cancion__titulo{
@@ -205,7 +112,7 @@
     font-weight: 400;
     line-height: 17px;
     letter-spacing: 0.245em;
-    text-align: center;
+    text-align: end;
     color: #DCDCDC;
 }
 @media (max-width:901px) {
@@ -218,10 +125,34 @@
 }
 @media (max-width:801px) {
     .index__artista__titulo{
-        font-size: 1.8rem;
+        font-size: 2.5rem;
     }
     .index__cancion__titulo{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:501px) {
+    .index__artista__titulo{
+        font-size: 1.8rem;
+        line-height: 45px;
+        width: 95%;
+        text-align: center;
+    }
+    .index__cancion__titulo{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+}
+
+@media (max-width:321px) {
+    .index__artista__titulo{
+        display: none;
+    }
+    .index__cancion__titulo{
+        font-size: 2rem;
+        line-height: 40px;
+        width: 85%;
     }
 }
 
@@ -278,8 +209,17 @@
     display: none;
 }
 
+.shortfilms__atajoPremios__container__IpadVert{
+    display: none;
+}
+
 @media (max-width:769px) {
     .shortfilms__premios__container__IpadVert{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .shortfilms__atajoPremios__container__IpadVert{
         display: flex;
         justify-content: space-between;
         align-items:center;
@@ -289,6 +229,10 @@
 @media (max-width:501px) {
     .shortfilms__premios__container__IpadVert{
         flex-direction: column;
+    }
+    .shortfilms__atajoPremios__container__IpadVert{
+       flex-direction: column;
+       height: 450px;
     }
 }
 
@@ -302,6 +246,11 @@
 @media (max-width:501px) {
     .shortfilms__tituloCortometraje strong {
         margin-left: 40px;
+    }
+    .navbar-nav{
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
     }
 }
 
@@ -487,3 +436,11 @@
 }
 
 
+.desaparecer{
+    display:none;
+}
+
+.offcanvas-body {
+    display: flex;
+    align-items: center;
+}

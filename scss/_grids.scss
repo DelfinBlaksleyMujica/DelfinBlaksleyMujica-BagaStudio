@@ -38,20 +38,23 @@
     grid-area: navBar;
   }
   
+  
   .shortfilms__title__container { 
     grid-area: shortfilms__title__container; 
   }
   
-  .shortfilms__videos__container {  display: grid;
+  .shortfilms__videos__container {  
+    display: grid;
     grid-template-columns:2.5fr;
-    grid-template-rows: 1fr 0fr;
+    grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "shortfilms__video1__container"
-      "shortfilms__video2__container";
+      "shortfilms__video2__container"
+      "shortfilms__video1__container";
     grid-area: shortfilms__videos__container;
     justify-items: center;
+    overflow: hidden;
   }
   
   .shortfilms__video1__container {  display: grid;

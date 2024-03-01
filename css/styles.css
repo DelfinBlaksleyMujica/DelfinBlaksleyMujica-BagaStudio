@@ -33,12 +33,13 @@
 .shortfilms__videos__container {
   display: grid;
   grid-template-columns: 2.5fr;
-  grid-template-rows: 1fr 0fr;
+  grid-template-rows: 1fr 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "shortfilms__video1__container" "shortfilms__video2__container";
+  grid-template-areas: "shortfilms__video2__container" "shortfilms__video1__container";
   grid-area: shortfilms__videos__container;
   justify-items: center;
+  overflow: hidden;
 }
 
 .shortfilms__video1__container {
@@ -152,6 +153,10 @@
   opacity: 70%;
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 #btn-close__contenedor {
   position: relative;
 }
@@ -162,36 +167,37 @@
 
 #index__imagenCarrousel__container {
   position: relative;
+  cursor: pointer;
 }
 
 #index__imagenCarrousel__container div {
   position: absolute;
-  top: 46%;
-  right: 35%;
+  top: 84%;
+  right: 73%;
   text-align: center;
   cursor: pointer;
 }
 
 #index__imagenCarrousel__container .index__caption__2 {
   position: absolute;
-  top: 46%;
-  right: 35%;
+  top: 77%;
+  right: 10%;
   text-align: center;
   cursor: pointer;
 }
 
 #index__imagenCarrousel__container .index__caption__3 {
   position: absolute;
-  top: 46%;
-  right: 35.5%;
+  top: 75%;
+  right: 16.5%;
   text-align: center;
   cursor: pointer;
 }
 
 #index__imagenCarrousel__container .index__caption__4 {
   position: absolute;
-  top: 46%;
-  right: 33%;
+  top: 85%;
+  right: 60%;
   text-align: center;
   cursor: pointer;
 }
@@ -207,13 +213,12 @@
 #index__imagenCarrousel__container .index__caption__6 {
   position: absolute;
   top: 46%;
-  right: 30%;
+  right: 33%;
   text-align: center;
   cursor: pointer;
 }
 
 #carouselExampleControls {
-  margin-top: -25px;
   padding: 0;
 }
 
@@ -234,6 +239,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .carousel-caption {
@@ -256,6 +262,7 @@
 }
 
 .works__nombresDeArtistas__container {
+  margin-top: 35px;
   display: flex;
   justify-content: center;
   align-items: baseline;
@@ -353,6 +360,16 @@
   width: 95%;
 }
 
+.shortfilms__atajoPremios__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 10%;
+  left: 6%;
+  width: 87%;
+}
+
 .video1__titulo__container {
   position: absolute;
   top: 60%;
@@ -374,7 +391,7 @@
   font-family: "Montserrat";
   text-align: center;
   margin-top: 0px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .shortfilms__video2__container {
@@ -391,7 +408,6 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  cursor: pointer;
 }
 
 .video2__titulo__container {
@@ -415,7 +431,7 @@
   font-family: "Montserrat";
   text-align: center;
   margin-top: 20px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .shortfilms__carrouselImg__container {
@@ -528,7 +544,7 @@
   }
 }
 #aboutUs__texto__container {
-  width: 30%;
+  width: 50%;
   text-align: center;
   margin-top: 100px;
 }
@@ -538,7 +554,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 160px;
 }
 
 #contactUs__information__container p a {
@@ -669,7 +685,7 @@
 .works__nombresDeArtistas__container div h2 {
   font-family: "Montserrat";
   font-size: 40px;
-  color: #850808;
+  color: aliceblue;
   letter-spacing: 8px;
   font-weight: 300;
 }
@@ -704,19 +720,19 @@
 .shortfilms__titulo {
   font-size: 40px;
   font-family: "Montserrat";
-  color: #850808;
+  color: aliceblue;
   letter-spacing: 8px;
 }
 
 .video1__titulo__container h5 strong {
   font-family: "Montserrat";
-  color: #850808;
+  color: aliceblue;
   font-size: 3rem;
 }
 
 .video2__titulo__container h5 strong {
   font-family: "Montserrat";
-  color: #850808;
+  color: aliceblue;
   font-size: 3rem;
 }
 
@@ -731,14 +747,14 @@
   letter-spacing: 8px;
   font-size: 40px;
   font-family: "Montserrat";
-  color: #850808;
+  color: aliceblue;
 }
 
 .contacto__titulo {
   font-family: "Montserrat";
   letter-spacing: 8px;
   font-size: 40px;
-  color: #850808;
+  color: aliceblue;
   padding-top: 70px;
   padding-left: 70px;
 }
@@ -785,7 +801,7 @@ a p {
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 600;
-  line-height: 15px;
+  line-height: 30px;
   letter-spacing: 0.245em;
   text-align: center;
   color: #DCDCDC;
@@ -838,11 +854,9 @@ a p {
 
 #btnCerrar {
   position: absolute;
-  top: 25px;
-  left: 30px;
-  width: 20px;
-  height: 10px;
-  font-size: 2.3rem;
+  top: 55px;
+  left: 1%;
+  font-size: 20px;
   color: #D4D4D4;
   font-weight: lighter;
   background-color: transparent;
@@ -853,8 +867,8 @@ a p {
   position: absolute;
   top: 5px;
   left: 50%;
-  width: 20px;
-  height: 10px;
+  width: 30px;
+  height: 30px;
   font-size: 2.3rem;
   color: #D4D4D4;
   font-weight: lighter;
@@ -951,6 +965,13 @@ a p {
   height: 280px;
 }
 
+.shortfilms__atajoPremios__imagenes {
+  width: 160px;
+  height: 110px;
+  object-fit: cover;
+  object-position: center;
+}
+
 .shortfilms__carousel__image {
   width: 100%;
   height: 500px;
@@ -958,40 +979,56 @@ a p {
 }
 
 .video__container {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
+  overflow: hidden;
 }
 
 .video__index__container {
-  width: 100vw;
-  height: 99vh;
-  margin-top: -30px;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .video1__index__container {
-  width: 100vw;
-  height: 99vh;
-  margin-top: -30px;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video__index__container iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .video__index__container video {
   width: 100%;
   height: 100%;
-  margin-top: -15px;
+  object-fit: cover;
+}
+
+.video1__index__container iframe {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
 .video1__index__container video {
   width: 100%;
   height: 100%;
-  margin-top: 7px;
+  object-fit: cover;
+}
+
+.video__container iframe {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
 .video__container video {
   width: 100%;
   height: 100%;
-  margin-bottom: -7px;
   object-fit: cover;
 }
 
@@ -1002,10 +1039,6 @@ a p {
 .card__container .imagen__container img:hover {
   opacity: 50%;
   transition: ease 0.9s;
-}
-
-.desaparecer {
-  display: none;
 }
 
 .nublar {
@@ -1029,158 +1062,92 @@ a p {
   color: #F2F2F2;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
     flex-direction: column;
   }
 }
 /*Captions de las imagenes del carrousel*/
 @media (max-width: 1401px) {
-  #index__imagenCarrousel__container div {
-    right: 34%;
-  }
-  #index__imagenCarrousel__container .index__caption__2 {
-    right: 36%;
-  }
-  #index__imagenCarrousel__container .index__caption__3 {
-    right: 35%;
-  }
-  #index__imagenCarrousel__container .index__caption__4 {
-    right: 35%;
-  }
   #index__imagenCarrousel__container .index__caption__5 {
     right: 35%;
   }
 }
 @media (max-width: 1301px) {
-  #index__imagenCarrousel__container div {
-    right: 33%;
-  }
-  #index__imagenCarrousel__container .index__caption__2 {
-    right: 33%;
-  }
-  #index__imagenCarrousel__container .index__caption__3 {
-    right: 33%;
-  }
   #index__imagenCarrousel__container .index__caption__4 {
-    right: 31%;
+    right: 55%;
   }
   #index__imagenCarrousel__container .index__caption__5 {
     right: 33%;
   }
   #index__imagenCarrousel__container .index__caption__6 {
-    right: 28%;
+    right: 32.5%;
   }
 }
 @media (max-width: 1201px) {
   #index__imagenCarrousel__container div {
-    right: 31.5%;
-  }
-  #index__imagenCarrousel__container .index__caption__2 {
-    right: 31.5%;
-  }
-  #index__imagenCarrousel__container .index__caption__3 {
-    right: 31.5%;
+    right: 70%;
   }
   #index__imagenCarrousel__container .index__caption__4 {
-    right: 30%;
-  }
-  #index__imagenCarrousel__container .index__caption__5 {
-    right: 34%;
-  }
-  #index__imagenCarrousel__container .index__caption__6 {
-    right: 26%;
-  }
-}
-@media (max-width: 1101px) {
-  #index__imagenCarrousel__container div {
-    right: 31%;
-  }
-  #index__imagenCarrousel__container .index__caption__2 {
-    right: 32%;
-  }
-  #index__imagenCarrousel__container .index__caption__3 {
-    right: 31.5%;
-  }
-  #index__imagenCarrousel__container .index__caption__4 {
-    right: 28%;
+    right: 45%;
   }
   #index__imagenCarrousel__container .index__caption__5 {
     right: 33%;
   }
   #index__imagenCarrousel__container .index__caption__6 {
-    right: 25%;
+    right: 32%;
+  }
+}
+@media (max-width: 1101px) {
+  #index__imagenCarrousel__container .index__caption__5 {
+    right: 31.5%;
+  }
+  #index__imagenCarrousel__container .index__caption__6 {
+    right: 30%;
   }
 }
 @media (max-width: 1001px) {
-  #index__imagenCarrousel__container div {
-    right: 29%;
-  }
-  #index__imagenCarrousel__container .index__caption__2 {
-    right: 31%;
-  }
-  #index__imagenCarrousel__container .index__caption__3 {
-    right: 29%;
-  }
-  #index__imagenCarrousel__container .index__caption__4 {
-    right: 26%;
-  }
   #index__imagenCarrousel__container .index__caption__5 {
-    right: 31%;
+    right: 29.5%;
   }
   #index__imagenCarrousel__container .index__caption__6 {
-    right: 21.5%;
+    right: 27.5%;
   }
 }
 @media (max-width: 901px) {
   #index__imagenCarrousel__container div {
-    right: 30%;
+    right: 60%;
   }
   #index__imagenCarrousel__container .index__caption__2 {
-    right: 30%;
-  }
-  #index__imagenCarrousel__container .index__caption__3 {
-    right: 28%;
+    top: 90%;
+    right: 3%;
   }
   #index__imagenCarrousel__container .index__caption__4 {
-    right: 30%;
+    right: 38%;
+    top: 89%;
   }
   #index__imagenCarrousel__container .index__caption__5 {
     right: 32%;
   }
   #index__imagenCarrousel__container .index__caption__6 {
-    right: 25%;
+    right: 32%;
   }
 }
 @media (max-width: 801px) {
-  #index__imagenCarrousel__container .index__caption__2 {
-    right: 31%;
-  }
-  #index__imagenCarrousel__container .index__caption__3 {
-    right: 28%;
-  }
   #index__imagenCarrousel__container .index__caption__5 {
-    right: 32%;
+    right: 25%;
   }
   #index__imagenCarrousel__container .index__caption__6 {
-    right: 25%;
+    right: 28%;
   }
 }
 @media (max-width: 769px) {
-  #index__imagenCarrousel__container div {
-    right: 29%;
-  }
   #index__imagenCarrousel__container .index__caption__2 {
-    right: 29%;
-  }
-  #index__imagenCarrousel__container .index__caption__3 {
-    right: 27%;
-  }
-  #index__imagenCarrousel__container .index__caption__4 {
-    right: 28.5%;
+    right: 5%;
+    top: 85%;
   }
   #index__imagenCarrousel__container .index__caption__5 {
-    right: 30%;
+    right: 24.5%;
   }
   #index__imagenCarrousel__container .index__caption__6 {
     right: 24.5%;
@@ -1188,19 +1155,20 @@ a p {
 }
 @media (max-width: 701px) {
   #index__imagenCarrousel__container div {
-    right: 29%;
+    right: 27.5%;
   }
   #index__imagenCarrousel__container .index__caption__2 {
     right: 28%;
   }
   #index__imagenCarrousel__container .index__caption__3 {
-    right: 25%;
+    right: 24%;
   }
   #index__imagenCarrousel__container .index__caption__4 {
-    right: 27%;
+    right: 25%;
+    top: 80%;
   }
   #index__imagenCarrousel__container .index__caption__5 {
-    right: 31%;
+    right: 23%;
   }
   #index__imagenCarrousel__container .index__caption__6 {
     right: 23.5%;
@@ -1214,16 +1182,109 @@ a p {
     right: 26%;
   }
   #index__imagenCarrousel__container .index__caption__3 {
-    right: 23%;
+    right: 18.5%;
   }
   #index__imagenCarrousel__container .index__caption__4 {
-    right: 25%;
+    right: 13.5%;
   }
   #index__imagenCarrousel__container .index__caption__5 {
-    right: 29%;
+    right: 18%;
   }
   #index__imagenCarrousel__container .index__caption__6 {
-    right: 21.5%;
+    right: 22%;
+  }
+}
+@media (max-width: 501px) {
+  #index__imagenCarrousel__container div {
+    right: 46%;
+    top: 80%;
+  }
+  #index__imagenCarrousel__container .index__caption__2 {
+    right: 26%;
+    line-height: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    right: 0%;
+  }
+  #index__imagenCarrousel__container .index__caption__3 {
+    right: 3%;
+    top: 70%;
+  }
+  #index__imagenCarrousel__container .index__caption__4 {
+    right: 7%;
+  }
+  #index__imagenCarrousel__container .index__caption__5 {
+    right: 22%;
+  }
+  #index__imagenCarrousel__container .index__caption__6 {
+    right: 25%;
+  }
+  #index__imagenCarrousel__container .index__caption__2 {
+    top: 68%;
+  }
+}
+@media (max-width: 401px) {
+  #index__imagenCarrousel__container div {
+    right: 40%;
+  }
+  #index__imagenCarrousel__container .index__caption__4 {
+    right: 11%;
+  }
+  #index__imagenCarrousel__container .index__caption__5 {
+    right: 16%;
+  }
+  #index__imagenCarrousel__container .index__caption__6 {
+    right: 21%;
+  }
+}
+@media (max-width: 401px) {
+  #index__imagenCarrousel__container .index__caption__2 {
+    right: -3%;
+  }
+  #index__imagenCarrousel__container .index__caption__4 {
+    right: 2%;
+  }
+  #index__imagenCarrousel__container .index__caption__5 {
+    right: 15%;
+  }
+  #index__imagenCarrousel__container .index__caption__6 {
+    right: 20%;
+  }
+}
+@media (max-width: 361px) {
+  #index__imagenCarrousel__container div {
+    right: 35%;
+    top: 75%;
+  }
+  #index__imagenCarrousel__container .index__caption__4 {
+    right: 0%;
+  }
+}
+@media (max-width: 331px) {
+  #index__imagenCarrousel__container div {
+    right: 16%;
+  }
+  #index__imagenCarrousel__container .index__caption__2 {
+    right: -3%;
+    top: 75%;
+  }
+  #index__imagenCarrousel__container .index__caption__3 {
+    right: 20%;
+    top: 85%;
+  }
+  #index__imagenCarrousel__container .index__caption__4 {
+    right: -18%;
+    top: 80%;
+  }
+  #index__imagenCarrousel__container .index__caption__5 {
+    right: 37%;
+  }
+  #index__imagenCarrousel__container .index__caption__6 {
+    right: 10%;
+    width: 80%;
   }
 }
 /*margenes de las flechas del carrousel*/
@@ -1320,6 +1381,12 @@ a p {
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas: "navBar" "works__nombresDeArtistas__container" "works__imagenes__container" "works__footer";
+  }
+}
+@media (max-width: 501px) {
+  .navbar {
+    background-color: black;
+    opacity: 90%;
   }
 }
 @media (max-width: 401px) {
@@ -1598,18 +1665,23 @@ a p {
     height: 230px;
   }
   .video1__sinopsis__container p {
-    font-size: 19px;
+    font-size: 15px;
   }
   .video2__sinopsis__container p {
-    font-size: 19px;
+    font-size: 15px;
+  }
+  #contactUs__information__container {
+    margin-top: 130px;
   }
 }
 @media (max-width: 501px) {
   .video1__sinopsis__container p {
-    font-size: 17px;
+    font-size: 15px;
+    width: 95%;
   }
   .video2__sinopsis__container p {
-    font-size: 17px;
+    font-size: 15px;
+    width: 95%;
   }
 }
 @media (max-width: 901px) {
@@ -1625,33 +1697,34 @@ a p {
 }
 @media (max-width: 1501px) {
   .shortfilms__container {
-    grid-template-rows: 0.22fr 0.22fr 2.5fr;
-  }
-}
-@media (max-width: 700px) {
-  .shortfilms__container {
-    grid-template-rows: 0.25fr 0.25fr 3fr;
+    grid-template-rows: 0.1fr 0.1fr 2fr;
   }
 }
 @media (max-width: 501px) {
-  .shortfilms__container {
-    grid-template-rows: 0.19fr 0.26fr 3fr;
+  #btnCerrar {
+    position: absolute;
+    top: 80px;
+    left: 15px;
   }
-}
-@media (max-width: 451px) {
-  .shortfilms__container {
-    grid-template-rows: 0.22fr 0.25fr 3fr;
+  #shortfilms__carrouselImg__btnCerrar {
+    z-index: 1000;
+    top: 15px;
   }
 }
 @media (max-width: 401px) {
   .shortfilms__container {
-    grid-template-rows: 0.27fr 0.25fr 3fr;
+    grid-template-rows: 100px 75px 2190px;
+  }
+}
+@media (max-width: 361px) {
+  .shortfilms__container {
+    grid-template-rows: 100px 75px 2290px;
   }
 }
 @media (max-width: 1400px) {
   .shortfilms__titulo {
     font-size: 40px;
-    color: #850808;
+    color: aliceblue;
     letter-spacing: 8px;
     padding-top: 4px;
   }
@@ -1659,7 +1732,7 @@ a p {
 @media (max-width: 700px) {
   .shortfilms__titulo {
     font-size: 38px;
-    color: #850808;
+    color: aliceblue;
     letter-spacing: 8px;
     padding-top: 4px;
   }
@@ -1783,6 +1856,9 @@ a p {
     right: 84%;
     top: 41%;
   }
+  #contactUs__information__container {
+    margin-top: 305px;
+  }
 }
 @media (max-width: 1209px) and (max-width: 850px) {
   .video1__titulo__container {
@@ -1790,6 +1866,9 @@ a p {
   }
   .video2__titulo__container {
     right: 81%;
+  }
+  #contactUs__information__container {
+    margin-top: 365px;
   }
 }
 @media (max-width: 1209px) and (max-width: 800px) {
@@ -1806,9 +1885,15 @@ a p {
     right: 81%;
     top: 36%;
   }
+  #contactUs__information__container {
+    margin-top: 270px;
+  }
 }
 @media (max-width: 1209px) and (max-width: 768px) {
   .shortfilms__premios__container {
+    display: none;
+  }
+  .shortfilms__atajoPremios__container {
     display: none;
   }
 }
@@ -1834,6 +1919,10 @@ a p {
   .video2__titulo__container {
     right: 80%;
     top: 27%;
+  }
+  .contacto__titulo {
+    padding-top: 170px;
+    padding-left: 105px;
   }
 }
 @media (max-width: 1209px) and (max-width: 480px) {
@@ -1877,10 +1966,19 @@ a p {
     right: 64%;
   }
 }
+@media (max-width: 1209px) and (max-width: 415px) {
+  .contacto__titulo {
+    padding-left: 95px;
+  }
+}
 @media (max-width: 1209px) and (max-width: 400px) {
   .video1__titulo__container {
     position: absolute;
     top: 35%;
+  }
+  .contacto__titulo {
+    padding-top: 135px;
+    padding-left: 75px;
   }
 }
 @media (max-width: 1209px) and (max-width: 375px) {
@@ -2044,14 +2142,13 @@ a p {
     font-size: 35px;
   }
   #aboutUs__texto__container {
-    width: 33%;
     text-align: center;
     margin-top: 100px;
   }
 }
-@media (max-width: 1209px) and (max-width: 1100px) {
+@media (max-width: 1209px) and (max-width: 1001px) {
   #aboutUs__texto__container {
-    width: 40%;
+    width: 60%;
   }
 }
 @media (max-width: 1209px) and (max-width: 901px) {
@@ -2083,23 +2180,23 @@ a p {
 }
 @media (max-width: 1209px) and (max-width: 950px) {
   #aboutUs__texto__container {
-    width: 45%;
+    width: 65%;
   }
 }
 @media (max-width: 1209px) and (max-width: 850px) {
   #aboutUs__texto__container {
-    width: 50%;
+    width: 70%;
   }
 }
 @media (max-width: 1209px) and (max-width: 750px) {
   #aboutUs__texto__container {
-    width: 60%;
+    width: 75%;
   }
 }
 @media (max-width: 1209px) and (max-width: 650px) {
   #aboutUs__texto__container {
-    width: 70%;
-    margin-top: 20px;
+    width: 80%;
+    margin-top: 60px;
   }
 }
 @media (max-width: 1209px) and (max-width: 550px) {
@@ -2170,7 +2267,21 @@ a p {
 }
 @media (max-width: 501px) {
   #contactUs__information__container {
-    margin-top: 55px;
+    margin-top: 60px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 401px) {
+  #contactUs__information__container {
+    height: 300px;
+  }
+}
+@media (max-width: 331px) {
+  .contacto__titulo {
+    padding-top: 100px;
+    padding-left: 70px;
   }
 }
 .altura__imagenesCarrousel__shortfilms {
@@ -2186,99 +2297,11 @@ a p {
   display: none;
 }
 
-@media (max-width: 501px) {
-  .index__mobileMain__container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 2.1fr 0.4fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas: "index__logoMobile__container " "index__mainMobile__container " "index__redesMobile__container-derecha";
-  }
-  .index__logoMobile__container {
-    grid-area: index__logoMobile__container;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .index__mainMobile__container {
-    grid-area: index__mainMobile__container;
-  }
-  .index__redesMobile__container-derecha {
-    grid-area: index__redesMobile__container-derecha;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #navBar__index {
-    display: none;
-  }
-  .carrousel__index__desaparecerMobile {
-    display: none;
-  }
-  .index__menu__hr {
-    color: red;
-    height: 1px !important;
-  }
-  .index__logoMobile__container h1 {
-    font-family: "Montserrat";
-    font-size: "Montserrat";
-    color: white;
-    font-weight: 600;
-    line-height: 44px;
-    letter-spacing: 0.245em;
-    text-align: center;
-  }
-  .index__mainMobile__container {
-    grid-area: index__mainMobile__container;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .index__mainMobile__container div {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  .index__mainMobile__container div a {
-    text-decoration: none;
-  }
-  hr {
-    width: 80%;
-    color: white;
-  }
-  .index__mainMobile__container div a p {
-    font-family: "Montserrat";
-    font-size: 1.3rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 37px;
-    text-align: center;
-    letter-spacing: 0.245em;
-    margin-bottom: 2px;
-    margin-top: 2px;
-  }
-  .index__btnMobile__container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 100px;
-    grid-area: index__btnMobile__container;
-  }
-  .logo__instagramIndex__mobile {
-    display: block;
-  }
-}
 .fondoNegro__body {
   background-color: black;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .logo__insatagram__navbar {
     display: none;
   }
@@ -2294,6 +2317,7 @@ a p {
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding-bottom: 55px;
   }
   .works__redesMobile__container div {
     display: flex;
@@ -2344,6 +2368,8 @@ a p {
   text-align: center;
   color: #DCDCDC;
   margin-bottom: 40px;
+  width: 100%;
+  text-align: end;
 }
 
 .index__cancion__titulo {
@@ -2352,7 +2378,7 @@ a p {
   font-weight: 400;
   line-height: 17px;
   letter-spacing: 0.245em;
-  text-align: center;
+  text-align: end;
   color: #DCDCDC;
 }
 
@@ -2366,10 +2392,32 @@ a p {
 }
 @media (max-width: 801px) {
   .index__artista__titulo {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
   }
   .index__cancion__titulo {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 501px) {
+  .index__artista__titulo {
+    font-size: 1.8rem;
+    line-height: 45px;
+    width: 95%;
+    text-align: center;
+  }
+  .index__cancion__titulo {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+}
+@media (max-width: 321px) {
+  .index__artista__titulo {
+    display: none;
+  }
+  .index__cancion__titulo {
+    font-size: 2rem;
+    line-height: 40px;
+    width: 85%;
   }
 }
 /*Titulo de los cortometrajes*/
@@ -2414,8 +2462,17 @@ a p {
   display: none;
 }
 
+.shortfilms__atajoPremios__container__IpadVert {
+  display: none;
+}
+
 @media (max-width: 769px) {
   .shortfilms__premios__container__IpadVert {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .shortfilms__atajoPremios__container__IpadVert {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -2424,6 +2481,10 @@ a p {
 @media (max-width: 501px) {
   .shortfilms__premios__container__IpadVert {
     flex-direction: column;
+  }
+  .shortfilms__atajoPremios__container__IpadVert {
+    flex-direction: column;
+    height: 450px;
   }
 }
 /*Titulo en blanco de cortometrajes*/
@@ -2435,6 +2496,11 @@ a p {
 @media (max-width: 501px) {
   .shortfilms__tituloCortometraje strong {
     margin-left: 40px;
+  }
+  .navbar-nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
   }
 }
 @media (max-width: 401px) {
@@ -2585,6 +2651,14 @@ a p {
   .acomodadoTitulo__para__mobile {
     margin-left: -85px;
   }
+}
+.desaparecer {
+  display: none;
+}
+
+.offcanvas-body {
+  display: flex;
+  align-items: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
