@@ -14,6 +14,7 @@ const musicVideos = [
     {id:13   , nombre:"PEDRO RAUL",artista:"JERO JONES",img:"../imagenesClips/8-jerojones.jpg",alt:"Portada de la canción Pedro Raul del artista Jero Jones",title:"Hace click para ver el vídeo de la canción Pedro Raúl del artista Jero Jones",video:"https://www.youtube.com/embed/jRNG6nhRSNw?si=TQ5p6uwKhNDr5rVi"},
     {id:14 , nombre:"ENCANTO",artista:"TOTO BAKAN",img:"../imagenesClips/12-Encanto.jpg",alt:"Portada de la canción Encanto del artista Toto Bakan",title:"Hace click para ver el vídeo de la canción Encanto del artista Toto Bakan",video:"../videos/TotoBakanEncanto.mp4"}, 
     {id:15  , nombre:"ALBEDRIO",artista:"PACO",img:"../imagenesClips/11-albedrio.jpg",alt:"Portada de la canción Albedrío del artista Paco",title:"Hace click para ver el vídeo de la canción Albedrío del artista Paco",video:"https://www.youtube.com/embed/agkb7l7c-OA?si=pohadMzdgm16P-4D"},
+    {id:16 , nombre:"ENCANTO" , artista:"TOTO BAKAN" , img:"../imagenesClips/12-Encanto.jpg" ,alt:"Portada de la canción Encanto del artista Toto Bakan",title:"Hace click para ver el vídeo de la canción Encanto del artista Toto Bakan",video:"https://www.youtube.com/embed/5wL31aHPtyw?si=5h5-RyA0xO9Lr2HS"}
 ];
 
 

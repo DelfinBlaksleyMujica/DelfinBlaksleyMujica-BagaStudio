@@ -1,6 +1,6 @@
 const material = [
     {id:2  , nombre:"CAMARÓN REMIX",artista:"JUKU ARES FT. COTI",img:"./imagenesClips/JukuFtCotiCamaron.webp",alt:"Portada de la canción Camarón de los artistas Juku Ares y Coti",title:"Hace click para ver el vídeo de la canción Camarón de los artistas Juku Ares y Coti",video:"https://www.youtube.com/embed/TXqQoIfnayY?si=Rgqej3mKY19oS6W7"},
-    {id:3  , nombre:"AMARRE",artista:"RICA",img:"./imagenesFashionFilms/ElFilmRicaAmarre.webp",alt:"Portada del Fashion Film Amarre para Rica",title:"Hace click para ver el vídeo del fashion film Amarre para Rica",video:"./videos/TotoBakanEncanto.mp4"},
+    {id:3  , nombre:"AMARRE",artista:"RICA",img:"./imagenesFashionFilms/ElFilmRicaAmarre.webp",alt:"Portada del Fashion Film Amarre para Rica",title:"Hace click para ver el vídeo del fashion film Amarre para Rica",video:"https://www.youtube.com/embed/7eZV1UyNCXM?si=T7z0n8ucv8gw72Cx"},
     {id:4  , nombre:"CUANDO SEA GRANDE",artista:"MORA NAVARRO",img:"./imagenesClips/MoraNavarroCuandoSeaGrande.webp",alt:"Portada de la canción Cuando Sea Grande de la artista Mora Navarro",title:"Hace click para ver el vídeo de la canción Cuando Sea Grande de la artista Mora Navarro",video:"https://www.youtube.com/embed/DjG-is23KTA?si=0B57b49r9oAyFz_x"},
 ];
 

@@ -1,6 +1,6 @@
 const fashionFilms = [
-    {id:1 , nombre:"SILLÓN FREY",artista:"ESTUDIO TE",img:"../imagenesFashionFilms/5-estudiote.jpg",alt:"Portada del Fashion Film Sillón Frey para Estudio Té",title:"Hace click para ver el vídeo del fashion film Sillón Frey para Estudio Té", video:"../videos/SillonFrey.mp4"},
-    {id:2  , nombre:"AMARRE",artista:"RICA",img:"../imagenesFashionFilms/ElFilmRicaAmarre.webp",alt:"Portada del Fashion Film Amarre para Rica",title:"Hace click para ver el vídeo del fashion film Amarre para Rica",video:"../videos/TotoBakanEncanto.mp4"},
+    {id:1 , nombre:"SILLÓN FREY",artista:"ESTUDIO TE",img:"../imagenesFashionFilms/5-estudiote.jpg",alt:"Portada del Fashion Film Sillón Frey para Estudio Té",title:"Hace click para ver el vídeo del fashion film Sillón Frey para Estudio Té", video:"https://www.youtube.com/embed/C9IS-kbDxcE?si=nes8JP7qeFrfrPSD"},
+    {id:2  , nombre:"AMARRE",artista:"RICA",img:"../imagenesFashionFilms/ElFilmRicaAmarre.webp",alt:"Portada del Fashion Film Amarre para Rica",title:"Hace click para ver el vídeo del fashion film Amarre para Rica",video:"https://www.youtube.com/embed/7eZV1UyNCXM?si=T7z0n8ucv8gw72Cx"},
 ]
 
 
@@ -36,7 +36,7 @@ function abrirVideo(id){
     redesMobileImg.classList.add("desaparecer");
     const video = fashionFilms.find (r => r.id == id);
     div.innerHTML = `<div class="video__container">
-                        <video src="${video.video} " controls autoplay></video>
+                        <iframe width="560" height="315" src=${video.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         <button type="button" id="btnCerrar" onclick="cerrarVideo()" class="btnCerrar" value="Cerrar">< Volver</button>
                     </div>
                     `
