@@ -12,9 +12,9 @@ const musicVideos = [
     {id:11  , nombre:"NO SÉ SOLTAR",artista:"NIÑO ETC",img:"../imagenesClips/2-ninoetc.jpg",alt:"Portada de la canción No sé soltar del artista Niño Etc", title:"Hace click para ver el vídeo de la canción No Sé Soltar del artista Niño Etc",video:"https://www.youtube.com/embed/azlnPFPKSMs?si=IV6uy4_qohZJ0y3x"}, 
     {id:12, nombre:"LA BRISA",artista:"PRADKIN",img:"../imagenesClips/9-brisa.jpg",alt:"Portada de la canción Brisa del artista Pradkin",title:"Hace click para ver el vídeo de la canción Brisa del artista Pradkin",video:"https://www.youtube.com/embed/msaC2cjKbxY?si=kMr6bxhCuzh1tE2v"},
     {id:13   , nombre:"PEDRO RAUL",artista:"JERO JONES",img:"../imagenesClips/8-jerojones.jpg",alt:"Portada de la canción Pedro Raul del artista Jero Jones",title:"Hace click para ver el vídeo de la canción Pedro Raúl del artista Jero Jones",video:"https://www.youtube.com/embed/jRNG6nhRSNw?si=TQ5p6uwKhNDr5rVi"},
-    {id:14 , nombre:"ENCANTO",artista:"TOTO BAKAN",img:"../imagenesClips/12-Encanto.jpg",alt:"Portada de la canción Encanto del artista Toto Bakan",title:"Hace click para ver el vídeo de la canción Encanto del artista Toto Bakan",video:"../videos/TotoBakanEncanto.mp4"}, 
+    {id:14 , nombre:"ENCANTO" , artista:"TOTO BAKAN" , img:"../imagenesClips/12-Encanto.jpg" ,alt:"Portada de la canción Encanto del artista Toto Bakan",title:"Hace click para ver el vídeo de la canción Encanto del artista Toto Bakan",video:"https://www.youtube.com/embed/5wL31aHPtyw?si=5h5-RyA0xO9Lr2HS"},
     {id:15  , nombre:"ALBEDRIO",artista:"PACO",img:"../imagenesClips/11-albedrio.jpg",alt:"Portada de la canción Albedrío del artista Paco",title:"Hace click para ver el vídeo de la canción Albedrío del artista Paco",video:"https://www.youtube.com/embed/agkb7l7c-OA?si=pohadMzdgm16P-4D"},
-    {id:16 , nombre:"ENCANTO" , artista:"TOTO BAKAN" , img:"../imagenesClips/12-Encanto.jpg" ,alt:"Portada de la canción Encanto del artista Toto Bakan",title:"Hace click para ver el vídeo de la canción Encanto del artista Toto Bakan",video:"https://www.youtube.com/embed/5wL31aHPtyw?si=5h5-RyA0xO9Lr2HS"}
+
 ];
 
 
