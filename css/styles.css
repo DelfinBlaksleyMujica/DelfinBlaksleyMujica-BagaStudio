@@ -170,15 +170,7 @@
   cursor: pointer;
 }
 
-#index__imagenCarrousel__container div {
-  position: absolute;
-  top: 84%;
-  right: 73%;
-  text-align: center;
-  cursor: pointer;
-}
-
-#index__imagenCarrousel__container .index__caption__2 {
+#index__imagenCarrousel__container .index__caption__1 {
   position: absolute;
   top: 77%;
   right: 10%;
@@ -186,7 +178,7 @@
   cursor: pointer;
 }
 
-#index__imagenCarrousel__container .index__caption__3 {
+#index__imagenCarrousel__container .index__caption__2 {
   position: absolute;
   top: 75%;
   right: 16.5%;
@@ -194,28 +186,22 @@
   cursor: pointer;
 }
 
+#index__imagenCarrousel__container .index__caption__3 {
+  position: absolute;
+  top: 85%;
+  right: 55%;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
 #index__imagenCarrousel__container .index__caption__4 {
   position: absolute;
   top: 85%;
-  right: 60%;
+  right: 75%;
   text-align: center;
   cursor: pointer;
-}
-
-#index__imagenCarrousel__container .index__caption__5 {
-  position: absolute;
-  top: 46%;
-  right: 35%;
-  text-align: center;
-  cursor: pointer;
-}
-
-#index__imagenCarrousel__container .index__caption__6 {
-  position: absolute;
-  top: 46%;
-  right: 33%;
-  text-align: center;
-  cursor: pointer;
+  width: 100%;
 }
 
 #carouselExampleControls {
@@ -1075,7 +1061,7 @@ a p {
 }
 @media (max-width: 1301px) {
   #index__imagenCarrousel__container .index__caption__4 {
-    right: 55%;
+    right: 70%;
   }
   #index__imagenCarrousel__container .index__caption__5 {
     right: 33%;
@@ -1088,14 +1074,8 @@ a p {
   #index__imagenCarrousel__container div {
     right: 70%;
   }
-  #index__imagenCarrousel__container .index__caption__4 {
-    right: 45%;
-  }
-  #index__imagenCarrousel__container .index__caption__5 {
-    right: 33%;
-  }
-  #index__imagenCarrousel__container .index__caption__6 {
-    right: 32%;
+  #index__imagenCarrousel__container .index__caption__3 {
+    right: 50%;
   }
 }
 @media (max-width: 1101px) {
@@ -1118,13 +1098,12 @@ a p {
   #index__imagenCarrousel__container div {
     right: 60%;
   }
-  #index__imagenCarrousel__container .index__caption__2 {
-    top: 90%;
-    right: 3%;
+  #index__imagenCarrousel__container .index__caption__3 {
+    top: 85%;
+    right: 5%;
   }
   #index__imagenCarrousel__container .index__caption__4 {
-    right: 38%;
-    top: 89%;
+    right: 60%;
   }
   #index__imagenCarrousel__container .index__caption__5 {
     right: 32%;
@@ -1195,9 +1174,9 @@ a p {
   }
 }
 @media (max-width: 501px) {
-  #index__imagenCarrousel__container div {
-    right: 46%;
-    top: 80%;
+  #index__imagenCarrousel__container .index__caption__1 {
+    right: -3%;
+    top: 70%;
   }
   #index__imagenCarrousel__container .index__caption__2 {
     right: 26%;
@@ -1210,11 +1189,11 @@ a p {
     right: 0%;
   }
   #index__imagenCarrousel__container .index__caption__3 {
-    right: 3%;
-    top: 70%;
+    right: -3%;
+    top: 75%;
   }
   #index__imagenCarrousel__container .index__caption__4 {
-    right: 7%;
+    right: 18%;
   }
   #index__imagenCarrousel__container .index__caption__5 {
     right: 22%;
@@ -1223,21 +1202,29 @@ a p {
     right: 25%;
   }
   #index__imagenCarrousel__container .index__caption__2 {
-    top: 68%;
+    top: 80%;
   }
 }
 @media (max-width: 401px) {
-  #index__imagenCarrousel__container div {
-    right: 40%;
+  #index__imagenCarrousel__container .index__caption__1 {
+    right: -8%;
+    top: 70%;
   }
   #index__imagenCarrousel__container .index__caption__4 {
     right: 11%;
   }
-  #index__imagenCarrousel__container .index__caption__5 {
-    right: 16%;
+  #index__imagenCarrousel__container .index__caption__3 {
+    width: 90%;
   }
-  #index__imagenCarrousel__container .index__caption__6 {
-    right: 21%;
+  .index__artista__titulo {
+    margin-bottom: 20px !important;
+  }
+  .index__cancion__titulo {
+    line-height: 30px !important;
+  }
+  #index__imagenCarrousel__container .index__caption__3 {
+    right: 3%;
+    top: 70%;
   }
 }
 @media (max-width: 401px) {
@@ -1264,19 +1251,16 @@ a p {
   }
 }
 @media (max-width: 331px) {
-  #index__imagenCarrousel__container div {
-    right: 16%;
-  }
   #index__imagenCarrousel__container .index__caption__2 {
     right: -3%;
     top: 75%;
   }
   #index__imagenCarrousel__container .index__caption__3 {
-    right: 20%;
-    top: 85%;
+    right: -4%;
+    top: 70%;
   }
   #index__imagenCarrousel__container .index__caption__4 {
-    right: -18%;
+    right: -10%;
     top: 80%;
   }
   #index__imagenCarrousel__container .index__caption__5 {
@@ -1285,6 +1269,10 @@ a p {
   #index__imagenCarrousel__container .index__caption__6 {
     right: 10%;
     width: 80%;
+  }
+  #index__imagenCarrousel__container .index__caption__1 {
+    right: -22%;
+    top: 70%;
   }
 }
 /*margenes de las flechas del carrousel*/
@@ -2282,6 +2270,11 @@ a p {
   .contacto__titulo {
     padding-top: 100px;
     padding-left: 70px;
+  }
+}
+@media (max-width: 415px) {
+  .shortfilms__tituloCortometraje strong {
+    margin-left: 95px;
   }
 }
 .altura__imagenesCarrousel__shortfilms {

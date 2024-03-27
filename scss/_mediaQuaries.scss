@@ -39,7 +39,7 @@
     // }
     
     #index__imagenCarrousel__container .index__caption__4 {
-        right: 55%;
+        right: 70%;
     }
     
     #index__imagenCarrousel__container .index__caption__5{
@@ -56,26 +56,16 @@
     #index__imagenCarrousel__container div{
         right: 70%;
     }
-    
+    #index__imagenCarrousel__container .index__caption__3 {
+        right: 50%;
+    }
     // #index__imagenCarrousel__container .index__caption__2{
     //     right: 22%;
     // }
     
     // #index__imagenCarrousel__container .index__caption__3{
     //     right: 31.5%;
-    // }
-    
-    #index__imagenCarrousel__container .index__caption__4 {
-        right: 45%;
-    }
-    
-    #index__imagenCarrousel__container .index__caption__5{
-        right: 33%;
-    }  
-
-    #index__imagenCarrousel__container .index__caption__6{
-        right: 32%;
-    }      
+    // }     
 }
 
 @media (max-width:1101px) {    
@@ -126,10 +116,9 @@
     #index__imagenCarrousel__container div{
         right: 60%;
     }
-    
-    #index__imagenCarrousel__container .index__caption__2{
-        top: 90%;
-        right: 3%;
+    #index__imagenCarrousel__container .index__caption__3 {
+        top: 85%;
+        right: 5%;
     }
 
     // #index__imagenCarrousel__container .index__caption__3{
@@ -137,8 +126,7 @@
     // }
     
     #index__imagenCarrousel__container .index__caption__4 {
-        right: 38%;
-        top: 89%;
+        right: 60%;
     }
     
     #index__imagenCarrousel__container .index__caption__5{
@@ -251,9 +239,9 @@
 
 
 @media (max-width:501px) {    
-    #index__imagenCarrousel__container div{
-        right: 46%;
-        top: 80%;
+    #index__imagenCarrousel__container .index__caption__1 {
+        right: -3%;
+        top: 70%;
     }
     
     #index__imagenCarrousel__container .index__caption__2{
@@ -267,12 +255,12 @@
         right: 0%;
     }
 
-    #index__imagenCarrousel__container .index__caption__3{
-        right: 3%;
-        top: 70%;
+    #index__imagenCarrousel__container .index__caption__3 {
+        right: -3%;
+        top: 75%;
     }
     #index__imagenCarrousel__container .index__caption__4 {
-        right: 7%;
+        right: 18%;
     }
     #index__imagenCarrousel__container .index__caption__5{
         right: 22%;
@@ -282,28 +270,34 @@
         right: 25%;
     }  
     #index__imagenCarrousel__container .index__caption__2 {
-        top: 68%;
-    }    
+        top: 80%;
+    }  
 }
 
 @media (max-width:401px) {    
-    #index__imagenCarrousel__container div{
-        right: 40%;
-    }
     // #index__imagenCarrousel__container .index__caption__3{
     //     right: 17%;
     // }
-    
+    #index__imagenCarrousel__container .index__caption__1 {
+        right: -8%;
+        top: 70%;
+    }
     #index__imagenCarrousel__container .index__caption__4{
         right: 11%;
+    } 
+    #index__imagenCarrousel__container .index__caption__3 {
+        width: 90%;
+    }   
+    .index__artista__titulo {
+        margin-bottom: 20px!important;
     }
-    #index__imagenCarrousel__container .index__caption__5{
-        right: 16%;
-    }  
-
-    #index__imagenCarrousel__container .index__caption__6{
-        right: 21%;
-    }      
+    .index__cancion__titulo {
+        line-height: 30px!important;
+    }
+    #index__imagenCarrousel__container .index__caption__3 {
+        right: 3%;
+        top: 70%;
+    }
 }
 
 @media (max-width:401px) {        
@@ -338,21 +332,17 @@
 }
 
 @media (max-width:331px) {    
-    #index__imagenCarrousel__container div{
-        right: 16%;
-    }
-
     #index__imagenCarrousel__container .index__caption__2 {
         right: -3%;
         top: 75%;
     }
 
-    #index__imagenCarrousel__container .index__caption__3{
-        right: 20%;
-        top: 85%;
+    #index__imagenCarrousel__container .index__caption__3 {
+        right: -4%;
+        top: 70%;
     }
     #index__imagenCarrousel__container .index__caption__4 {
-        right: -18%;
+        right: -10%;
         top: 80%;
     }
     #index__imagenCarrousel__container .index__caption__5{
@@ -362,7 +352,11 @@
     #index__imagenCarrousel__container .index__caption__6{
         right: 10%;
         width: 80%;
-    }      
+    }     
+    #index__imagenCarrousel__container .index__caption__1 {
+        right: -22%;
+        top: 70%;
+    } 
 }
 
 /*margenes de las flechas del carrousel*/

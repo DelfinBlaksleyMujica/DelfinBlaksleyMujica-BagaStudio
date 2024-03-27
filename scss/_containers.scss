@@ -90,15 +90,15 @@
     cursor: pointer;
 }
 
-#index__imagenCarrousel__container div{
-    position:absolute;
-    top: 84%;
-    right: 73%;
-    text-align: center;
-    cursor: pointer;
-}
+// #index__imagenCarrousel__container div{
+//     position:absolute;
+//     top: 84%;
+//     right: 73%;
+//     text-align: center;
+//     cursor: pointer;
+// }
 
-#index__imagenCarrousel__container .index__caption__2{
+#index__imagenCarrousel__container .index__caption__1{
     position:absolute;
     top: 77%;
     right: 10%;
@@ -106,7 +106,7 @@
     cursor: pointer;
 }
 
-#index__imagenCarrousel__container .index__caption__3{
+#index__imagenCarrousel__container .index__caption__2{
     position:absolute;
     top: 75%;
     right: 16.5%;
@@ -114,29 +114,24 @@
     cursor: pointer;
 }
 
-#index__imagenCarrousel__container .index__caption__4{
+#index__imagenCarrousel__container .index__caption__3{
     position:absolute;
     top: 85%;
-    right: 60%;;
+    right: 55%;
     text-align: center;
     cursor: pointer;
+    width: 100%;
 }
 
-#index__imagenCarrousel__container .index__caption__5{
-    position:absolute;
-    top: 46%;
-    right: 35%;
+#index__imagenCarrousel__container .index__caption__4 {
+    position: absolute;
+    top: 85%;
+    right: 75%;
     text-align: center;
     cursor: pointer;
+    width: 100%;
 }
 
-#index__imagenCarrousel__container .index__caption__6{
-    position:absolute;
-    top: 46%;
-    right: 33%;
-    text-align: center;
-    cursor: pointer;
-}
 
 #carouselExampleControls{
     padding:0;

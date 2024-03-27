@@ -1,5 +1,5 @@
 const musicVideos = [
-    {id:1  , nombre:"ABISMO",artista:"SUEÑO AZUL",img:"../imagenesClips/SuenioAzulAbismo.webp",alt:"Portada de la canción Abismo del artista Sueño Azul",title:"Hace click para ver el vídeo de la canción Abismo del artista Sueño Azul",video:"https://www.youtube.com/embed/zHXOWyp7HLU?si=j48H37o7e1Sv9wIW"},
+    {id:1  , nombre:"ABISMO",artista:"SUEÑO AZUL",img:"../imagenesClips/SuenioAzulAbismo.jpg",alt:"Portada de la canción Abismo del artista Sueño Azul",title:"Hace click para ver el vídeo de la canción Abismo del artista Sueño Azul",video:"https://www.youtube.com/embed/zHXOWyp7HLU?si=j48H37o7e1Sv9wIW"},
     {id:2  , nombre:"CUANDO SEA GRANDE",artista:"MORA NAVARRO",img:"../imagenesClips/MoraNavarroCuandoSeaGrande.webp",alt:"Portada de la canción Cuando Sea Grande de la artista Mora Navarro",title:"Hace click para ver el vídeo de la canción Cuando Sea Grande de la artista Mora Navarro",video:"https://www.youtube.com/embed/DjG-is23KTA?si=0B57b49r9oAyFz_x"},
     {id:3  , nombre:"CAMARÓN REMIX",artista:"JUKU ARES FT. COTI",img:"../imagenesClips/JukuFtCotiCamaron.webp",alt:"Portada de la canción Camarón de los artistas Juku Ares y Coti",title:"Hace click para ver el vídeo de la canción Camarón de los artistas Juku Ares y Coti",video:"https://www.youtube.com/embed/TXqQoIfnayY?si=Rgqej3mKY19oS6W7"},
     {id:4  , nombre:"POR VENIR",artista:"JUKU ARES FT MORA NAVARRO",img:"../imagenesIndex/PorVenir-JukuAres.jpg",alt:"Portada de la canción Por Venir del artista Juku Ares",title:"Hace click para ver el vídeo de la canción Por Venir del artista Juku Ares",video:"https://www.youtube.com/embed/eQFW96jc3ns?si=f2KLEvWxHIrXny_7"},
@@ -13,8 +13,7 @@ const musicVideos = [
     {id:12, nombre:"LA BRISA",artista:"PRADKIN",img:"../imagenesClips/9-brisa.jpg",alt:"Portada de la canción Brisa del artista Pradkin",title:"Hace click para ver el vídeo de la canción Brisa del artista Pradkin",video:"https://www.youtube.com/embed/msaC2cjKbxY?si=kMr6bxhCuzh1tE2v"},
     {id:13   , nombre:"PEDRO RAUL",artista:"JERO JONES",img:"../imagenesClips/8-jerojones.jpg",alt:"Portada de la canción Pedro Raul del artista Jero Jones",title:"Hace click para ver el vídeo de la canción Pedro Raúl del artista Jero Jones",video:"https://www.youtube.com/embed/jRNG6nhRSNw?si=TQ5p6uwKhNDr5rVi"},
     {id:14 , nombre:"ENCANTO" , artista:"TOTO BAKAN" , img:"../imagenesClips/12-Encanto.jpg" ,alt:"Portada de la canción Encanto del artista Toto Bakan",title:"Hace click para ver el vídeo de la canción Encanto del artista Toto Bakan",video:"https://www.youtube.com/embed/5wL31aHPtyw?si=5h5-RyA0xO9Lr2HS"},
-    {id:15  , nombre:"ALBEDRIO",artista:"PACO",img:"../imagenesClips/11-albedrio.jpg",alt:"Portada de la canción Albedrío del artista Paco",title:"Hace click para ver el vídeo de la canción Albedrío del artista Paco",video:"https://www.youtube.com/embed/agkb7l7c-OA?si=pohadMzdgm16P-4D"},
-
+    // {id:15  , nombre:"ALBEDRIO",artista:"PACO",img:"../imagenesClips/11-albedrio.jpg",alt:"Portada de la canción Albedrío del artista Paco",title:"Hace click para ver el vídeo de la canción Albedrío del artista Paco",video:"https://www.youtube.com/embed/agkb7l7c-OA?si=pohadMzdgm16P-4D"},
 ];
 
 
