@@ -34,6 +34,18 @@
     .logo__insatagram__navbar{
         display:none;
     }
+    .works__nombresDeArtistas__container div {
+        width: 100%;
+    }
+    .works__nombresDeArtistas__container div h2 {
+        font-size: 30px;
+        margin-left: 0px; 
+        width: 100%;
+        text-align: center;
+    }
+    .works__nombresDeArtistas__container div {
+        margin-top: 85px;
+    }
 }
 
 @media (max-width:1024px) {
@@ -43,7 +55,7 @@
 }
 
 
-@media (max-width:401px) {
+@media (max-width:501px) {
     .works__redesMobile__container{
         display: flex;
         justify-content: center;
@@ -95,7 +107,7 @@
 
 .index__artista__titulo{
     font-family: "Montserrat";
-    font-size: 2.7rem;
+    font-size: 2.3rem;
     font-weight: 600;
     line-height: 15px;
     letter-spacing: 0.245em;
@@ -125,23 +137,24 @@
 }
 @media (max-width:801px) {
     .index__artista__titulo{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .index__cancion__titulo{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 }
 
 @media (max-width:501px) {
     .index__artista__titulo{
-        font-size: 1.8rem;
-        line-height: 45px;
-        width: 95%;
+        font-size: 1.5rem;
+        width: 100%;
         text-align: center;
+        margin-bottom: 20px;
     }
     .index__cancion__titulo{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         text-align: center;
+        width: 100%;
     }
 }
 
@@ -150,9 +163,8 @@
         display: none;
     }
     .index__cancion__titulo{
-        font-size: 2rem;
-        line-height: 40px;
-        width: 85%;
+        font-size: 1.7rem;
+        line-height: 35px;
     }
 }
 
@@ -190,6 +202,12 @@
     .shortfilms__tituloCortometraje {
         margin-left: 35px;
         font-size: 28px;
+    }
+    .works__nombresDeArtistas__container {
+        margin-top: 20px;
+    }
+    .card__container {
+        height: 300px;
     }
 }
 
@@ -245,96 +263,59 @@
 
 @media (max-width:501px) {
     .shortfilms__tituloCortometraje strong {
-        margin-left: 40px;
+        margin-left: 0px;
+    }
+    .video1__sinopsis__container {
+        margin-bottom: 0px; 
     }
     .navbar-nav{
         height: 100%;
         display: flex;
         justify-content: space-evenly;
+        padding-right:0px !Important
+    }
+    #aboutUs__titulo__container h2 {
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    #aboutUs__tituloYtexto__container {
+        margin-top: 200px;
+    }
+    #aboutUs__texto__container {
+        margin-top: 40px;
     }
 }
 
 @media (max-width:401px) {
-    .shortfilms__tituloCortometraje strong {
-        margin-left: 92px;
-    }
-}
-
-@media (max-width:381px) {
-    .shortfilms__tituloCortometraje strong {
-        margin-left: 83px;
-    }
-}
-
-@media (max-width:371px) {
-    .shortfilms__tituloCortometraje strong {
-        margin-left: 78px;
-    }
-}
-
-@media (max-width:351px) {
-    .shortfilms__tituloCortometraje strong {
-        margin-left: 70px;
-    }
-}
-
-
-@media (max-width:341px) {
-    .shortfilms__tituloCortometraje strong {
-        margin-left: 65px;
-    }
-}
-
-@media (max-width:331px) {
-    .shortfilms__tituloCortometraje strong {
-        margin-left: 60px;
-    }
-}
-@media (max-width:321px) {
-    .shortfilms__tituloCortometraje strong {
-        margin-left: 100px;
-    }
-}
-
-@media (max-width:441px) {
-    .shortfilms__title__container {
-        margin-left: 60px;
-    }
-}
-
-@media (max-width:401px) {
-    .shortfilms__title__container {
-        margin-left: 70px;
-    }
-}
-
-@media (max-width:381px) {
-    .shortfilms__title__container {
-        margin-left: 55px;
-    }
-}
-
-@media (max-width:361px) {
-    .shortfilms__title__container {
-        margin-left: 50px;
-    }
-}
-
-@media (max-width:351px) {
-    .shortfilms__title__container {
-        margin-left: 40px;
-    }
-}
-
-@media (max-width:341px) {
-    .shortfilms__title__container {
-        margin-left: 38px;
+    #aboutUs__tituloYtexto__container {
+        margin-top: 160px;
     }
 }
 
 @media (max-width:321px) {
+    .works__nombresDeArtistas__container div h2 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width:600px) and (max-width:900px) {
+    #aboutUs__texto__container {
+        text-align: center;
+        margin-top: 280px;
+    }
+}
+
+@media (max-width:501px) {
     .shortfilms__title__container {
-        margin-left: 26px;
+        margin-left: 0px;
+    }
+    .shortfilms__tituloCortometraje{
+        margin: 0px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
     }
 }
 
@@ -415,26 +396,16 @@
 }
 
 @media (max-width:401px) {
-    .acomodadoTitulo__para__mobile{
-    margin-left: -83px;
-    }
     #contactUs__information__container {
         margin-top: 40px;
     }
 }
 
 @media (max-width:371px) {
-    .acomodadoTitulo__para__mobile{
-    margin-left: -65px;
+    .shortfilms__video1__container {
+        justify-content: flex-start;
     }
 }
-
-@media (max-width:321px) {
-    .acomodadoTitulo__para__mobile{
-    margin-left: -85px;
-    }
-}
-
 
 .desaparecer{
     display:none;

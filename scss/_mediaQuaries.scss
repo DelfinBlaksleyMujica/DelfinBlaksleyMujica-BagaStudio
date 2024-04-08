@@ -38,10 +38,6 @@
     //     right: 33%;
     // }
     
-    #index__imagenCarrousel__container .index__caption__4 {
-        right: 70%;
-    }
-    
     #index__imagenCarrousel__container .index__caption__5{
         right: 33%;
     }
@@ -56,30 +52,15 @@
     #index__imagenCarrousel__container div{
         right: 70%;
     }
-    #index__imagenCarrousel__container .index__caption__3 {
-        right: 50%;
+    #index__imagenCarrousel__container .index__caption__4 {
+        right: 65%;
     }
-    // #index__imagenCarrousel__container .index__caption__2{
-    //     right: 22%;
-    // }
-    
-    // #index__imagenCarrousel__container .index__caption__3{
-    //     right: 31.5%;
-    // }     
 }
 
 @media (max-width:1101px) {    
-    // #index__imagenCarrousel__container .index__caption__2{
-    //     right: 35%;
-    // }
-    
-    // #index__imagenCarrousel__container .index__caption__3{
-    //     right: 31.5%;
-    // }
-    
-    // #index__imagenCarrousel__container .index__caption__4{
-    //     right: 28%;
-    // }
+    #index__imagenCarrousel__container .index__caption__2 {
+        right: 10.5%;
+    }
     
     #index__imagenCarrousel__container .index__caption__5{
         right: 31.5%;
@@ -91,18 +72,9 @@
 }
 
 @media (max-width:1001px) {    
-    // #index__imagenCarrousel__container .index__caption__2{
-    //     right: 27%;
-    // }
-    
-    // #index__imagenCarrousel__container .index__caption__3{
-    //     right: 29%;
-    // }
-    
-    // #index__imagenCarrousel__container .index__caption__4{
-    //     right: 25.5%;
-    // }
-    
+    #index__imagenCarrousel__container .index__caption__4 {
+        right: 60%;
+    }
     #index__imagenCarrousel__container .index__caption__5{
         right: 29.5%;
     }  
@@ -116,15 +88,6 @@
     #index__imagenCarrousel__container div{
         right: 60%;
     }
-    #index__imagenCarrousel__container .index__caption__3 {
-        top: 85%;
-        right: 5%;
-    }
-
-    // #index__imagenCarrousel__container .index__caption__3{
-    //     right: 32%;
-    // }
-    
     #index__imagenCarrousel__container .index__caption__4 {
         right: 60%;
     }
@@ -139,16 +102,9 @@
 }
 
 @media (max-width:801px) {     
-    // #index__imagenCarrousel__container .index__caption__2{
-    //     right: 15%;
-    // }
-
-    // #index__imagenCarrousel__container .index__caption__3{
-    //     right: 26%;
-    // }
-    // #index__imagenCarrousel__container .index__caption__4{
-    //     right: 22.5%;
-    // }
+    #index__imagenCarrousel__container .index__caption__4 {
+        right: 55%;
+    }
         
     #index__imagenCarrousel__container .index__caption__5{
         right:25%;
@@ -160,23 +116,10 @@
 }
 
 @media (max-width:769px) {    
-    // #index__imagenCarrousel__container div{
-    //     right: 32%;
-    // }
-    
-    #index__imagenCarrousel__container .index__caption__2{
-        right: 5%;
-        top: 85%;
+    #index__imagenCarrousel__container .index__caption__2 {
+        right: 8%;
+        top: 75%;
     }
-
-    // #index__imagenCarrousel__container .index__caption__3{
-    //     right: 26.5%;
-    // }
-    
-    // #index__imagenCarrousel__container .index__caption__4{
-    //     right: 21.5%;
-    // }
-    
     #index__imagenCarrousel__container .index__caption__5{
         right: 24.5%;
     }  
@@ -190,19 +133,6 @@
     #index__imagenCarrousel__container div{
         right: 27.5%;
     }
-    
-    #index__imagenCarrousel__container .index__caption__2{
-        right: 28%;
-    }
-
-    #index__imagenCarrousel__container .index__caption__3{
-        right: 24%;
-    }
-    
-    #index__imagenCarrousel__container .index__caption__4 {
-        right: 25%;
-        top: 80%;
-    }
     #index__imagenCarrousel__container .index__caption__5{
         right: 23%;
     }  
@@ -212,7 +142,14 @@
     }      
 }
 
-@media (max-width:601px) {    
+@media (max-width:601px) {  
+    .index__artista__titulo {
+        font-size: 1.8rem;
+        margin-bottom:20px;
+    }
+    .index__cancion__titulo {
+        font-size: 1.4rem;
+    }  
     #index__imagenCarrousel__container div{
         right: 26%;
     }
@@ -240,8 +177,9 @@
 
 @media (max-width:501px) {    
     #index__imagenCarrousel__container .index__caption__1 {
-        right: -3%;
-        top: 70%;
+        right: 0%;
+        top: 80%;
+        width: 100%;
     }
     
     #index__imagenCarrousel__container .index__caption__2{
@@ -256,69 +194,17 @@
     }
 
     #index__imagenCarrousel__container .index__caption__3 {
-        right: -3%;
-        top: 75%;
+        right: 0;
+        top: 80%;
+        width: 100%;
     }
     #index__imagenCarrousel__container .index__caption__4 {
-        right: 18%;
-    }
-    #index__imagenCarrousel__container .index__caption__5{
-        right: 22%;
-    }  
-
-    #index__imagenCarrousel__container .index__caption__6{
-        right: 25%;
-    }  
+        right: 0%;
+    } 
     #index__imagenCarrousel__container .index__caption__2 {
         top: 80%;
+        width: 100%;
     }  
-}
-
-@media (max-width:401px) {    
-    // #index__imagenCarrousel__container .index__caption__3{
-    //     right: 17%;
-    // }
-    #index__imagenCarrousel__container .index__caption__1 {
-        right: -8%;
-        top: 70%;
-    }
-    #index__imagenCarrousel__container .index__caption__4{
-        right: 11%;
-    } 
-    #index__imagenCarrousel__container .index__caption__3 {
-        width: 90%;
-    }   
-    .index__artista__titulo {
-        margin-bottom: 20px!important;
-    }
-    .index__cancion__titulo {
-        line-height: 30px!important;
-    }
-    #index__imagenCarrousel__container .index__caption__3 {
-        right: 3%;
-        top: 70%;
-    }
-}
-
-@media (max-width:401px) {        
-    #index__imagenCarrousel__container .index__caption__2{
-        right: -3%;
-    }
-
-    // #index__imagenCarrousel__container .index__caption__3{
-    //     right: 20%;
-    // }
-    
-    #index__imagenCarrousel__container .index__caption__4 {
-        right: 2%;
-    }
-    #index__imagenCarrousel__container .index__caption__5{
-        right: 15%;
-    }  
-
-    #index__imagenCarrousel__container .index__caption__6{
-        right: 20%;
-    }      
 }
 
 @media (max-width:361px){
@@ -331,33 +217,6 @@
     }
 }
 
-@media (max-width:331px) {    
-    #index__imagenCarrousel__container .index__caption__2 {
-        right: -3%;
-        top: 75%;
-    }
-
-    #index__imagenCarrousel__container .index__caption__3 {
-        right: -4%;
-        top: 70%;
-    }
-    #index__imagenCarrousel__container .index__caption__4 {
-        right: -10%;
-        top: 80%;
-    }
-    #index__imagenCarrousel__container .index__caption__5{
-        right: 37%;
-    }  
-
-    #index__imagenCarrousel__container .index__caption__6{
-        right: 10%;
-        width: 80%;
-    }     
-    #index__imagenCarrousel__container .index__caption__1 {
-        right: -22%;
-        top: 70%;
-    } 
-}
 
 /*margenes de las flechas del carrousel*/
 
@@ -673,7 +532,7 @@
 
 @media (max-width:769px) {
     .works__nombresDeArtistas__container div h2 {
-        margin-left: -155px;
+        margin-left: -190px;
     }
 }
 
@@ -962,8 +821,11 @@
 }
 
 @media (max-width:500px) {
-    .shortfilms__titulo{
-        font-size: $tFuenteTitulosDeSeccionMobile;
+    .shortfilms__titulo {
+        font-size: 30px;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
     }
     .shortfilms__videos__container{
         margin-top: -13px;
@@ -1150,7 +1012,7 @@
         top: 27%;
     }
     .contacto__titulo {
-        padding-top: 170px;
+        padding-top: 111px;
         padding-left: 105px;
     }
 }
@@ -1215,10 +1077,6 @@
     .video1__titulo__container {
     position: absolute;
     top: 35%;
-    }
-    .contacto__titulo {
-        padding-top: 135px;
-        padding-left: 75px;
     }
 }
 
@@ -1574,7 +1432,7 @@
 
 @media (max-width:501px) {
     #contactUs__information__container {
-        margin-top: 60px;
+        margin-top: 40px;
         height: 400px;
         display: flex;
         justify-content: space-around;

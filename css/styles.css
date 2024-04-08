@@ -188,8 +188,8 @@
 
 #index__imagenCarrousel__container .index__caption__3 {
   position: absolute;
-  top: 85%;
-  right: 55%;
+  top: 80%;
+  right: 10%;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -197,8 +197,8 @@
 
 #index__imagenCarrousel__container .index__caption__4 {
   position: absolute;
-  top: 85%;
-  right: 75%;
+  top: 80%;
+  right: 65%;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -494,7 +494,8 @@
 }
 @media (max-width: 901px) {
   #aboutUs__titulo__container {
-    margin-left: -695px;
+    margin-left: -625px;
+    margin-top: -60px;
   }
 }
 @media (max-width: 801px) {
@@ -519,8 +520,8 @@
 }
 @media (max-width: 501px) {
   #aboutUs__titulo__container {
-    margin-left: -325px;
     width: 100%;
+    margin-left: 0px;
   }
 }
 @media (max-width: 401px) {
@@ -1060,9 +1061,6 @@ a p {
   }
 }
 @media (max-width: 1301px) {
-  #index__imagenCarrousel__container .index__caption__4 {
-    right: 70%;
-  }
   #index__imagenCarrousel__container .index__caption__5 {
     right: 33%;
   }
@@ -1074,11 +1072,14 @@ a p {
   #index__imagenCarrousel__container div {
     right: 70%;
   }
-  #index__imagenCarrousel__container .index__caption__3 {
-    right: 50%;
+  #index__imagenCarrousel__container .index__caption__4 {
+    right: 65%;
   }
 }
 @media (max-width: 1101px) {
+  #index__imagenCarrousel__container .index__caption__2 {
+    right: 10.5%;
+  }
   #index__imagenCarrousel__container .index__caption__5 {
     right: 31.5%;
   }
@@ -1087,6 +1088,9 @@ a p {
   }
 }
 @media (max-width: 1001px) {
+  #index__imagenCarrousel__container .index__caption__4 {
+    right: 60%;
+  }
   #index__imagenCarrousel__container .index__caption__5 {
     right: 29.5%;
   }
@@ -1097,10 +1101,6 @@ a p {
 @media (max-width: 901px) {
   #index__imagenCarrousel__container div {
     right: 60%;
-  }
-  #index__imagenCarrousel__container .index__caption__3 {
-    top: 85%;
-    right: 5%;
   }
   #index__imagenCarrousel__container .index__caption__4 {
     right: 60%;
@@ -1113,6 +1113,9 @@ a p {
   }
 }
 @media (max-width: 801px) {
+  #index__imagenCarrousel__container .index__caption__4 {
+    right: 55%;
+  }
   #index__imagenCarrousel__container .index__caption__5 {
     right: 25%;
   }
@@ -1122,8 +1125,8 @@ a p {
 }
 @media (max-width: 769px) {
   #index__imagenCarrousel__container .index__caption__2 {
-    right: 5%;
-    top: 85%;
+    right: 8%;
+    top: 75%;
   }
   #index__imagenCarrousel__container .index__caption__5 {
     right: 24.5%;
@@ -1136,16 +1139,6 @@ a p {
   #index__imagenCarrousel__container div {
     right: 27.5%;
   }
-  #index__imagenCarrousel__container .index__caption__2 {
-    right: 28%;
-  }
-  #index__imagenCarrousel__container .index__caption__3 {
-    right: 24%;
-  }
-  #index__imagenCarrousel__container .index__caption__4 {
-    right: 25%;
-    top: 80%;
-  }
   #index__imagenCarrousel__container .index__caption__5 {
     right: 23%;
   }
@@ -1154,6 +1147,13 @@ a p {
   }
 }
 @media (max-width: 601px) {
+  .index__artista__titulo {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  .index__cancion__titulo {
+    font-size: 1.4rem;
+  }
   #index__imagenCarrousel__container div {
     right: 26%;
   }
@@ -1175,8 +1175,9 @@ a p {
 }
 @media (max-width: 501px) {
   #index__imagenCarrousel__container .index__caption__1 {
-    right: -3%;
-    top: 70%;
+    right: 0%;
+    top: 80%;
+    width: 100%;
   }
   #index__imagenCarrousel__container .index__caption__2 {
     right: 26%;
@@ -1189,56 +1190,16 @@ a p {
     right: 0%;
   }
   #index__imagenCarrousel__container .index__caption__3 {
-    right: -3%;
-    top: 75%;
+    right: 0;
+    top: 80%;
+    width: 100%;
   }
   #index__imagenCarrousel__container .index__caption__4 {
-    right: 18%;
-  }
-  #index__imagenCarrousel__container .index__caption__5 {
-    right: 22%;
-  }
-  #index__imagenCarrousel__container .index__caption__6 {
-    right: 25%;
+    right: 0%;
   }
   #index__imagenCarrousel__container .index__caption__2 {
     top: 80%;
-  }
-}
-@media (max-width: 401px) {
-  #index__imagenCarrousel__container .index__caption__1 {
-    right: -8%;
-    top: 70%;
-  }
-  #index__imagenCarrousel__container .index__caption__4 {
-    right: 11%;
-  }
-  #index__imagenCarrousel__container .index__caption__3 {
-    width: 90%;
-  }
-  .index__artista__titulo {
-    margin-bottom: 20px !important;
-  }
-  .index__cancion__titulo {
-    line-height: 30px !important;
-  }
-  #index__imagenCarrousel__container .index__caption__3 {
-    right: 3%;
-    top: 70%;
-  }
-}
-@media (max-width: 401px) {
-  #index__imagenCarrousel__container .index__caption__2 {
-    right: -3%;
-  }
-  #index__imagenCarrousel__container .index__caption__4 {
-    right: 2%;
-  }
-  #index__imagenCarrousel__container .index__caption__5 {
-    right: 15%;
-  }
-  #index__imagenCarrousel__container .index__caption__6 {
-    right: 20%;
+    width: 100%;
   }
 }
 @media (max-width: 361px) {
@@ -1248,31 +1209,6 @@ a p {
   }
   #index__imagenCarrousel__container .index__caption__4 {
     right: 0%;
-  }
-}
-@media (max-width: 331px) {
-  #index__imagenCarrousel__container .index__caption__2 {
-    right: -3%;
-    top: 75%;
-  }
-  #index__imagenCarrousel__container .index__caption__3 {
-    right: -4%;
-    top: 70%;
-  }
-  #index__imagenCarrousel__container .index__caption__4 {
-    right: -10%;
-    top: 80%;
-  }
-  #index__imagenCarrousel__container .index__caption__5 {
-    right: 37%;
-  }
-  #index__imagenCarrousel__container .index__caption__6 {
-    right: 10%;
-    width: 80%;
-  }
-  #index__imagenCarrousel__container .index__caption__1 {
-    right: -22%;
-    top: 70%;
   }
 }
 /*margenes de las flechas del carrousel*/
@@ -1521,7 +1457,7 @@ a p {
 }
 @media (max-width: 769px) {
   .works__nombresDeArtistas__container div h2 {
-    margin-left: -155px;
+    margin-left: -190px;
   }
 }
 @media (max-width: 701px) {
@@ -1749,6 +1685,9 @@ a p {
 @media (max-width: 500px) {
   .shortfilms__titulo {
     font-size: 30px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
   }
   .shortfilms__videos__container {
     margin-top: -13px;
@@ -1909,7 +1848,7 @@ a p {
     top: 27%;
   }
   .contacto__titulo {
-    padding-top: 170px;
+    padding-top: 111px;
     padding-left: 105px;
   }
 }
@@ -1963,10 +1902,6 @@ a p {
   .video1__titulo__container {
     position: absolute;
     top: 35%;
-  }
-  .contacto__titulo {
-    padding-top: 135px;
-    padding-left: 75px;
   }
 }
 @media (max-width: 1209px) and (max-width: 375px) {
@@ -2255,7 +2190,7 @@ a p {
 }
 @media (max-width: 501px) {
   #contactUs__information__container {
-    margin-top: 60px;
+    margin-top: 40px;
     height: 400px;
     display: flex;
     justify-content: space-around;
@@ -2298,13 +2233,25 @@ a p {
   .logo__insatagram__navbar {
     display: none;
   }
+  .works__nombresDeArtistas__container div {
+    width: 100%;
+  }
+  .works__nombresDeArtistas__container div h2 {
+    font-size: 30px;
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+  }
+  .works__nombresDeArtistas__container div {
+    margin-top: 85px;
+  }
 }
 @media (max-width: 1024px) {
   #index__imagenCarrousel__container div h5 {
     font-size: 2.8rem;
   }
 }
-@media (max-width: 401px) {
+@media (max-width: 501px) {
   .works__redesMobile__container {
     display: flex;
     justify-content: center;
@@ -2354,7 +2301,7 @@ a p {
 
 .index__artista__titulo {
   font-family: "Montserrat";
-  font-size: 2.7rem;
+  font-size: 2.3rem;
   font-weight: 600;
   line-height: 15px;
   letter-spacing: 0.245em;
@@ -2385,22 +2332,23 @@ a p {
 }
 @media (max-width: 801px) {
   .index__artista__titulo {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .index__cancion__titulo {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 }
 @media (max-width: 501px) {
   .index__artista__titulo {
-    font-size: 1.8rem;
-    line-height: 45px;
-    width: 95%;
+    font-size: 1.5rem;
+    width: 100%;
     text-align: center;
+    margin-bottom: 20px;
   }
   .index__cancion__titulo {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-align: center;
+    width: 100%;
   }
 }
 @media (max-width: 321px) {
@@ -2408,9 +2356,8 @@ a p {
     display: none;
   }
   .index__cancion__titulo {
-    font-size: 2rem;
-    line-height: 40px;
-    width: 85%;
+    font-size: 1.7rem;
+    line-height: 35px;
   }
 }
 /*Titulo de los cortometrajes*/
@@ -2439,6 +2386,12 @@ a p {
   .shortfilms__tituloCortometraje {
     margin-left: 35px;
     font-size: 28px;
+  }
+  .works__nombresDeArtistas__container {
+    margin-top: 20px;
+  }
+  .card__container {
+    height: 300px;
   }
 }
 @media (max-width: 321px) {
@@ -2488,82 +2441,55 @@ a p {
 }
 @media (max-width: 501px) {
   .shortfilms__tituloCortometraje strong {
-    margin-left: 40px;
+    margin-left: 0px;
+  }
+  .video1__sinopsis__container {
+    margin-bottom: 0px;
   }
   .navbar-nav {
     height: 100%;
     display: flex;
     justify-content: space-evenly;
+    padding-right: 0px !important;
+  }
+  #aboutUs__titulo__container h2 {
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
+  #aboutUs__tituloYtexto__container {
+    margin-top: 200px;
+  }
+  #aboutUs__texto__container {
+    margin-top: 40px;
   }
 }
 @media (max-width: 401px) {
-  .shortfilms__tituloCortometraje strong {
-    margin-left: 92px;
-  }
-}
-@media (max-width: 381px) {
-  .shortfilms__tituloCortometraje strong {
-    margin-left: 83px;
-  }
-}
-@media (max-width: 371px) {
-  .shortfilms__tituloCortometraje strong {
-    margin-left: 78px;
-  }
-}
-@media (max-width: 351px) {
-  .shortfilms__tituloCortometraje strong {
-    margin-left: 70px;
-  }
-}
-@media (max-width: 341px) {
-  .shortfilms__tituloCortometraje strong {
-    margin-left: 65px;
-  }
-}
-@media (max-width: 331px) {
-  .shortfilms__tituloCortometraje strong {
-    margin-left: 60px;
+  #aboutUs__tituloYtexto__container {
+    margin-top: 160px;
   }
 }
 @media (max-width: 321px) {
-  .shortfilms__tituloCortometraje strong {
-    margin-left: 100px;
+  .works__nombresDeArtistas__container div h2 {
+    font-size: 20px;
   }
 }
-@media (max-width: 441px) {
-  .shortfilms__title__container {
-    margin-left: 60px;
+@media (min-width: 600px) and (max-width: 900px) {
+  #aboutUs__texto__container {
+    text-align: center;
+    margin-top: 280px;
   }
 }
-@media (max-width: 401px) {
+@media (max-width: 501px) {
   .shortfilms__title__container {
-    margin-left: 70px;
+    margin-left: 0px;
   }
-}
-@media (max-width: 381px) {
-  .shortfilms__title__container {
-    margin-left: 55px;
-  }
-}
-@media (max-width: 361px) {
-  .shortfilms__title__container {
-    margin-left: 50px;
-  }
-}
-@media (max-width: 351px) {
-  .shortfilms__title__container {
-    margin-left: 40px;
-  }
-}
-@media (max-width: 341px) {
-  .shortfilms__title__container {
-    margin-left: 38px;
-  }
-}
-@media (max-width: 321px) {
-  .shortfilms__title__container {
-    margin-left: 26px;
+  .shortfilms__tituloCortometraje {
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
   }
 }
 /*Tamaño imagen de carrousel*/
@@ -2628,21 +2554,13 @@ a p {
   }
 }
 @media (max-width: 401px) {
-  .acomodadoTitulo__para__mobile {
-    margin-left: -83px;
-  }
   #contactUs__information__container {
     margin-top: 40px;
   }
 }
 @media (max-width: 371px) {
-  .acomodadoTitulo__para__mobile {
-    margin-left: -65px;
-  }
-}
-@media (max-width: 321px) {
-  .acomodadoTitulo__para__mobile {
-    margin-left: -85px;
+  .shortfilms__video1__container {
+    justify-content: flex-start;
   }
 }
 .desaparecer {
