@@ -6,12 +6,14 @@
 
 //WORKS 
 
-.card__container .imagen__container img:hover{
+.card__container:hover .imagen__container img{
     opacity: 50%;
     transition: ease 0.9s;
 }
 
-
+.card__container:hover .card__info{
+    display: block;
+} 
 
 .nublar{
     opacity:10%;

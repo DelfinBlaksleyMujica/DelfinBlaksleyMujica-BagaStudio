@@ -297,6 +297,7 @@
   cursor: pointer;
   text-align: center;
   width: 60%;
+  display: none;
 }
 
 .video__container {
@@ -792,6 +793,7 @@ a p {
   letter-spacing: 0.245em;
   text-align: center;
   color: #DCDCDC;
+  transition: 1s ease;
 }
 
 .card__info h4 {
@@ -1023,9 +1025,13 @@ a p {
   padding: 1.95rem 1rem;
 }
 
-.card__container .imagen__container img:hover {
+.card__container:hover .imagen__container img {
   opacity: 50%;
   transition: ease 0.9s;
+}
+
+.card__container:hover .card__info {
+  display: block;
 }
 
 .nublar {

@@ -1,5 +1,5 @@
 const fashionFilms = [
-    {id:1 , nombre:"SILLÓN FREY",artista:"ESTUDIO TE",img:"../imagenesFashionFilms/5-estudiote.jpg",alt:"Portada del Fashion Film Sillón Frey para Estudio Té",title:"Hace click para ver el vídeo del fashion film Sillón Frey para Estudio Té", video:"https://www.youtube.com/embed/C9IS-kbDxcE?si=nes8JP7qeFrfrPSD"},
+    {id:1 , nombre:"SILLÓN FREY",artista:"ESTUDIO TÉ",img:"../imagenesFashionFilms/5-estudiote.jpg",alt:"Portada del Fashion Film Sillón Frey para Estudio Té",title:"Hace click para ver el vídeo del fashion film Sillón Frey para Estudio Té", video:"https://www.youtube.com/embed/C9IS-kbDxcE?si=nes8JP7qeFrfrPSD"},
     {id:2  , nombre:"AMARRE",artista:"RICA",img:"../imagenesFashionFilms/ElFilmRicaAmarre.webp",alt:"Portada del Fashion Film Amarre para Rica",title:"Hace click para ver el vídeo del fashion film Amarre para Rica",video:"https://www.youtube.com/embed/7eZV1UyNCXM?si=T7z0n8ucv8gw72Cx"},
 ]
 
@@ -55,7 +55,7 @@ function mostrarMaterial(){
             <div class="imagen__container">
                 <img src="${img}" alt="${ alt }" title="${ title }">
             </div>
-            <div class="card__info">
+            <div class="card__info animate__animated animate__fadeIn">
                 <h3>${ artista }</h3>
                 <h4>${ nombre }</h4>
             </div>

@@ -67,7 +67,7 @@ function mostrarMaterial(){
             <div class="imagen__container">
                 <img src="${img}" alt="${ alt }" title="${ title }">
             </div>
-            <div class="card__info">
+            <div class="card__info animate__animated animate__fadeIn">
                 <h3>${ artista }</h3>
                 <h4>${ nombre }</h4>
             </div>
