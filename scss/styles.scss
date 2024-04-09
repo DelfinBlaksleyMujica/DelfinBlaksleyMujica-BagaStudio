@@ -296,6 +296,24 @@
     #aboutUs__tituloYtexto__container {
         margin-top: 160px;
     }
+    .index__responsiveElementContainer__1{
+        height: 220px;
+    }
+    .index__responsiveElementContainer__2{
+        height: 220px;
+    }
+    .index__responsiveElementContainer__3{
+        height: 220px;
+    }
+    .index__responsiveElementContainer__4{
+        height: 220px;
+    }
+    .index__artista__responsiveTitulo {
+        font-size: 1.2rem;
+    }
+    .index__cancion__responsiveTitulo {
+        font-size: 1rem;
+    }
 }
 
 @media (max-width:321px) {
@@ -384,6 +402,18 @@
 @media (max-width:371px) {
     #btnCloseMenuMobile{
         margin-right: 6.5rem;
+    }
+    .index__responsiveElementContainer__1{
+        height: 200px;
+    }
+    .index__responsiveElementContainer__2{
+        height: 200px;
+    }
+    .index__responsiveElementContainer__3{
+        height: 200px;
+    }
+    .index__responsiveElementContainer__4{
+        height: 200px;
     }
 }
 
