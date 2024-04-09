@@ -15,6 +15,14 @@
 
 //INDEX
 
+#index__imagenIndex__mobile{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all 1s;
+}
+
 //WORKS 
 
 .imagen__container{
@@ -38,7 +46,6 @@
     background:rgba(0, 0, 0, 0.8);
     width: 100%;
     display:none;
-    
 }
 
 .image-box{

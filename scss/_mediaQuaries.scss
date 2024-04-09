@@ -813,11 +813,57 @@
 
 @media (max-width:480px) {
     .video1__titulo__container h5 strong {
-    font-size: 1.5rem;
-}
-.video2__titulo__container h5 strong {
-    font-size: 1.5rem;
-}
+        font-size: 1.5rem;
+    }
+    .video2__titulo__container h5 strong {
+        font-size: 1.5rem;
+    }
+    .index__responsiveImg__section{
+        margin-top: 115px;
+        display: block;
+    }
+
+
+    .index__responsiveElementContainer__1:hover .index__responsiveCaption__1{
+        position: absolute;
+        top: 55%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .index__responsiveElementContainer__2:hover .index__responsiveCaption__2{
+        position: absolute;
+        top: 55%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .index__responsiveElementContainer__3:hover .index__responsiveCaption__3{
+        position: absolute;
+        top: 55%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .index__responsiveElementContainer__4:hover .index__responsiveCaption__4{
+        position: absolute;
+        top: 55%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 1s all;
+    }
 }
 
 @media (max-width:500px) {

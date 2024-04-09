@@ -6,6 +6,8 @@ const material = [
 
 
 const cardsContainer = document.getElementById("index__cards__container"),
+cardsContainerResponsive = document.querySelector(".index__responsiveCardsContainer__section"),
+cardsResponsiveContainer = document.querySelector(".index__responsiveImg__section"),
 carouselContainer = document.getElementById("carouselExampleControls"),
 containerGeneral = document.getElementById("index__container__general"),
 navBar = document.querySelector(".navBar");
@@ -22,7 +24,6 @@ function abrirVideo(id){
                     </div>
                     `
     document.body.appendChild(div)      
-    
 }
 
 function cerrarVideo() {
@@ -31,12 +32,31 @@ function cerrarVideo() {
     navBar.classList.remove("desaparecer");
 }
 
+function abrirVideoResponsive(id){
+    cardsResponsiveContainer.classList.add("desaparecer");
+    navBar.classList.add("desaparecer");
+    const video = material.find (r => r.id == id);
+    div.innerHTML = `<div class="video__index__container">
+                        <iframe src="${ video.video }" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen autoplay=1 ></iframe>
+                        <button type="button" id="btnCerrar" onclick="cerrarVideoResponsive()" class="btnCerrar" value="Cerrar">< Volver</button>
+                    </div>
+                    `
+    document.body.appendChild(div)      
+}
+
+function cerrarVideoResponsive() {
+    div.innerHTML= "";
+    cardsResponsiveContainer.classList.remove("desaparecer");
+    navBar.classList.remove("desaparecer");
+}
+
+
 
 function mostrarMaterial() {
     for (const imagen of material) {
         const { id , nombre , img , alt, title, artista } = imagen    
         const imagenesHtml = `
-        <div id="index__imagenCarrousel__container" class="carousel-item" onclick="abrirVideo(${id})">
+                <div id="index__imagenCarrousel__container" class="carousel-item" onclick="abrirVideo(${id})">
                     <img id="index__imagen__carrousel" src="${img}"  alt="${ alt }" title="${ title }">
                     <div class="index__caption__${id}">
                         <h2 class="index__artista__titulo">${ artista }</h2>
@@ -44,7 +64,6 @@ function mostrarMaterial() {
                     </div>
                 </div>
         `
-
 
         cardsContainer.innerHTML += imagenesHtml;
     }
@@ -75,5 +94,48 @@ function cerrarVideo1() {
 
 carrouselItem__1.addEventListener("click", () => {
     abrirVideo1();
-})
+});
 
+function mostrarMaterialResponsive() {
+    for (const cancion of material) {
+        const { id , nombre , img , alt, title, artista } = cancion    
+        const imagenesHtml = `
+                <div class="index__responsiveElementContainer__${ id }" onclick="abrirVideoResponsive(${id})">
+                    <img id="index__imagenIndex__mobile" src="${ img }"  title="${ title }"  alt="${ alt }">
+                    <div class="index__responsiveCaption__${ id } animate__animated animate__fadeIn">
+                        <h2 class="index__artista__responsiveTitulo">${ nombre }</h2>
+                        <h3 class="index__cancion__responsiveTitulo">${ artista }</h3>
+                    </div>
+                </div>
+        `
+
+        cardsContainerResponsive.innerHTML += imagenesHtml;
+    }
+}
+
+mostrarMaterialResponsive();
+
+
+const carrouselResponsiveItem__1 = document.querySelector(".index__responsiveElementContainer__1");
+
+let div1Responsive = document.createElement("div1Responsive");
+
+function abrirVideo1Responsive() {
+    cardsResponsiveContainer.classList.add("desaparecer");
+    navBar.classList.add("desaparecer");
+    div1Responsive.innerHTML = `<div class="video1__index__container">
+                                    <iframe src="https://www.youtube.com/embed/TXqQoIfnayY?si=Rgqej3mKY19oS6W7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <button type="button" id="btnCerrar" onclick="cerrarVideo1Responsive()" class="btnCerrar" value="Cerrar">< Volver</button>
+                                </div>`
+    document.body.appendChild( div1Responsive )
+}
+
+function cerrarVideo1Responsive() {
+    div1Responsive.innerHTML = "";
+    cardsResponsiveContainer.classList.remove("desaparecer");
+    navBar.classList.remove("desaparecer");
+}
+
+carrouselResponsiveItem__1.addEventListener("click", () => {
+    abrirVideo1Responsive();
+});

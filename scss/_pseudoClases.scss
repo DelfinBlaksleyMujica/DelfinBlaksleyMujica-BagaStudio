@@ -11,6 +11,26 @@
     transition: ease 0.9s;
 }
 
+.index__responsiveElementContainer__1:hover img{
+    opacity: 50%;
+    transition: all 1s;
+}
+
+.index__responsiveElementContainer__2:hover img{
+    opacity: 50%;
+    transition: all 1s;
+}
+
+.index__responsiveElementContainer__3:hover img{
+    opacity: 50%;
+    transition: all 1s;
+}
+
+.index__responsiveElementContainer__4:hover img{
+    opacity: 50%;
+    transition: all 1s;
+}
+
 .card__container:hover .card__info{
     display: block;
 } 

@@ -242,6 +242,51 @@
   height: 15%;
 }
 
+/*Responsive rendering*/
+.index__responsiveImg__section {
+  display: none;
+}
+
+.index__responsiveElementContainer__1 {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.index__responsiveElementContainer__2 {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.index__responsiveElementContainer__3 {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.index__responsiveElementContainer__4 {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.index__responsiveCaption__1 {
+  display: none;
+}
+
+.index__responsiveCaption__2 {
+  display: none;
+}
+
+.index__responsiveCaption__3 {
+  display: none;
+}
+
+.index__responsiveCaption__4 {
+  display: none;
+}
+
 .cuerpo {
   background-color: black;
   margin-top: 0px;
@@ -670,6 +715,29 @@
   text-align: center;
 }
 
+.index__artista__responsiveTitulo {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0.245em;
+  text-align: center;
+  color: #DCDCDC;
+  margin-bottom: 20px;
+  width: 100%;
+  transition: all 1s;
+}
+
+.index__cancion__responsiveTitulo {
+  font-family: "Montserrat";
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.245em;
+  color: #DCDCDC;
+  transition: all 1s;
+}
+
 .works__nombresDeArtistas__container div h2 {
   font-family: "Montserrat";
   font-size: 40px;
@@ -879,6 +947,14 @@ a p {
   right: 200px;
 }
 
+#index__imagenIndex__mobile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: all 1s;
+}
+
 .imagen__container {
   width: 100%;
   height: 100%;
@@ -1028,6 +1104,26 @@ a p {
 .card__container:hover .imagen__container img {
   opacity: 50%;
   transition: ease 0.9s;
+}
+
+.index__responsiveElementContainer__1:hover img {
+  opacity: 50%;
+  transition: all 1s;
+}
+
+.index__responsiveElementContainer__2:hover img {
+  opacity: 50%;
+  transition: all 1s;
+}
+
+.index__responsiveElementContainer__3:hover img {
+  opacity: 50%;
+  transition: all 1s;
+}
+
+.index__responsiveElementContainer__4:hover img {
+  opacity: 50%;
+  transition: all 1s;
 }
 
 .card__container:hover .card__info {
@@ -1687,6 +1783,47 @@ a p {
   .video2__titulo__container h5 strong {
     font-size: 1.5rem;
   }
+  .index__responsiveImg__section {
+    margin-top: 115px;
+    display: block;
+  }
+  .index__responsiveElementContainer__1:hover .index__responsiveCaption__1 {
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .index__responsiveElementContainer__2:hover .index__responsiveCaption__2 {
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .index__responsiveElementContainer__3:hover .index__responsiveCaption__3 {
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .index__responsiveElementContainer__4:hover .index__responsiveCaption__4 {
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s all;
+  }
 }
 @media (max-width: 500px) {
   .shortfilms__titulo {
@@ -2271,6 +2408,9 @@ a p {
     align-items: center;
     width: 40%;
     margin-top: 0px;
+  }
+  #carouselExampleControls {
+    display: none;
   }
 }
 .shortfilms__boton__galeria {
