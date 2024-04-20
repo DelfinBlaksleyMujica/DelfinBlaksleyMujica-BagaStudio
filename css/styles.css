@@ -2748,4 +2748,10 @@ a p {
   align-items: center;
 }
 
+@media (max-width: 431px) {
+  .card__container {
+    height: 250px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
