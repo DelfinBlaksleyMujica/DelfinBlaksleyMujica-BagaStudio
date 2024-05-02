@@ -339,6 +339,9 @@
         text-align: center;
         margin-bottom: 20px;
     }
+    .baga {
+        font-size: 30px;
+    }
 }
 
 
@@ -451,6 +454,18 @@
 }
 
 @media (max-width:431px) {
+    .card__container {
+        height: 270px;
+    }
+}
+
+@media (max-width:400px) {
+    .card__container {
+        height: 260px;
+    }
+}
+
+@media (max-width:360px) {
     .card__container {
         height: 250px;
     }

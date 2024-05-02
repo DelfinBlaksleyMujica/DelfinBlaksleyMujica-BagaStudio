@@ -793,7 +793,7 @@
 }
 
 .baga {
-  font-size: 22px;
+  font-size: 25px;
   letter-spacing: 8px;
 }
 
@@ -2655,6 +2655,9 @@ a p {
     text-align: center;
     margin-bottom: 20px;
   }
+  .baga {
+    font-size: 30px;
+  }
 }
 /*Tamaño imagen de carrousel*/
 @media (max-width: 1401px) {
@@ -2749,6 +2752,16 @@ a p {
 }
 
 @media (max-width: 431px) {
+  .card__container {
+    height: 270px;
+  }
+}
+@media (max-width: 400px) {
+  .card__container {
+    height: 260px;
+  }
+}
+@media (max-width: 360px) {
   .card__container {
     height: 250px;
   }
