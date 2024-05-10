@@ -793,7 +793,7 @@
 }
 
 .baga {
-  font-size: 25px;
+  font-size: 30px;
   letter-spacing: 8px;
 }
 
@@ -2036,9 +2036,9 @@ a p {
     right: 64%;
   }
 }
-@media (max-width: 1209px) and (max-width: 415px) {
+@media (max-width: 1209px) and (max-width: 400px) {
   .contacto__titulo {
-    padding-left: 95px;
+    padding-left: 75px !important;
   }
 }
 @media (max-width: 1209px) and (max-width: 400px) {
@@ -2386,7 +2386,7 @@ a p {
     text-align: center;
   }
   .works__nombresDeArtistas__container div {
-    margin-top: 85px;
+    margin-top: 100px;
   }
 }
 @media (max-width: 1024px) {
@@ -2722,6 +2722,11 @@ a p {
     height: 200px;
   }
 }
+@media (max-width: 376px) {
+  .contacto__titulo {
+    padding-left: 75px;
+  }
+}
 @media (max-width: 351px) {
   #btnCloseMenuMobile {
     margin-right: 5.5rem;
@@ -2760,10 +2765,22 @@ a p {
   .card__container {
     height: 260px;
   }
+  .contacto__titulo {
+    padding-left: 75px;
+  }
 }
-@media (max-width: 360px) {
+@media (max-width: 361px) {
   .card__container {
     height: 250px;
+  }
+  .works__nombresDeArtistas__container div {
+    margin-top: 50px;
+  }
+  .contacto__titulo {
+    padding-left: 55px;
+  }
+  .contacto__titulo {
+    padding-left: 70px;
   }
 }
 

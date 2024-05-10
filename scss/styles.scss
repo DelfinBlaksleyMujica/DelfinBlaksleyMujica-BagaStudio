@@ -44,7 +44,7 @@
         text-align: center;
     }
     .works__nombresDeArtistas__container div {
-        margin-top: 85px;
+        margin-top: 100px;
     }
 }
 
@@ -420,6 +420,12 @@
     }
 }
 
+@media (max-width:376px){
+    .contacto__titulo {
+        padding-left: 75px;
+    }
+}
+
 @media (max-width:351px) {
     #btnCloseMenuMobile{
         margin-right: 5.5rem;
@@ -463,10 +469,22 @@
     .card__container {
         height: 260px;
     }
+    .contacto__titulo {
+        padding-left: 75px;
+    }
 }
 
-@media (max-width:360px) {
+@media (max-width:361px) {
     .card__container {
         height: 250px;
+    }
+    .works__nombresDeArtistas__container div {
+        margin-top: 50px;
+    }
+    .contacto__titulo {
+        padding-left: 55px;
+    }
+    .contacto__titulo {
+        padding-left: 70px;
     }
 }
