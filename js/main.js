@@ -1,8 +1,8 @@
 const material = [
     {id:1  , nombre:"CAMARÓN REMIX",artista:"JUKU ARES FT. COTI",img:"./imagenesClips/JukuFtCotiCamaron.webp",alt:"Portada de la canción Camarón de los artistas Juku Ares y Coti",title:"Hace click para ver el vídeo de la canción Camarón de los artistas Juku Ares y Coti",video:"https://www.youtube.com/embed/TXqQoIfnayY?si=Rgqej3mKY19oS6W7"},
-    { id:2  , nombre:"AMARRE",artista:"RICA",img:"./imagenesFashionFilms/ElFilmRicaAmarre.webp",alt:"Portada del Fashion Film Amarre para Rica",title:"Hace click para ver el vídeo del fashion film Amarre para Rica",video:"https://www.youtube.com/embed/7eZV1UyNCXM?si=T7z0n8ucv8gw72Cx"},
+    { id:2  , nombre:"AMARRE",artista:"RICA",img:"./imagenesFashionFilms/ElFilmRicaAmarre.webp",alt:"Portada del Fashion Film Amarre para Rica",title:"Hace click para ver el vídeo del fashion film Amarre para Rica",video:"https://www.youtube.com/embed/2PolrMkvN8Q?si=dlmS6EngSXCf-KEo" },
     { id:3 , nombre:"CUANDO SEA GRANDE",artista:"MORA NAVARRO",img:"./imagenesClips/MoraNavarroCuandoSeaGrande.jpg",alt:"Portada de la canción Cuando Sea Grande de la artista Mora Navarro",title:"Hace click para ver el vídeo de la canción Cuando Sea Grande de la artista Mora Navarro",video:"https://www.youtube.com/embed/DjG-is23KTA?si=0B57b49r9oAyFz_x"},
-    { id:4  , nombre:"SUEÑO AZUL",artista:"ABISMO",img:"./imagenesClips/SuenioAzulAbismo.jpg",alt:"Portada de la canción Sueño Azul de la banda musical Abismo",title:"Hace click para ver el vídeo de la canción Sueño Azul de la banda musical Abismo",video:"https://www.youtube.com/embed/zHXOWyp7HLU?si=j48H37o7e1Sv9wIW"},
+    { id:4  , nombre:"SUEÑO AZUL",artista:"ABISMO",img:"./imagenesClips/SuenioAzulAbismo.jpg",alt:"Portada de la canción Sueño Azul de la banda musical Abismo",title:"Hace click para ver el vídeo de la canción Sueño Azul de la banda musical Abismo",video:"https://www.youtube.com/embed/zHXOWyp7HLU?si=j48H37o7e1Sv9wIW" },
 ];
 
 

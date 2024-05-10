@@ -1,6 +1,6 @@
 const fashionFilms = [
     {id:1 , nombre:"SILLÓN FREY",artista:"ESTUDIO TÉ",img:"../imagenesFashionFilms/5-estudiote.jpg",alt:"Portada del Fashion Film Sillón Frey para Estudio Té",title:"Hace click para ver el vídeo del fashion film Sillón Frey para Estudio Té", video:"https://www.youtube.com/embed/C9IS-kbDxcE?si=nes8JP7qeFrfrPSD"},
-    {id:2  , nombre:"AMARRE",artista:"RICA",img:"../imagenesFashionFilms/ElFilmRicaAmarre.webp",alt:"Portada del Fashion Film Amarre para Rica",title:"Hace click para ver el vídeo del fashion film Amarre para Rica",video:"https://www.youtube.com/embed/7eZV1UyNCXM?si=T7z0n8ucv8gw72Cx"},
+    {id:2  , nombre:"AMARRE",artista:"RICA",img:"../imagenesFashionFilms/ElFilmRicaAmarre.webp",alt:"Portada del Fashion Film Amarre para Rica",title:"Hace click para ver el vídeo del fashion film Amarre para Rica",video:"https://www.youtube.com/embed/2PolrMkvN8Q?si=dlmS6EngSXCf-KEo"},
 ]
 
 
